@@ -1,0 +1,889 @@
+{
+  "type": "list",
+  "data": [
+    {
+      "id": "24p_001",
+      "numbers": [
+        3,
+        8,
+        3,
+        8
+      ],
+      "problem": "Using numbers 3, 8, 3, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 8 / (3 - (8 / 3)) = 24."
+    },
+    {
+      "id": "24p_002",
+      "numbers": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "problem": "Using numbers 4, 5, 6, 7, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((7 - 6) + 5) * 4 = 24."
+    },
+    {
+      "id": "24p_003",
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "problem": "Using numbers 1, 2, 3, 4, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((2 + 3) + 1) * 4 = 24."
+    },
+    {
+      "id": "24p_004",
+      "numbers": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "problem": "Using numbers 5, 5, 5, 5, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (5 * 5) - (5 / 5) = 24."
+    },
+    {
+      "id": "24p_005",
+      "numbers": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "problem": "Using numbers 2, 3, 4, 6, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 4 + (2 + (6 * 3)) = 24."
+    },
+    {
+      "id": "24p_006",
+      "numbers": [
+        1,
+        5,
+        5,
+        5
+      ],
+      "problem": "Using numbers 1, 5, 5, 5, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 5 * (5 - (1 / 5)) = 24."
+    },
+    {
+      "id": "24p_007",
+      "numbers": [
+        1,
+        1,
+        8,
+        8
+      ],
+      "problem": "Using numbers 1, 1, 8, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 8 + (8 * (1 + 1)) = 24."
+    },
+    {
+      "id": "24p_008",
+      "numbers": [
+        2,
+        2,
+        10,
+        10
+      ],
+      "problem": "Using numbers 2, 2, 10, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((2 + 2) + 10) + 10 = 24."
+    },
+    {
+      "id": "24p_009",
+      "numbers": [
+        3,
+        3,
+        7,
+        7
+      ],
+      "problem": "Using numbers 3, 3, 7, 7, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 7 * (3 + (3 / 7)) = 24."
+    },
+    {
+      "id": "24p_010",
+      "numbers": [
+        4,
+        4,
+        6,
+        6
+      ],
+      "problem": "Using numbers 4, 4, 6, 6, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "No exact 24 solution found by the solver."
+    },
+    {
+      "id": "24p_011",
+      "numbers": [
+        1,
+        3,
+        4,
+        8
+      ],
+      "problem": "Using numbers 1, 3, 4, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((3 + 1) * 4) + 8 = 24."
+    },
+    {
+      "id": "24p_012",
+      "numbers": [
+        2,
+        3,
+        6,
+        8
+      ],
+      "problem": "Using numbers 2, 3, 6, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (3 * (8 + 2)) - 6 = 24."
+    },
+    {
+      "id": "24p_013",
+      "numbers": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "problem": "Using numbers 1, 4, 5, 6, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 4 / (1 - (5 / 6)) = 24."
+    },
+    {
+      "id": "24p_014",
+      "numbers": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "problem": "Using numbers 3, 4, 5, 6, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((3 - 4) + 5) * 6 = 24."
+    },
+    {
+      "id": "24p_015",
+      "numbers": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "problem": "Using numbers 2, 5, 7, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((5 * 2) - 7) * 8 = 24."
+    },
+    {
+      "id": "24p_016",
+      "numbers": [
+        1,
+        6,
+        7,
+        8
+      ],
+      "problem": "Using numbers 1, 6, 7, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "No exact 24 solution found by the solver."
+    },
+    {
+      "id": "24p_017",
+      "numbers": [
+        3,
+        5,
+        8,
+        9
+      ],
+      "problem": "Using numbers 3, 5, 8, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (5 + (3 * 9)) - 8 = 24."
+    },
+    {
+      "id": "24p_018",
+      "numbers": [
+        4,
+        6,
+        7,
+        9
+      ],
+      "problem": "Using numbers 4, 6, 7, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (6 / 4) * (9 + 7) = 24."
+    },
+    {
+      "id": "24p_019",
+      "numbers": [
+        2,
+        6,
+        8,
+        10
+      ],
+      "problem": "Using numbers 2, 6, 8, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((6 + 10) * 2) - 8 = 24."
+    },
+    {
+      "id": "24p_020",
+      "numbers": [
+        1,
+        2,
+        5,
+        9
+      ],
+      "problem": "Using numbers 1, 2, 5, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (1 + (9 * 2)) + 5 = 24."
+    },
+    {
+      "id": "24p_021",
+      "numbers": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "problem": "Using numbers 3, 6, 9, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((6 - 3) + 9) + 12 = 24."
+    },
+    {
+      "id": "24p_022",
+      "numbers": [
+        2,
+        7,
+        8,
+        9
+      ],
+      "problem": "Using numbers 2, 7, 8, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((9 + 7) * 2) - 8 = 24."
+    },
+    {
+      "id": "24p_023",
+      "numbers": [
+        4,
+        7,
+        8,
+        10
+      ],
+      "problem": "Using numbers 4, 7, 8, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 10 + ((7 / 4) * 8) = 24."
+    },
+    {
+      "id": "24p_024",
+      "numbers": [
+        1,
+        9,
+        10,
+        11
+      ],
+      "problem": "Using numbers 1, 9, 10, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "No exact 24 solution found by the solver."
+    },
+    {
+      "id": "24p_025",
+      "numbers": [
+        5,
+        6,
+        7,
+        10
+      ],
+      "problem": "Using numbers 5, 6, 7, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "No exact 24 solution found by the solver."
+    },
+    {
+      "id": "24p_026",
+      "numbers": [
+        3,
+        7,
+        9,
+        11
+      ],
+      "problem": "Using numbers 3, 7, 9, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((9 - 3) + 7) + 11 = 24."
+    },
+    {
+      "id": "24p_027",
+      "numbers": [
+        2,
+        8,
+        9,
+        12
+      ],
+      "problem": "Using numbers 2, 8, 9, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 9 * (2 + (8 / 12)) = 24."
+    },
+    {
+      "id": "24p_028",
+      "numbers": [
+        4,
+        5,
+        9,
+        11
+      ],
+      "problem": "Using numbers 4, 5, 9, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "No exact 24 solution found by the solver."
+    },
+    {
+      "id": "24p_029",
+      "numbers": [
+        6,
+        8,
+        9,
+        13
+      ],
+      "problem": "Using numbers 6, 8, 9, 13, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((8 - 6) + 9) + 13 = 24."
+    },
+    {
+      "id": "24p_030",
+      "numbers": [
+        1,
+        1,
+        2,
+        11
+      ],
+      "problem": "Using numbers 1, 1, 2, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((11 + 1) * 1) * 2 = 24."
+    },
+    {
+      "id": "24p_031",
+      "numbers": [
+        1,
+        1,
+        3,
+        7
+      ],
+      "problem": "Using numbers 1, 1, 3, 7, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 3 * (1 + (1 * 7)) = 24."
+    },
+    {
+      "id": "24p_032",
+      "numbers": [
+        1,
+        1,
+        4,
+        5
+      ],
+      "problem": "Using numbers 1, 1, 4, 5, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((1 + 5) * 1) * 4 = 24."
+    },
+    {
+      "id": "24p_033",
+      "numbers": [
+        2,
+        2,
+        3,
+        9
+      ],
+      "problem": "Using numbers 2, 2, 3, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (2 * 9) + (3 * 2) = 24."
+    },
+    {
+      "id": "24p_034",
+      "numbers": [
+        2,
+        2,
+        6,
+        6
+      ],
+      "problem": "Using numbers 2, 2, 6, 6, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((2 + 6) / 2) * 6 = 24."
+    },
+    {
+      "id": "24p_035",
+      "numbers": [
+        3,
+        3,
+        8,
+        8
+      ],
+      "problem": "Using numbers 3, 3, 8, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 8 / (3 - (8 / 3)) = 24."
+    },
+    {
+      "id": "24p_036",
+      "numbers": [
+        1,
+        1,
+        12,
+        12
+      ],
+      "problem": "Using numbers 1, 1, 12, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((12 + 1) + 12) - 1 = 24."
+    },
+    {
+      "id": "24p_037",
+      "numbers": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "problem": "Using numbers 2, 4, 5, 6, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (5 * (2 + 4)) - 6 = 24."
+    },
+    {
+      "id": "24p_038",
+      "numbers": [
+        1,
+        3,
+        7,
+        8
+      ],
+      "problem": "Using numbers 1, 3, 7, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (7 - (1 + 3)) * 8 = 24."
+    },
+    {
+      "id": "24p_039",
+      "numbers": [
+        2,
+        4,
+        8,
+        9
+      ],
+      "problem": "Using numbers 2, 4, 8, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 8 * (9 - (4 + 2)) = 24."
+    },
+    {
+      "id": "24p_040",
+      "numbers": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "problem": "Using numbers 3, 5, 6, 7, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 3 * ((6 + 7) - 5) = 24."
+    },
+    {
+      "id": "24p_041",
+      "numbers": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "problem": "Using numbers 1, 2, 8, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (9 + (8 * 2)) - 1 = 24."
+    },
+    {
+      "id": "24p_042",
+      "numbers": [
+        4,
+        6,
+        8,
+        9
+      ],
+      "problem": "Using numbers 4, 6, 8, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 9 * (4 - (8 / 6)) = 24."
+    },
+    {
+      "id": "24p_043",
+      "numbers": [
+        2,
+        5,
+        6,
+        9
+      ],
+      "problem": "Using numbers 2, 5, 6, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 9 + ((5 * 6) / 2) = 24."
+    },
+    {
+      "id": "24p_044",
+      "numbers": [
+        1,
+        4,
+        7,
+        9
+      ],
+      "problem": "Using numbers 1, 4, 7, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (9 - 1) * (7 - 4) = 24."
+    },
+    {
+      "id": "24p_045",
+      "numbers": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "problem": "Using numbers 3, 6, 7, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((7 + 8) + 6) + 3 = 24."
+    },
+    {
+      "id": "24p_046",
+      "numbers": [
+        1,
+        5,
+        8,
+        10
+      ],
+      "problem": "Using numbers 1, 5, 8, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((10 + 8) + 5) + 1 = 24."
+    },
+    {
+      "id": "24p_047",
+      "numbers": [
+        2,
+        3,
+        9,
+        10
+      ],
+      "problem": "Using numbers 2, 3, 9, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((2 + 10) + 3) + 9 = 24."
+    },
+    {
+      "id": "24p_048",
+      "numbers": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "problem": "Using numbers 4, 5, 7, 8, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((8 + 7) + 4) + 5 = 24."
+    },
+    {
+      "id": "24p_049",
+      "numbers": [
+        1,
+        6,
+        9,
+        11
+      ],
+      "problem": "Using numbers 1, 6, 9, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "No exact 24 solution found by the solver."
+    },
+    {
+      "id": "24p_050",
+      "numbers": [
+        2,
+        4,
+        7,
+        11
+      ],
+      "problem": "Using numbers 2, 4, 7, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((11 + 4) + 7) + 2 = 24."
+    },
+    {
+      "id": "24p_051",
+      "numbers": [
+        3,
+        4,
+        8,
+        9
+      ],
+      "problem": "Using numbers 3, 4, 8, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((4 + 9) + 8) + 3 = 24."
+    },
+    {
+      "id": "24p_052",
+      "numbers": [
+        1,
+        2,
+        6,
+        12
+      ],
+      "problem": "Using numbers 1, 2, 6, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 12 + ((2 * 1) * 6) = 24."
+    },
+    {
+      "id": "24p_053",
+      "numbers": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "problem": "Using numbers 5, 7, 8, 9, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (5 * 8) - (7 + 9) = 24."
+    },
+    {
+      "id": "24p_054",
+      "numbers": [
+        2,
+        6,
+        7,
+        10
+      ],
+      "problem": "Using numbers 2, 6, 7, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((2 * 7) - 10) * 6 = 24."
+    },
+    {
+      "id": "24p_055",
+      "numbers": [
+        1,
+        3,
+        9,
+        12
+      ],
+      "problem": "Using numbers 1, 3, 9, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((1 * 9) + 12) + 3 = 24."
+    },
+    {
+      "id": "24p_056",
+      "numbers": [
+        4,
+        8,
+        9,
+        10
+      ],
+      "problem": "Using numbers 4, 8, 9, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((4 - 10) + 9) * 8 = 24."
+    },
+    {
+      "id": "24p_057",
+      "numbers": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "problem": "Using numbers 2, 5, 8, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((11 + 5) * 2) - 8 = 24."
+    },
+    {
+      "id": "24p_058",
+      "numbers": [
+        1,
+        4,
+        6,
+        11
+      ],
+      "problem": "Using numbers 1, 4, 6, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 4 * ((11 + 1) - 6) = 24."
+    },
+    {
+      "id": "24p_059",
+      "numbers": [
+        3,
+        7,
+        8,
+        10
+      ],
+      "problem": "Using numbers 3, 7, 8, 10, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "No exact 24 solution found by the solver."
+    },
+    {
+      "id": "24p_060",
+      "numbers": [
+        1,
+        5,
+        7,
+        12
+      ],
+      "problem": "Using numbers 1, 5, 7, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "easy",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (7 + (1 * 5)) + 12 = 24."
+    },
+    {
+      "id": "24p_061",
+      "numbers": [
+        2,
+        4,
+        9,
+        12
+      ],
+      "problem": "Using numbers 2, 4, 9, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 4 * ((9 * 2) - 12) = 24."
+    },
+    {
+      "id": "24p_062",
+      "numbers": [
+        6,
+        7,
+        8,
+        11
+      ],
+      "problem": "Using numbers 6, 7, 8, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: (8 / 6) * (11 + 7) = 24."
+    },
+    {
+      "id": "24p_063",
+      "numbers": [
+        1,
+        2,
+        10,
+        13
+      ],
+      "problem": "Using numbers 1, 2, 10, 13, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((2 - 1) + 13) + 10 = 24."
+    },
+    {
+      "id": "24p_064",
+      "numbers": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "problem": "Using numbers 3, 5, 9, 11, obtain 24 using +, -, *, /.",
+      "difficulty": "hard",
+      "category": "24point",
+      "expected_answer": "No exact 24 solution found by the solver."
+    },
+    {
+      "id": "24p_065",
+      "numbers": [
+        4,
+        6,
+        10,
+        12
+      ],
+      "problem": "Using numbers 4, 6, 10, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((10 + 6) - 4) + 12 = 24."
+    },
+    {
+      "id": "24p_066",
+      "numbers": [
+        1,
+        8,
+        9,
+        13
+      ],
+      "problem": "Using numbers 1, 8, 9, 13, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: 8 * (13 - (9 + 1)) = 24."
+    },
+    {
+      "id": "24p_067",
+      "numbers": [
+        2,
+        3,
+        11,
+        12
+      ],
+      "problem": "Using numbers 2, 3, 11, 12, obtain 24 using +, -, *, /.",
+      "difficulty": "medium",
+      "category": "24point",
+      "expected_answer": "One valid solution is: ((11 + 3) - 2) + 12 = 24."
+    }
+  ],
+  "count": 67,
+  "metadata": {
+    "source": "data/24point_dataset.json",
+    "format": "json",
+    "created_by": "Enhanced System",
+    "dataset_type": "24point_comprehensive",
+    "difficulty_distribution": {
+      "easy": 15,
+      "medium": 35,
+      "hard": 17
+    },
+    "description": "67 24-point problems across difficulty levels for large-scale experiments. Note: all answers removed to ensure fairness."
+  }
+}

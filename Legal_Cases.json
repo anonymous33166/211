@@ -1,0 +1,403 @@
+{
+  "type": "list",
+  "data": [
+    {
+      "id": "legal_001",
+      "title": "Cai Haosheng Theft and Fraud Case",
+      "problem": "Issue: The defendant secretly used the victim's identity to obtain a loan (Ant Borrow) into the victim's account, then induced the victim to transfer the funds by concealing the truth and fabricating facts. Does this constitute fraud? Guidance: Distinguish amounts obtained by secret taking (theft) versus amounts obtained by later deception (fraud).",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 264",
+          "PRC Criminal Law (2017 Amendment) Article 266",
+          "PRC Criminal Procedure Law (2012 Amendment) Article 225(1)(i)"
+        ],
+        "judgment_guidance": "If loan application secretly misappropriated account usage/credit, evaluate as theft; amounts later induced by deception may be evaluated as fraud; amounts counted accordingly."
+      },
+      "expected_verdict": "First-instance: conviction for theft and fraud with combined punishment; second-instance: judgment upheld.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "theft and fraud"
+    },
+    {
+      "id": "legal_002",
+      "title": "Chen Jiaying Credit Card Theft Case",
+      "problem": "Issue: Binding another's bank card to one's own platform with acquired identity information without the owner's knowledge, and disposing of the funds, constitutes theft of a credit card function and thus theft?",
+      "prompt_tips": {
+        "laws": [
+          "Interpretation on Handling Criminal Cases that Hinder Management of Credit Cards (Art. 5)",
+          "PRC Criminal Law (2015 Amendment) Article 196(3)",
+          "PRC Criminal Law (2015 Amendment) Article 264"
+        ],
+        "judgment_guidance": "Secret binding and direct disposition of account funds constitutes secret taking of credit card function; treat as theft."
+      },
+      "expected_verdict": "Convicted of theft; imprisonment 1 year 6 months, probation 1 year 6 months, and a fine.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "credit card theft"
+    },
+    {
+      "id": "legal_003",
+      "title": "Fang Yue and Others: Organized Crime (Soft Violence, Loan Sharking)",
+      "problem": "Issue: Engaging in organized unlawful acts (e.g., 'loan sharking') mainly using 'soft violence'—does this constitute an organized crime group?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 294",
+          "Opinions on Handling 'Loan Sharking' Criminal Cases (relevant articles)",
+          "Opinions on Handling 'Soft Violence' Criminal Cases (Art. 4)"
+        ],
+        "judgment_guidance": "If organizational features, economic power, behavioral features, and harmful impact are present, recognize as organized crime; multiple offenses punished together."
+      },
+      "expected_verdict": "First- and second-instance: convictions for organizing/leading/participating in organized crime; combined punishment; upheld on appeal.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "organized crime"
+    },
+    {
+      "id": "legal_004",
+      "title": "Gong Pinwen and Others: Organized Crime (Equity Profit-Sharing Model)",
+      "problem": "Issue: Recruiting members via equity profit-sharing and distributing criminal proceeds by 'shares', with stable size and clear leadership—does this meet organizational features of organized crime?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 294",
+          "Guiding Opinions on Handling Criminal Cases of Underworld Forces (Art. 9)",
+          "Opinions on 'Soft Violence' Criminal Cases (Art. 4)"
+        ],
+        "judgment_guidance": "Profit-sharing does not negate organizational nature; sustained multi-offense behavior supports organized crime and combined punishment."
+      },
+      "expected_verdict": "Second-instance: maintains combined punishment for organizing/leading organized crime.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "organized crime"
+    },
+    {
+      "id": "legal_005",
+      "title": "Gu Jing: Computer System Damage vs Theft",
+      "problem": "Issue: Intruding a game company's database to tamper with virtual data for profit—does it constitute the crime of damaging computer information systems or theft?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2011 Amendment) Article 264",
+          "PRC Criminal Law (2011 Amendment) Article 286",
+          "Relevant sentencing norms (leniency: voluntary surrender, probation)"
+        ],
+        "judgment_guidance": "Absent major system damage and with core harm being unlawful appropriation of virtual assets, theft evaluation is more appropriate."
+      },
+      "expected_verdict": "Convicted of theft; imprisonment 2 years, probation 2 years, and a fine.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "computer and virtual property"
+    },
+    {
+      "id": "legal_006",
+      "title": "Guo Li: Extortion Retrial Acquittal",
+      "problem": "Issue: Demanding money conditioned on exposure of wrongdoing, where the actor is the victim and evidence fails to prove intent to illegally possess—does it constitute extortion?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 274"
+        ],
+        "judgment_guidance": "If unlawful possession intent cannot be proved and there is a rights-remedy context, do not convict for extortion."
+      },
+      "expected_verdict": "Retrial quashes original conviction; not guilty declared.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "extortion / acquittal"
+    },
+    {
+      "id": "legal_007",
+      "title": "Li: Platform Settlement Loophole Fraud",
+      "problem": "Issue: Knowing settlement loopholes, fabricating transactions and exploiting refund prepayment mechanisms to profit—constitutes fraud?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 266"
+        ],
+        "judgment_guidance": "Continuous exploitation of system loopholes with fabricated transactions to obtain prepayments constitutes fraud."
+      },
+      "expected_verdict": "Convicted of fraud; imprisonment 3 years, probation 4 years, and a fine.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "online platform fraud"
+    },
+    {
+      "id": "legal_008",
+      "title": "Qian Jianhua: Contract Fraud and Embezzlement (Revised on Appeal)",
+      "problem": "Issue: Carrier, with intent to illegally possess, intercepts goods under a 'reasonable loss' clause and fabricates losses—contract fraud? Combined punishment with embezzlement?",
+      "prompt_tips": {
+        "laws": [
+          "Relevant Supreme People's Court/Procuratorate interpretations (reference)",
+          "Interpretation on Embezzlement/Bribery Cases (Art. 11(1))",
+          "PRC Criminal Law Articles 224, 271, 12, 69"
+        ],
+        "judgment_guidance": "Fabricating reasonable loss to obtain owner's property constitutes contract fraud; combined punishment with embezzlement; consider leniency factors."
+      },
+      "expected_verdict": "Appeal: combined punishment for contract fraud and embezzlement; imprisonment 2 years 11 months and fine; maintains embezzlement part.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "contract fraud / embezzlement"
+    },
+    {
+      "id": "legal_009",
+      "title": "Qiao Jinzhong: Infringement (Shares as Property Under Custody)",
+      "problem": "Issue: Under certain conditions, do shares qualify as 'property under custody' for the crime of misappropriation/infringement?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 270"
+        ],
+        "judgment_guidance": "Shares can be property with disposability; unauthorized disposition under a custody relationship with intent to illegally possess constitutes misappropriation."
+      },
+      "expected_verdict": "First- and second-instance: convicted; imprisonment 3 years and fine; upheld on appeal.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "misappropriation of shares"
+    },
+    {
+      "id": "legal_010",
+      "title": "Ren Qing: Linked Offenses (Illegal Mobile Charges) as Theft",
+      "problem": "Issue: Secretly deducting fees via remote illegal control of mobile information systems—when forming a linked offense with illegal control of computer systems and theft, should punishment be for theft?",
+      "prompt_tips": {
+        "laws": [
+          "Interpretation on Theft Cases (Art. 13)",
+          "Interpretation by the NPC Standing Committee on Criminal Law Article 30",
+          "PRC Criminal Law (2015 Amendment) Article 264"
+        ],
+        "judgment_guidance": "Where property acquisition is the primary legal interest harmed, impose punishment for the more serious offense; treat as theft."
+      },
+      "expected_verdict": "Convicted of theft; sentences from 7 to 15 years for different defendants; upheld on appeal.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "info-system deduction / theft"
+    },
+    {
+      "id": "legal_011",
+      "title": "Tan Zhijian Theft Case (Vehicle in Marital Dispute)",
+      "problem": "Issue: Unauthorized possession and use of ex-wife's car—does it constitute theft despite civil dispute background?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 264",
+          "Theft Judicial Interpretation Art. 1 (reference)"
+        ],
+        "judgment_guidance": "Secret taking with intent to illegally possess and long-term refusal to return constitutes theft."
+      },
+      "expected_verdict": "First-instance: theft, 3 years and fine; retrial acquittal (final: not guilty).",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "theft (retrial acquittal)"
+    },
+    {
+      "id": "legal_012",
+      "title": "Wang JumIng & Lu Xiaodi: Environmental Pollution",
+      "problem": "Issue: Illegally dumping solid waste causing ecological damage and high losses—does it constitute 'serious environmental pollution' with 'especially serious consequences' under Art. 338?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 338",
+          "Solid Waste Pollution Prevention Law Article 22",
+          "Interpretation on Environmental Pollution Criminal Cases Art. 3(5)",
+          "Jiangsu Provincial Regulation on Solid Waste Prevention Art. 51(3)"
+        ],
+        "judgment_guidance": "Entering first-class protected areas with serious ecological risks and significant losses constitutes serious environmental pollution; heavier punishment."
+      },
+      "expected_verdict": "Convicted; 5y6m and 5y imprisonment with fines; upheld on appeal; related fraud handled separately.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "environmental pollution"
+    },
+    {
+      "id": "legal_013",
+      "title": "Wang Lizhi Fraud Case (Acquittal on Appeal)",
+      "problem": "Issue: Continuous business use of loans, no squander/high-risk investment, no absconding, active remediation—sufficient to negate intent to illegally possess and thus not fraud?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Procedure Law (2012 Amendment) Article 195(3)",
+          "PRC Criminal Procedure Law (2012 Amendment) Article 225(3)"
+        ],
+        "judgment_guidance": "Assess fund usage, repayment intent and ability, and post-event conduct; if illegal possession intent unproven, not fraud."
+      },
+      "expected_verdict": "Second-instance quashes original judgment; not guilty declared.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "fraud / acquittal"
+    },
+    {
+      "id": "legal_014",
+      "title": "Wang Xiaodong Theft (Platform Settlement Error Exploitation)",
+      "problem": "Issue: Merchant knowingly exploiting platform settlement errors via self-buy/self-sell 'brush orders' to withdraw funds—legal characterization?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 264"
+        ],
+        "judgment_guidance": "Using system errors to secretly obtain platform funds infringes property interests; treat as theft."
+      },
+      "expected_verdict": "Convicted of theft; imprisonment 12 years, deprivation of political rights 2 years, and fine; upheld on appeal.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "platform vulnerability theft"
+    },
+    {
+      "id": "legal_015",
+      "title": "Wang Yong: Rape, Extortion (Evidence-Based without Confession)",
+      "problem": "Issue: Cases with weak objective evidence and no confession—how should courts decide?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Procedure Law Article 53"
+        ],
+        "judgment_guidance": "Adhere to evidence-based adjudication; confession is not legally necessary; if evidence chain reaches beyond reasonable doubt, conviction is permissible."
+      },
+      "expected_verdict": "Second-instance maintains death penalty and submits to SPC; SPC approves death sentence.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "evidence-based adjudication / death penalty approval"
+    },
+    {
+      "id": "legal_016",
+      "title": "Wu Qiang et al.: Extortion, Robbery, Drug Trafficking, Intentional Injury (Criminal Group)",
+      "problem": "Issue: Is 'doing evil and oppressing the people' a key distinction between a criminal group of malign influence and an ordinary criminal group?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 25",
+          "Guiding Opinions on Handling Crimes of Malign Influence (Arts. 15, 4, 5)"
+        ],
+        "judgment_guidance": "Key factors: relatively stable membership, repeated offenses using violence or soft violence, and adverse social impact."
+      },
+      "expected_verdict": "Main offender Wu Qiang: combined punishment for multiple crimes to 13 years 6 months and fine; others sentenced; upheld on appeal.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "criminal group of malign influence"
+    },
+    {
+      "id": "legal_017",
+      "title": "Xiao Jun Fraud Retrial Acquittal",
+      "problem": "Issue: Is failure to repay due loans necessarily fraud?",
+      "prompt_tips": {
+        "laws": [
+          "Key holdings in retrial procedure documents (reference)"
+        ],
+        "judgment_guidance": "Intent to illegally possess is key; civil breach should not be generalized as criminal fraud."
+      },
+      "expected_verdict": "Retrial: acquittal.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "fraud / retrial acquittal"
+    },
+    {
+      "id": "legal_018",
+      "title": "Yan Xianpeng Theft (Not Returning Found Phone)",
+      "problem": "Issue: Phone lost in a crowded public place with owner unaware; finder keeps and does not return—does this constitute secret taking of property (theft)?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 270",
+          "PRC Criminal Law Article 264"
+        ],
+        "judgment_guidance": "Property left the owner's actual control and actor has intent to illegally possess; meets theft elements."
+      },
+      "expected_verdict": "First-instance: theft, fine; appeal: judgment upheld.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "found-and-not-returned / theft"
+    },
+    {
+      "id": "legal_019",
+      "title": "Zhang Weixiang et al.: Providing Bank Cards and POS for Fraud (Accomplice)",
+      "problem": "Issue: Knowingly providing bank cards/POS machines for telecom fraud and helping transfer illicit funds—accomplice to fraud?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 266",
+          "PRC Criminal Law Article 177-1(1)",
+          "Interpretation on Fraud Criminal Cases Art. 7"
+        ],
+        "judgment_guidance": "Providing tools and sharing proceeds show joint intent and assistance; treat as accomplice to fraud; may also violate credit card management."
+      },
+      "expected_verdict": "Main offenders: combined punishment up to 13 years 6 months and fines; others sentenced; upheld on appeal.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "telecom fraud accomplice / credit card management"
+    },
+    {
+      "id": "legal_020",
+      "title": "Mai Zanxin Embezzlement/Misappropriation (Final Acquittal)",
+      "problem": "Issue: For a majority shareholder transferring projects and funds among related companies, without proof of intent to illegally possess or illegal use, do crimes of embezzlement/misappropriation establish?",
+      "prompt_tips": {
+        "laws": [
+          "SPC Interpretation on Criminal Procedure Law Article 389(2)"
+        ],
+        "judgment_guidance": "Absent intent to illegally possess or elements of illegal use, do not convict for embezzlement/misappropriation."
+      },
+      "expected_verdict": "Retrial: acquittal; prosecution appeal rejected; final acquittal maintained.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "embezzlement/misappropriation acquittal"
+    },
+    {
+      "id": "legal_021",
+      "title": "Chen Jianping: Fake Cancer Therapy Fraud",
+      "problem": "Issue: With intent to illegally possess, setting up a scam to induce patients/families to accept fake treatment or buy drugs for money—legal characterization?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2011 Amendment) Article 266",
+          "PRC Criminal Law Articles 25, 26, 27",
+          "PRC Criminal Law Articles 52, 53, 54, 59 (related)"
+        ],
+        "judgment_guidance": "Fabricating facts to obtain property in huge amounts constitutes fraud; proceeds to be recovered by law."
+      },
+      "expected_verdict": "First-instance: fraud, 8 years and fine; upheld on appeal.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "medical scam / fraud"
+    },
+    {
+      "id": "legal_022",
+      "title": "Chen Jiang & Chen Kecheng: Large-Scale Online 'Nude Chat' Fraud",
+      "problem": "Issue: For mass online fraud with many victims across regions, how to determine total criminal amount in trial?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2011 Amendment) Article 266",
+          "PRC Criminal Law Article 25(1)",
+          "PRC Criminal Law Article 64"
+        ],
+        "judgment_guidance": "Comprehensively rely on payment platform flows, bank transaction details, and victim sample testimonies to determine the total amount."
+      },
+      "expected_verdict": "Main offenders: fraud, 11y6m and 12y6m with fines; upheld on appeal.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "mass online fraud"
+    },
+    {
+      "id": "legal_023",
+      "title": "'Bar Companion' Expensive Fraudulent Consumption",
+      "problem": "Issue: Inducing exorbitant consumption through fake dating to obtain money—fraud?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law Article 266",
+          "PRC Criminal Law Article 25(1)"
+        ],
+        "judgment_guidance": "Fabricating facts (relationship, prices) with intent to illegally possess and inducing excessive payments constitutes fraud."
+      },
+      "expected_verdict": "Convicted of fraud; imprisonment and fines (56 victims, total ~135,000 RMB); accessories handled leniently.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "consumer fraud"
+    },
+    {
+      "id": "legal_024",
+      "title": "Ding Yonggang: Robbery by Carrying Weapon during Snatch",
+      "problem": "Issue: Carrying a weapon while snatching, even without using or brandishing it, poses immediate threat to personal safety—punish as robbery?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2011 Amendment) Article 263",
+          "SPC Interpretation on Robbery Cases Art. 6",
+          "SPC & SPP Interpretation on Snatching Cases Art. 2(4)"
+        ],
+        "judgment_guidance": "Carrying a weapon during snatching implies potential violence; punish as robbery with heavier penalty."
+      },
+      "expected_verdict": "Robbery: main offender 4y6m and fine; plus snatching combined to 4y9m; accomplices sentenced accordingly.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "conversion to robbery"
+    }
+  ],
+  "count": 24,
+  "metadata": {
+    "source": "data/legal_dataset.json",
+    "format": "json",
+    "created_by": "DatasetLoader",
+    "dataset_type": "legal",
+    "schema_note": "Each item includes an issue, tips (laws and judgment guidance), and an expected verdict. Output requirements should align with the expected verdict."
+  }
+} 
