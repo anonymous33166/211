@@ -1,0 +1,171 @@
+{
+  "type": "list",
+  "data": [
+    {
+      "id": "lc_001",
+      "title": "两数之和（哈希）",
+      "problem": "给定整数数组 nums 和整数 target，在数组中找出和为 target 的两个数，返回它们的下标。每种输入只会对应一个答案，不能重复使用同一元素；可按任意顺序返回。\n示例1：nums=[2,7,11,15], target=9 -> [0,1]。\n示例2：nums=[3,2,4], target=6 -> [1,2]。\n示例3：nums=[3,3], target=6 -> [0,1]。",
+      "difficulty": "easy",
+      "category": "leetcode",
+      "topic": "hash"
+    },
+    {
+      "id": "lc_002",
+      "title": "字母异位词分组",
+      "problem": "给定字符串数组 strs，将字母异位词组合在一起，顺序任意。\n示例1：strs=[\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"] -> [[\"bat\"],[\"nat\",\"tan\"],[\"ate\",\"eat\",\"tea\"]]。\n示例2：strs=[\"\"] -> [[\"\"]]。\n示例3：strs=[\"a\"] -> [[\"a\"]]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "hash"
+    },
+    {
+      "id": "lc_003",
+      "title": "最长连续序列（O(n)）",
+      "problem": "给定未排序整数数组 nums，找出数字连续的最长序列长度，需 O(n)。\n示例1：nums=[100,4,200,1,3,2] -> 4（序列[1,2,3,4]）。\n示例2：nums=[0,3,7,2,5,8,4,6,0,1] -> 9。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "hash"
+    },
+    {
+      "id": "lc_004",
+      "title": "移动零（双指针）",
+      "problem": "给定数组 nums，将所有 0 移动到末尾，同时保持非零元素相对顺序；原地操作。\n示例1：nums=[0,1,0,3,12] -> [1,3,12,0,0]。\n示例2：nums=[0] -> [0]。",
+      "difficulty": "easy",
+      "category": "leetcode",
+      "topic": "two-pointers"
+    },
+    {
+      "id": "lc_005",
+      "title": "三数之和",
+      "problem": "给定整数数组 nums，返回所有和为 0 且不重复的三元组 [nums[i], nums[j], nums[k]]（i、j、k 互不相同）。\n示例1：nums=[-1,0,1,2,-1,-4] -> [[-1,-1,2],[-1,0,1]]。\n示例2：nums=[0,1,1] -> []。\n示例3：nums=[0,0,0] -> [[0,0,0]]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "two-pointers"
+    },
+    {
+      "id": "lc_006",
+      "title": "无重复字符的最长子串（滑窗）",
+      "problem": "给定字符串 s，找出不含重复字符的最长子串长度。\n示例1：\"abcabcbb\" -> 3。\n示例2：\"bbbbb\" -> 1。\n示例3：\"pwwkew\" -> 3。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "sliding-window"
+    },
+    {
+      "id": "lc_007",
+      "title": "找到字符串中所有异位词的起始索引",
+      "problem": "给定 s 和 p，返回 s 中所有 p 的异位词子串的起始索引，顺序任意。\n示例1：s=\"cbaebabacd\", p=\"abc\" -> [0,6]。\n示例2：s=\"abab\", p=\"ab\" -> [0,1,2]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "sliding-window"
+    },
+    {
+      "id": "lc_008",
+      "title": "和为 K 的子数组",
+      "problem": "给定整数数组 nums 和整数 k，返回和为 k 的连续子数组个数。\n示例1：nums=[1,1,1], k=2 -> 2。\n示例2：nums=[1,2,3], k=3 -> 2。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "prefix-sum"
+    },
+    {
+      "id": "lc_009",
+      "title": "最小覆盖子串",
+      "problem": "给定字符串 s 与 t，返回 s 中覆盖 t 所有字符的最小子串；若无返回空串。\n示例1：s=\"ADOBECODEBANC\", t=\"ABC\" -> \"BANC\"。\n示例2：s=\"a\", t=\"a\" -> \"a\"。",
+      "difficulty": "hard",
+      "category": "leetcode",
+      "topic": "sliding-window"
+    },
+    {
+      "id": "lc_010",
+      "title": "最大子数组和",
+      "problem": "给定整数数组 nums，找出连续子数组的最大和。\n示例：[-2,1,-3,4,-1,2,1,-5,4] -> 6。",
+      "difficulty": "easy",
+      "category": "leetcode",
+      "topic": "dp"
+    },
+    {
+      "id": "lc_011",
+      "title": "合并区间",
+      "problem": "给定区间数组 intervals，合并所有重叠区间并返回不重叠区间数组。\n示例1：[[1,3],[2,6],[8,10],[15,18]] -> [[1,6],[8,10],[15,18]]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "intervals"
+    },
+    {
+      "id": "lc_012",
+      "title": "旋转数组",
+      "problem": "给定整数数组 nums，将数组元素向右轮转 k 个位置，原地实现。\n示例：nums=[1,2,3,4,5,6,7], k=3 -> [5,6,7,1,2,3,4]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "array"
+    },
+    {
+      "id": "lc_013",
+      "title": "除自身以外数组的乘积",
+      "problem": "给你整数数组 nums，返回数组 answer，其中 answer[i] = 除 nums[i] 外其余元素的乘积；禁止用除法，O(n)。\n示例：nums=[1,2,3,4] -> [24,12,8,6]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "prefix-suffix"
+    },
+    {
+      "id": "lc_014",
+      "title": "缺失的第一个正数",
+      "problem": "给定未排序整数数组 nums，找出其中没有出现的最小正整数；要求 O(n) 且 O(1) 额外空间。\n示例1：[1,2,0] -> 3。\n示例2：[3,4,-1,1] -> 2。",
+      "difficulty": "hard",
+      "category": "leetcode",
+      "topic": "array"
+    },
+    {
+      "id": "lc_015",
+      "title": "岛屿数量",
+      "problem": "给定由 '1' 和 '0' 组成的二维网格，计算岛屿数量（相邻上下左右连接）。\n示例：见题面。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "graph"
+    },
+    {
+      "id": "lc_016",
+      "title": "课程表",
+      "problem": "给定课程总数 numCourses 和先修课程对 prerequisites，判断是否能完成所有课程。\n示例：numCourses=2, prerequisites=[[1,0]] -> true；[[1,0],[0,1]] -> false。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "graph"
+    },
+    {
+      "id": "lc_017",
+      "title": "实现 Trie（前缀树）",
+      "problem": "实现 Trie：insert(word)、search(word)、startsWith(prefix)。\n示例：见题面。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "trie"
+    },
+    {
+      "id": "lc_018",
+      "title": "全排列",
+      "problem": "给定互不相同的整数数组 nums，返回所有可能的全排列。\n示例：nums=[1,2,3] -> [[1,2,3],...]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "backtracking"
+    },
+    {
+      "id": "lc_019",
+      "title": "子集（幂集）",
+      "problem": "给定互不相同的整数数组 nums，返回所有可能的子集，解集不能包含重复子集。\n示例：nums=[1,2,3] -> [[],[1],[2],[1,2],[3],...]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "backtracking"
+    },
+    {
+      "id": "lc_020",
+      "title": "组合总和",
+      "problem": "给定无重复整数数组 candidates 和目标值 target，找出所有可以使数字和为 target 的不同组合（数字可重复选取）。\n示例：candidates=[2,3,6,7], target=7 -> [[2,2,3],[7]]。",
+      "difficulty": "medium",
+      "category": "leetcode",
+      "topic": "backtracking"
+    }
+  ],
+  "count": 20,
+  "metadata": {
+    "source": "data/leetcode_dataset.json",
+    "format": "json",
+    "dataset_type": "leetcode"
+  }
+} 

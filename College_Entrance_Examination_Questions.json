@@ -1,0 +1,334 @@
+{
+  "type": "list",
+  "data": [
+    {
+      "id": "gaokao_001",
+      "problem": "已知集合A={x|x²-3x+2=0}，B={x|x²-ax+(a-1)=0}，若A∪B=A，则实数a的取值范围是",
+      "answer_type": "multiple_choice",
+      "options": ["A. a≤2", "B. a≥2", "C. a≤1或a≥2", "D. 1≤a≤2"],
+      "expected_answer": "D",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "集合运算",
+      "solution": "解方程x²-3x+2=0得A={1,2}。由A∪B=A知B⊆A，即B的元素都在A中。当B=∅时，Δ=a²-4(a-1)<0，即a²-4a+4<0，无解。当B={1}时，a=2；当B={2}时，a=3；当B={1,2}时，a=3。综上，1≤a≤2。"
+    },
+    {
+      "id": "gaokao_002", 
+      "problem": "函数f(x)=ln(x+1)-x的单调递减区间是",
+      "answer_type": "multiple_choice",
+      "options": ["A. (-1,0)", "B. (0,+∞)", "C. (-1,+∞)", "D. (0,1)"],
+      "expected_answer": "B",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "函数单调性",
+      "solution": "f'(x)=1/(x+1)-1=(1-x-1)/(x+1)=-x/(x+1)。令f'(x)<0，得x>0且x+1>0，即x>0。所以单调递减区间是(0,+∞)。"
+    },
+    {
+      "id": "gaokao_003",
+      "problem": "已知向量a=(1,2)，b=(2,-1)，则|a+b|的值为",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "√10",
+      "difficulty": "easy",
+      "category": "gaokao_math", 
+      "topic": "向量运算",
+      "solution": "a+b=(1+2,2+(-1))=(3,1)，所以|a+b|=√(3²+1²)=√10。"
+    },
+    {
+      "id": "gaokao_004",
+      "problem": "在等差数列{an}中，a1=2，a4=8，则a10的值为",
+      "answer_type": "fill_in_blank", 
+      "expected_answer": "20",
+      "difficulty": "easy",
+      "category": "gaokao_math",
+      "topic": "等差数列",
+      "solution": "设公差为d，则a4=a1+3d，即8=2+3d，所以d=2。因此a10=a1+9d=2+9×2=20。"
+    },
+    {
+      "id": "gaokao_005",
+      "problem": "已知sinα=3/5，α∈(π/2,π)，则cosα的值为",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "-4/5",
+      "difficulty": "easy", 
+      "category": "gaokao_math",
+      "topic": "三角函数",
+      "solution": "由sin²α+cos²α=1，得cos²α=1-sin²α=1-(3/5)²=1-9/25=16/25。因为α∈(π/2,π)，所以cosα<0，因此cosα=-4/5。"
+    },
+    {
+      "id": "gaokao_006",
+      "problem": "已知函数f(x)=x³-3x+1，则f(x)的极值点的个数为",
+      "answer_type": "multiple_choice",
+      "options": ["A. 0", "B. 1", "C. 2", "D. 3"],
+      "expected_answer": "C",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "函数极值",
+      "solution": "f'(x)=3x²-3=3(x²-1)=3(x-1)(x+1)。令f'(x)=0，得x=±1。f''(x)=6x，f''(1)=6>0，f''(-1)=-6<0，所以x=1是极小值点，x=-1是极大值点。共有2个极值点。"
+    },
+    {
+      "id": "gaokao_007",
+      "problem": "已知复数z=1+i，则z²的值为",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "2i",
+      "difficulty": "easy",
+      "category": "gaokao_math", 
+      "topic": "复数运算",
+      "solution": "z²=(1+i)²=1²+2×1×i+i²=1+2i+(-1)=2i。"
+    },
+    {
+      "id": "gaokao_008",
+      "problem": "在△ABC中，已知a=3，b=4，C=60°，则c的值为",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "√13",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "余弦定理",
+      "solution": "由余弦定理：c²=a²+b²-2abcosC=3²+4²-2×3×4×cos60°=9+16-24×0.5=25-12=13，所以c=√13。"
+    },
+    {
+      "id": "gaokao_009",
+      "problem": "已知椭圆x²/4+y²/3=1的焦点为F1、F2，点P在椭圆上，若|PF1|=2，则|PF2|的值为",
+      "answer_type": "multiple_choice",
+      "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+      "expected_answer": "B",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "椭圆性质",
+      "solution": "椭圆x²/4+y²/3=1中，a²=4，b²=3，所以c²=a²-b²=1，即c=1。椭圆定义：|PF1|+|PF2|=2a=4。已知|PF1|=2，所以|PF2|=4-2=2。"
+    },
+    {
+      "id": "gaokao_010",
+      "problem": "已知函数f(x)=e^x-ax-1，若f(x)≥0对x∈R恒成立，则实数a的取值范围是",
+      "answer_type": "multiple_choice", 
+      "options": ["A. a≤1", "B. a≥1", "C. a≤0", "D. a≥0"],
+      "expected_answer": "A",
+      "difficulty": "hard",
+      "category": "gaokao_math",
+      "topic": "函数恒成立",
+      "solution": "f'(x)=e^x-a。若a≤0，则f'(x)>0，f(x)单调递增，且f(0)=0，所以f(x)≥0。若a>0，令f'(x)=0得x=lna。当x<lna时f'(x)<0，当x>lna时f'(x)>0，所以f(lna)是极小值。f(lna)=a-alna-1≥0，即a(1-lna)≥1。当a=1时，1(1-ln1)=1≥1成立。当a>1时，1-lna<0，不成立。所以a≤1。"
+    },
+    {
+      "id": "gaokao_011",
+      "problem": "已知数列{an}满足a1=1，an+1=2an+1，则an的通项公式为",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "2^n-1",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "数列递推",
+      "solution": "由an+1=2an+1，得an+1+1=2(an+1)。设bn=an+1，则bn+1=2bn，且b1=a1+1=2。所以{bn}是首项为2，公比为2的等比数列，bn=2×2^(n-1)=2^n。因此an=bn-1=2^n-1。"
+    },
+    {
+      "id": "gaokao_012",
+      "problem": "已知双曲线x²/a²-y²/b²=1的离心率为2，则其渐近线方程为",
+      "answer_type": "multiple_choice",
+      "options": ["A. y=±x", "B. y=±√3x", "C. y=±2x", "D. y=±3x"],
+      "expected_answer": "B",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "双曲线性质",
+      "solution": "双曲线离心率e=c/a=2，所以c=2a。由c²=a²+b²，得(2a)²=a²+b²，即4a²=a²+b²，所以b²=3a²，b=√3a。渐近线方程为y=±(b/a)x=±√3x。"
+    },
+    {
+      "id": "gaokao_013",
+      "problem": "已知函数f(x)=sin(2x+π/3)，则f(x)的最小正周期为",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "π",
+      "difficulty": "easy",
+      "category": "gaokao_math",
+      "topic": "三角函数周期",
+      "solution": "函数f(x)=sin(2x+π/3)中，ω=2，所以最小正周期T=2π/ω=2π/2=π。"
+    },
+    {
+      "id": "gaokao_101",
+      "problem": "已知集合A={x|-5<x^2≤5}, B={-3,-1,0,2,3}，则A∩B=（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. {-1,0}", "B. {2,3}", "C. {-3,-1,0}", "D. {-1,0,2}"],
+      "expected_answer": "D",
+      "difficulty": "easy",
+      "category": "gaokao_math",
+      "topic": "集合与交集",
+      "solution": "由-5<x^2≤5且x^2≥0得|x|≤√5，与B求交得{-1,0,2}。",
+      "prompt_tips": {"answer_format": "选择题仅输出‘答案：<大写字母>’"}
+  },
+  {
+      "id": "gaokao_102",
+      "problem": "若 z/(z-1)=1+i，则z=（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. -1-i", "B. -1+i", "C. 1-i", "D. 1+i"],
+      "expected_answer": "C",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "复数运算",
+      "solution": "z=(1+i)(z-1)⇒z-(1+i)z=-(1+i)⇒z(-i)=-(1+i)⇒z=(1+i)/i=1-i。"
+  },
+  {
+      "id": "gaokao_103",
+      "problem": "已知向量a=(0,1), b=(2,x)，若 b ⟂ (b-4a)，则x=（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. -2", "B. -1", "C. 1", "D. 2"],
+      "expected_answer": "D",
+      "difficulty": "easy",
+      "category": "gaokao_math",
+      "topic": "向量运算",
+      "solution": "b·(b-4a)=|b|^2-4a·b=0⇒(4+x^2)-4x=0⇒(x-2)^2=0⇒x=2。"
+  },
+  {
+      "id": "gaokao_104",
+      "problem": "已知cos(α+β)=m, tanα·tanβ=2，则cos(α−β)=（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. -3m", "B. m/3", "C. m/3", "D. 3m"],
+      "expected_answer": "A",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "三角恒等变换",
+      "solution": "设X=cosαcosβ,Y=sinαsinβ，则m=X−Y且Y/X=2⇒X=−m，故cos(α−β)=X+Y=3X=−3m。"
+  },
+  {
+      "id": "gaokao_105",
+      "problem": "已知圆柱和圆锥的底面半径相等、侧面积相等，高均为√3，则圆锥体积为（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. 2√3π", "B. 3√3π", "C. 6√3π", "D. 9√3π"],
+      "expected_answer": "B",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "几何体积",
+      "solution": "侧面积相等得圆锥母线l=2h=2√3，l^2=r^2+h^2⇒r=3，V=1/3·πr^2h=3√3π。"
+  },
+  {
+      "id": "gaokao_106",
+      "problem": "函数 f(x)={-x^2-2ax-a, x<0; e^x+ln(x+1), x≥0} 在R上单调递增，则a的取值范围是（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. (-∞,0]", "B. [-1,0]", "C. [-1,1]", "D. [0,+∞)"],
+      "expected_answer": "B",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "函数单调性",
+      "solution": "x<0时f'(x)=-2x-2a≥0对所有x<0成立需a≤0；跨点处要lim_{0-}≤f(0)=1⇒-a≤1⇒a≥-1，综上a∈[-1,0]。"
+  },
+  {
+      "id": "gaokao_107",
+      "problem": "当x∈[0,2π]，曲线y=sinx与y=2sin(3x−π/6)的交点个数为（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. 3", "B. 4", "C. 6", "D. 8"],
+      "expected_answer": "D",
+      "difficulty": "hard",
+      "category": "gaokao_math",
+      "topic": "三角方程根数",
+      "solution": "将右式展开为√3sin3x−cos3x，与sinx在[0,2π]相交可得8个交点。"
+  },
+  {
+      "id": "gaokao_108",
+      "problem": "已知f(x)在R上满足f(x)>f(x−1)+f(x−2)，且x<3时f(x)=x，则下列结论一定正确的是（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. f(10)>100", "B. f(20)>1000", "C. f(10)<1000", "D. f(20)<10000"],
+      "expected_answer": "B",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "不等式与递推",
+      "solution": "由严格超斐波那契增长，取最小等式情形亦有f(20)=F_{21}=10946>1000，故B必真，其余不一定。"
+  },
+  {
+      "id": "gaokao_112",
+      "problem": "设双曲线C: x^2/a^2−y^2/b^2=1(a>0,b>0)的左右焦点分别为F1,F2，过F2作平行于y轴的直线交C于A、B两点，若|F1A|=13, |AB|=10，则C的离心率为____。",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "3/2",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "圆锥曲线-双曲线",
+      "solution": "交线x=c得A,B: y=±b^2/a且|AB|=2b^2/a=10⇒b^2=5a；|F1A|^2=4c^2+(b^2/a)^2=169⇒c=6；c^2=a^2+b^2=a^2+5a=36⇒a=4，e=c/a=3/2。"
+  },
+  {
+      "id": "gaokao_113",
+      "problem": "若曲线y=e^x+x在(0,1)处的切线也是曲线y=ln(x+1)+a的切线，则a=____。",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "ln 2",
+      "difficulty": "easy",
+      "category": "gaokao_math",
+      "topic": "导数与切线",
+      "solution": "y=e^x+x在0处切线y=2x+1；令(ln(x+1))'|_{x0}=2得x0=−1/2，代入ln(x0+1)+a=2x0+1=0，a=ln2。"
+  },
+  {
+      "id": "gaokao_114",
+      "problem": "甲持牌{1,3,5,7}，乙持牌{2,4,6,8}，各轮同时随机出牌且弃置，四轮后甲的总得分不少于2的概率为____。",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "1/2",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "概率与组合",
+      "solution": "将甲顺序固定为升序，与乙的4!排列逐一比较可得胜场分布：3胜1种、2胜11种、1胜11种、0胜1种，共24种，P(≥2)=12/24=1/2。"
+  }
+  ,
+  {
+      "id": "gaokao_201",
+      "problem": "已知z=−1−i，则|z|=（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. 0", "B. 1", "C. √2", "D. 2"],
+      "expected_answer": "C",
+      "difficulty": "easy",
+      "category": "gaokao_math",
+      "topic": "复数模长",
+      "solution": "|z|=√[(-1)^2+(-1)^2]=√2。"
+  },
+  {
+      "id": "gaokao_202",
+      "problem": "已知命题：p: ∀x∈R, |x+1|>1；q: ∃x>0, x^3=x，则（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. p和q都是假命题", "B. ¬p和q都是真命题", "C. p和¬q都是真命题", "D. ¬p和¬q都是真命题"],
+      "expected_answer": "B",
+      "difficulty": "easy",
+      "category": "gaokao_math",
+      "topic": "命题与逻辑",
+      "solution": "取x=0知p假；x=1>0满足x^3=x知q真，故选B。"
+  },
+  {
+      "id": "gaokao_203",
+      "problem": "已知向量a,b满足：|a|=1，|a+2b|=2，且(b−2a)⟂b，则|b|=（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. 1/2", "B. √2/2", "C. √3/2", "D. 1"],
+      "expected_answer": "B",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "向量运算",
+      "solution": "(b−2a)·b=0⇒|b|^2−2a·b=0⇒a·b=|b|^2/2；|a+2b|^2=1+4|b|^2+4a·b=4⇒6|b|^2=3⇒|b|=√2/2。"
+  },
+  {
+      "id": "gaokao_205",
+      "problem": "已知圆C: x^2+y^2=16(y>0)，从C上任意一点P向x轴作垂线段PP'，P'为垂足，则线段PP'的中点M的轨迹方程为（ ）",
+      "answer_type": "multiple_choice",
+      "options": ["A. x^2/16 + y^2/4 = 1 (y>0)", "B. x^2/16 + y^2/8 = 1 (y>0)", "C. y^2/16 + x^2/4 = 1 (y>0)", "D. y^2/16 + x^2/8 = 1 (y>0)"],
+      "expected_answer": "A",
+      "difficulty": "easy",
+      "category": "gaokao_math",
+      "topic": "轨迹方程",
+      "solution": "设P(x,y), y>0且x^2+y^2=16，中点M(x, y/2)，故x^2+(2y)^2=16⇒x^2+4y^2=16⇒x^2/16+y^2/4=1。"
+  },
+  {
+      "id": "gaokao_212",
+      "problem": "记S_n为等差数列(a_n)的前n项和，若a_3+a_4=7，3a_2+a_5=5，则S_{10}=____。",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "95",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "等差数列",
+      "solution": "设a1,d；2a1+5d=7，4a1+7d=5⇒d=3,a1=−4；S10=5[2a1+9d]=95。"
+  },
+  {
+      "id": "gaokao_213",
+      "problem": "已知α为第一象限角，β为第三象限角，tanα+tanβ=4，tanα·tanβ=√2+1，求sin(α+β)=____。",
+      "answer_type": "fill_in_blank",
+      "expected_answer": "2√2/3",
+      "difficulty": "medium",
+      "category": "gaokao_math",
+      "topic": "三角恒等式",
+      "solution": "tan(α+β)=\nfrac{4}{1−(√2+1)}=−2√2；α+β位于第二象限，sin>0，|sin|=|t|/√(1+t^2)=2√2/3。"
+  }
+  ],
+  "count": 30,
+  "metadata": {
+    "source": "data/gaokao_math_dataset.json",
+    "format": "json", 
+    "created_by": "DatasetLoader",
+    "dataset_type": "gaokao_math",
+    "description": "高考数学题数据集，包含选择题和填空题",
+    "topics": ["集合运算", "函数单调性", "向量运算", "等差数列", "三角函数", "函数极值", "复数运算", "余弦定理", "椭圆性质", "函数恒成立", "数列递推", "双曲线性质", "三角函数周期", "集合与交集", "三角恒等变换", "几何体积", "三角方程根数", "不等式与递推", "圆锥曲线-双曲线", "导数与切线", "概率与组合", "复数模长", "命题与逻辑", "轨迹方程"]
+  }
+}
