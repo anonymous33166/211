@@ -624,7 +624,30 @@
       "difficulty": "medium",
       "category": "civil / non-litigation procedure",
       "subcategory": "pre-litigation behavior preservation / unfair competition"
-    }
+    }，
+    {
+      "id": "legal_039",
+      "title": "Wujiang Jucheng Weaving Co. Execution-to-Bankruptcy Liquidation Transfer",
+      "problem": "Issue: In an enforcement proceeding, the debtor enterprise (and its affiliate group) was unable to pay due debts and appeared asset-insufficient; when should the enforcement court transfer the case for bankruptcy review, how should execution and bankruptcy procedures be coordinated, and do the facts justify substantive consolidation of twenty affiliated companies and a unified distribution scheme? Guidance: Identify a \"bankruptcy cause\" under the Enterprise Bankruptcy Law (unable to pay due debts + asset insufficiency or manifest inability), then—upon consent of at least one applicant creditor or the debtor—order suspension of individual execution and transfer the file for bankruptcy review; adopt a workflow of \"execution follows bankruptcy; bankruptcy follows execution\" so that search/seizure/audit/compulsory measures in execution support administrator take-over after acceptance; apply substantive consolidation when personnel, business, assets, and finance are highly commingled such that assets and liabilities cannot be reasonably distinguished, thereby ensuring pari passu treatment of same-rank creditors and prioritized satisfaction of employee wage and tax claims.",
+      "prompt_tips": {
+        "laws": [
+          "Enterprise Bankruptcy Law of the PRC Article 1",
+          "Enterprise Bankruptcy Law of the PRC Article 2(1)",
+          "Enterprise Bankruptcy Law of the PRC Article 4",
+          "Enterprise Bankruptcy Law of the PRC Article 120",
+          "Company Law of the PRC (2013 amendment) Article 3(1)",
+          "Company Law of the PRC (2013 amendment) Article 21(2)",
+          "Company Law of the PRC (2013 amendment) Article 216(4)",
+          "Interpretation of the Supreme People's Court on the Application of the Civil Procedure Law Article 513",
+          "Civil Procedure Law of the PRC (2017 amendment) Article 154(1)(11)"
+    ],
+        "judgment_guidance": "If, during enforcement, a corporate debtor meets the bankruptcy cause in EBL art. 2(1), the enforcement court should—upon creditor or debtor consent under SPC CPL Interpretation art. 513—suspend individual execution and transfer for bankruptcy; where affiliates show pervasive commingling (personnel, business, assets, finance) making separation impracticable, the court may order substantive consolidation so all claims of the same rank share pro rata while giving statutory priorities to employee wages and taxes."
+  },
+       "expected_verdict": "Ruling: Enforcement cases were transferred for bankruptcy review with creditor consent; on 2017-04-11 the court accepted liquidation cases for five core companies; on 2017-07-31 it ordered substantive consolidation of twenty related companies into a single bankruptcy estate; on 2017-10-20 it declared the consolidated entities bankrupt; a property realization and distribution plan was approved (first distribution recognized on 2018-02-11, paying employee wage and tax claims in full and ordinary claims pro rata); as no further distributable funds remained, the court terminated the consolidated bankruptcy proceedings on 2018-06-29.",
+       "difficulty": "hard",
+       "category": "legal",
+       "subcategory": "bankruptcy liquidation (execution-to-bankruptcy; substantive consolidation)"
+  }
   ],
   "count": 38,
   "metadata": {
