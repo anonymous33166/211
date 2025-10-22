@@ -3,7 +3,7 @@
   "data": [
     {
       "id": "legal_001",
-      "title": "Cai Haosheng Theft and Fraud Case",
+      "title": "Person A Theft and Fraud Case",
       "problem": "Issue: The defendant secretly used the victim's identity to obtain a loan (Ant Borrow) into the victim's account, then induced the victim to transfer the funds by concealing the truth and fabricating facts. Does this constitute fraud? Guidance: Distinguish amounts obtained by secret taking (theft) versus amounts obtained by later deception (fraud).",
       "prompt_tips": {
         "laws": [
@@ -20,7 +20,7 @@
     },
     {
       "id": "legal_002",
-      "title": "Chen Jiaying Credit Card Theft Case",
+      "title": "Person B Credit Card Theft Case",
       "problem": "Issue: Binding another's bank card to one's own platform with acquired identity information without the owner's knowledge, and disposing of the funds, constitutes theft of a credit card function and thus theft?",
       "prompt_tips": {
         "laws": [
@@ -37,7 +37,7 @@
     },
     {
       "id": "legal_003",
-      "title": "Fang Yue and Others: Organized Crime (Soft Violence, Loan Sharking)",
+      "title": "Person C et al.: Organized Crime (Soft Violence, Loan Sharking)",
       "problem": "Issue: Engaging in organized unlawful acts (e.g., 'loan sharking') mainly using 'soft violence'—does this constitute an organized crime group?",
       "prompt_tips": {
         "laws": [
@@ -54,7 +54,7 @@
     },
     {
       "id": "legal_004",
-      "title": "Gong Pinwen and Others: Organized Crime (Equity Profit-Sharing Model)",
+      "title": "Person D et al.: Organized Crime (Equity Profit-Sharing Model)",
       "problem": "Issue: Recruiting members via equity profit-sharing and distributing criminal proceeds by 'shares', with stable size and clear leadership—does this meet organizational features of organized crime?",
       "prompt_tips": {
         "laws": [
@@ -71,7 +71,7 @@
     },
     {
       "id": "legal_005",
-      "title": "Gu Jing: Computer System Damage vs Theft",
+      "title": "Person E: Computer System Damage vs Theft",
       "problem": "Issue: Intruding a game company's database to tamper with virtual data for profit—does it constitute the crime of damaging computer information systems or theft?",
       "prompt_tips": {
         "laws": [
@@ -88,7 +88,7 @@
     },
     {
       "id": "legal_006",
-      "title": "Guo Li: Extortion Retrial Acquittal",
+      "title": "Person F: Extortion Retrial Acquittal",
       "problem": "Issue: Demanding money conditioned on exposure of wrongdoing, where the actor is the victim and evidence fails to prove intent to illegally possess—does it constitute extortion?",
       "prompt_tips": {
         "laws": [
@@ -103,7 +103,7 @@
     },
     {
       "id": "legal_007",
-      "title": "Li: Platform Settlement Loophole Fraud",
+      "title": "Person G: Platform Settlement Loophole Fraud",
       "problem": "Issue: Knowing settlement loopholes, fabricating transactions and exploiting refund prepayment mechanisms to profit—constitutes fraud?",
       "prompt_tips": {
         "laws": [
@@ -118,7 +118,7 @@
     },
     {
       "id": "legal_008",
-      "title": "Qian Jianhua: Contract Fraud and Embezzlement (Revised on Appeal)",
+      "title": "Person H: Contract Fraud and Embezzlement (Revised on Appeal)",
       "problem": "Issue: Carrier, with intent to illegally possess, intercepts goods under a 'reasonable loss' clause and fabricates losses—contract fraud? Combined punishment with embezzlement?",
       "prompt_tips": {
         "laws": [
@@ -135,7 +135,7 @@
     },
     {
       "id": "legal_009",
-      "title": "Qiao Jinzhong: Infringement (Shares as Property Under Custody)",
+      "title": "Person I: Infringement (Shares as Property Under Custody)",
       "problem": "Issue: Under certain conditions, do shares qualify as 'property under custody' for the crime of misappropriation/infringement?",
       "prompt_tips": {
         "laws": [
@@ -150,7 +150,7 @@
     },
     {
       "id": "legal_010",
-      "title": "Ren Qing: Linked Offenses (Illegal Mobile Charges) as Theft",
+      "title": "Person J: Linked Offenses (Illegal Mobile Charges) as Theft",
       "problem": "Issue: Secretly deducting fees via remote illegal control of mobile information systems—when forming a linked offense with illegal control of computer systems and theft, should punishment be for theft?",
       "prompt_tips": {
         "laws": [
@@ -167,8 +167,8 @@
     },
     {
       "id": "legal_011",
-      "title": "Tan Zhijian Theft Case (Vehicle in Marital Dispute)",
-      "problem": "Issue: Unauthorized possession and use of ex-wife's car—does it constitute theft despite civil dispute background?",
+      "title": "Person K Theft Case (Vehicle in Marital Dispute)",
+      "problem": "Issue: Unauthorized possession and use of an ex-spouse's car—does it constitute theft despite civil dispute background?",
       "prompt_tips": {
         "laws": [
           "PRC Criminal Law Article 264",
@@ -183,7 +183,7 @@
     },
     {
       "id": "legal_012",
-      "title": "Wang JumIng & Lu Xiaodi: Environmental Pollution",
+      "title": "Person L & Person M: Environmental Pollution",
       "problem": "Issue: Illegally dumping solid waste causing ecological damage and high losses—does it constitute 'serious environmental pollution' with 'especially serious consequences' under Art. 338?",
       "prompt_tips": {
         "laws": [
@@ -201,7 +201,7 @@
     },
     {
       "id": "legal_013",
-      "title": "Wang Lizhi Fraud Case (Acquittal on Appeal)",
+      "title": "Person N Fraud Case (Acquittal on Appeal)",
       "problem": "Issue: Continuous business use of loans, no squander/high-risk investment, no absconding, active remediation—sufficient to negate intent to illegally possess and thus not fraud?",
       "prompt_tips": {
         "laws": [
@@ -217,7 +217,7 @@
     },
     {
       "id": "legal_014",
-      "title": "Wang Xiaodong Theft (Platform Settlement Error Exploitation)",
+      "title": "Person O Theft (Platform Settlement Error Exploitation)",
       "problem": "Issue: Merchant knowingly exploiting platform settlement errors via self-buy/self-sell 'brush orders' to withdraw funds—legal characterization?",
       "prompt_tips": {
         "laws": [
@@ -232,7 +232,7 @@
     },
     {
       "id": "legal_015",
-      "title": "Wang Yong: Rape, Extortion (Evidence-Based without Confession)",
+      "title": "Person P: Rape, Extortion (Evidence-Based without Confession)",
       "problem": "Issue: Cases with weak objective evidence and no confession—how should courts decide?",
       "prompt_tips": {
         "laws": [
@@ -247,7 +247,7 @@
     },
     {
       "id": "legal_016",
-      "title": "Wu Qiang et al.: Extortion, Robbery, Drug Trafficking, Intentional Injury (Criminal Group)",
+      "title": "Person Q et al.: Extortion, Robbery, Drug Trafficking, Intentional Injury (Criminal Group)",
       "problem": "Issue: Is 'doing evil and oppressing the people' a key distinction between a criminal group of malign influence and an ordinary criminal group?",
       "prompt_tips": {
         "laws": [
@@ -256,14 +256,14 @@
         ],
         "judgment_guidance": "Key factors: relatively stable membership, repeated offenses using violence or soft violence, and adverse social impact."
       },
-      "expected_verdict": "Main offender Wu Qiang: combined punishment for multiple crimes to 13 years 6 months and fine; others sentenced; upheld on appeal.",
+      "expected_verdict": "Main offender: combined punishment for multiple crimes to 13 years 6 months and fine; others sentenced; upheld on appeal.",
       "difficulty": "hard",
       "category": "legal",
       "subcategory": "criminal group of malign influence"
     },
     {
       "id": "legal_017",
-      "title": "Xiao Jun Fraud Retrial Acquittal",
+      "title": "Person R Fraud Retrial Acquittal",
       "problem": "Issue: Is failure to repay due loans necessarily fraud?",
       "prompt_tips": {
         "laws": [
@@ -278,7 +278,7 @@
     },
     {
       "id": "legal_018",
-      "title": "Yan Xianpeng Theft (Not Returning Found Phone)",
+      "title": "Person S Theft (Not Returning Found Phone)",
       "problem": "Issue: Phone lost in a crowded public place with owner unaware; finder keeps and does not return—does this constitute secret taking of property (theft)?",
       "prompt_tips": {
         "laws": [
@@ -294,7 +294,7 @@
     },
     {
       "id": "legal_019",
-      "title": "Zhang Weixiang et al.: Providing Bank Cards and POS for Fraud (Accomplice)",
+      "title": "Person T et al.: Providing Bank Cards and POS for Fraud (Accomplice)",
       "problem": "Issue: Knowingly providing bank cards/POS machines for telecom fraud and helping transfer illicit funds—accomplice to fraud?",
       "prompt_tips": {
         "laws": [
@@ -311,7 +311,7 @@
     },
     {
       "id": "legal_020",
-      "title": "Mai Zanxin Embezzlement/Misappropriation (Final Acquittal)",
+      "title": "Person U Embezzlement/Misappropriation (Final Acquittal)",
       "problem": "Issue: For a majority shareholder transferring projects and funds among related companies, without proof of intent to illegally possess or illegal use, do crimes of embezzlement/misappropriation establish?",
       "prompt_tips": {
         "laws": [
@@ -326,7 +326,7 @@
     },
     {
       "id": "legal_021",
-      "title": "Chen Jianping: Fake Cancer Therapy Fraud",
+      "title": "Person V: Fake Cancer Therapy Fraud",
       "problem": "Issue: With intent to illegally possess, setting up a scam to induce patients/families to accept fake treatment or buy drugs for money—legal characterization?",
       "prompt_tips": {
         "laws": [
@@ -343,7 +343,7 @@
     },
     {
       "id": "legal_022",
-      "title": "Chen Jiang & Chen Kecheng: Large-Scale Online 'Nude Chat' Fraud",
+      "title": "Person W & Person X: Large-Scale Online 'Nude Chat' Fraud",
       "problem": "Issue: For mass online fraud with many victims across regions, how to determine total criminal amount in trial?",
       "prompt_tips": {
         "laws": [
@@ -376,7 +376,7 @@
     },
     {
       "id": "legal_024",
-      "title": "Ding Yonggang: Robbery by Carrying Weapon during Snatch",
+      "title": "Person Y: Robbery by Carrying Weapon during Snatch",
       "problem": "Issue: Carrying a weapon while snatching, even without using or brandishing it, poses immediate threat to personal safety—punish as robbery?",
       "prompt_tips": {
         "laws": [
@@ -624,7 +624,7 @@
       "difficulty": "medium",
       "category": "civil / non-litigation procedure",
       "subcategory": "pre-litigation behavior preservation / unfair competition"
-    }，
+    },
     {
       "id": "legal_039",
       "title": "Wujiang Jucheng Weaving Co. Execution-to-Bankruptcy Liquidation Transfer",
@@ -640,20 +640,54 @@
           "Company Law of the PRC (2013 amendment) Article 216(4)",
           "Interpretation of the Supreme People's Court on the Application of the Civil Procedure Law Article 513",
           "Civil Procedure Law of the PRC (2017 amendment) Article 154(1)(11)"
-    ],
+        ],
         "judgment_guidance": "If, during enforcement, a corporate debtor meets the bankruptcy cause in EBL art. 2(1), the enforcement court should—upon creditor or debtor consent under SPC CPL Interpretation art. 513—suspend individual execution and transfer for bankruptcy; where affiliates show pervasive commingling (personnel, business, assets, finance) making separation impracticable, the court may order substantive consolidation so all claims of the same rank share pro rata while giving statutory priorities to employee wages and taxes."
-  },
-       "expected_verdict": "Ruling: Enforcement cases were transferred for bankruptcy review with creditor consent; on 2017-04-11 the court accepted liquidation cases for five core companies; on 2017-07-31 it ordered substantive consolidation of twenty related companies into a single bankruptcy estate; on 2017-10-20 it declared the consolidated entities bankrupt; a property realization and distribution plan was approved (first distribution recognized on 2018-02-11, paying employee wage and tax claims in full and ordinary claims pro rata); as no further distributable funds remained, the court terminated the consolidated bankruptcy proceedings on 2018-06-29.",
-       "difficulty": "hard",
-       "category": "legal",
-       "subcategory": "bankruptcy liquidation (execution-to-bankruptcy; substantive consolidation)"
-  }
+      },
+      "expected_verdict": "Ruling: Enforcement cases were transferred for bankruptcy review with creditor consent; on 2017-04-11 the court accepted liquidation cases for five core companies; on 2017-07-31 it ordered substantive consolidation of twenty related companies into a single bankruptcy estate; on 2017-10-20 it declared the consolidated entities bankrupt; a property realization and distribution plan was approved (first distribution recognized on 2018-02-11, paying employee wage and tax claims in full and ordinary claims pro rata); as no further distributable funds remained, the court terminated the consolidated bankruptcy proceedings on 2018-06-29.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "bankruptcy liquidation (execution-to-bankruptcy; substantive consolidation)"
+    },
+    {
+      "id": "legal_040",
+      "title": "Applicant A (Minor) Application to Declare Mother Missing",
+      "problem": "Issue: When a 'de facto unsupported child' applies to declare a parent missing, what procedural steps and evidentiary thresholds must the court satisfy before issuing a missing-person judgment? Guidance: After accepting the application, the court must issue a public notice to search for the person whose whereabouts are unknown for the statutory period (three months for missing; one year for death, or three months if death is certain due to an accident), conduct necessary investigations (household registration, police certificates, village committee attestations), and upon expiry, adjudicate based on whether the facts of prolonged disappearance are confirmed.",
+      "prompt_tips": {
+        "laws": [
+          "General Provisions of the Civil Law of the PRC Article 40",
+          "Civil Procedure Law of the PRC (2017 amendment) Article 185"
+        ],
+        "judgment_guidance": "If a parent has been continuously missing for at least two years and remains untraceable after a court-issued three-month public notice and necessary investigation, the court should render a judgment declaring the person missing so that the minor applicant can access corresponding relief and protections."
+      },
+      "expected_verdict": "First-instance (Xuzhou Tongshan District People's Court): After issuing a three-month notice on 2018-08-16 and verifying that the mother (Person B) had been missing since 2009 with no responses received, the court on 2018-12-24 rendered judgment declaring the mother missing.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "declaration of missing person (special procedure)"
+    },
+    {
+      "id": "legal_041",
+      "title": "Applicant A v. Yaoqiao Village Committee, Zhenjiang — Revocation of Guardian Qualification Dispute",
+      "problem": "Issue: When a village committee designates an unfit relative as guardian of a minor, under what circumstances may the court revoke that guardian qualification and reassign guardianship to a public authority? Guidance: In assessing a guardian’s capacity, courts must consider health, economic means, willingness, and closeness of relationship with the ward. If all close relatives lack capacity or willingness to serve, the court may, in the child’s best interest, designate the local civil affairs department (or its subordinate welfare institution) as guardian to ensure proper care and upbringing.",
+      "prompt_tips": {
+        "laws": [
+          "General Principles of the Civil Law of the PRC (2009 revision) Article 16",
+          "Civil Procedure Law of the PRC (2012 revision) Article 178",
+          "Civil Procedure Law of the PRC (2012 revision) Article 180",
+          "Supreme People's Court Opinions on Implementing the General Principles of Civil Law (Trial) Articles 10–12, 14, 17, 19"
+        ],
+        "judgment_guidance": "If both parents and other close relatives lack guardianship capacity due to disability or poverty, and the designated guardian is unwilling or unable to fulfill duties, the court should revoke the designation and, in the ward’s best interest, appoint the local civil affairs authority as guardian through its welfare institution."
+      },
+      "expected_verdict": "First-instance (Zhenjiang Economic Development Zone People’s Court): The court revoked the village committee’s designation of the applicant as guardian of the infant (Minor B) and appointed the Zhenjiang Civil Affairs Bureau as the new guardian, to be implemented by the Zhenjiang Children’s Welfare Institute. Judgment rendered on 2014-08-22.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "revocation of guardian qualification (special procedure)"
+    }
   ],
-  "count": 38,
+  "count": 41,
   "metadata": {
     "source": "data/legal_dataset.json",
     "format": "json",
     "dataset_type": "legal",
-    "schema_note": "Each item includes an issue, tips (laws and judgment guidance), and an expected verdict. Output requirements should align with the expected verdict."
+    "schema_note": "Each item includes an issue, tips (laws and judgment guidance), and an expected verdict. Output requirements should align with the expected verdict. All natural-person names have been anonymized."
   }
 }
