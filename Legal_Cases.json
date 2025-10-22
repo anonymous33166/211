@@ -390,13 +390,231 @@
       "difficulty": "medium",
       "category": "legal",
       "subcategory": "conversion to robbery"
-    }
+    },
+    {
+      "id": "legal_025",
+      "title": "S. Shipping Co. v. G. Logistics Holdings — Recognition of UK Court Judgments (Reciprocity Test)",
+      "problem": "Issue: In an application to recognize UK High Court and Court of Appeal judgments arising from ship lease guarantee disputes, how should a Chinese court assess reciprocity under CPL Art. 289 where China and the UK have no relevant treaty and there is no prior UK case recognizing a PRC judgment? Further, does a UK court’s use of PRC judgments/civil rulings as evidence constitute 'recognition and enforcement' of PRC judgments? Guidance: Examine whether, under the foreign forum’s domestic law, PRC civil/commercial judgments are generally recognizable/enforceable (de jure reciprocity), and confirm that mere evidentiary reference to PRC decisions is not the same as recognition/enforcement; also screen for public policy, jurisdiction, punitive damages, and other refusal grounds.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Civil Procedure Law (2021 Amendment) Article 289"
+        ],
+        "judgment_guidance": "Reciprocity does not require a prior foreign case recognizing a PRC judgment; if, under the foreign state’s law, PRC civil/commercial judgments are recognizable/enforceable in principle, reciprocity may be found. A foreign court citing PRC judgments/rulings as evidence is not 'recognition and enforcement'. Absent violations of PRC basic principles, sovereignty/security, or public interest—and where jurisdiction was accepted by agreement and the debtor participated—recognition should be granted; contractual interest/fees for non-performance are not 'punitive damages' excluded from recognition."
+      },
+      "expected_verdict": "Court granted recognition of the UK High Court [2015] EWHC 718 (Comm) judgment and related orders (2015–2018), and the UK Court of Appeal [2016] EWCA Civ 982 judgment and related orders; ruling effective upon service.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "recognition & enforcement of foreign judgments"
+    },
+    {
+      "id": "legal_026",
+      "title": "Foreign Arbitral Award Non-Recognition for Non-Foreign-Related Dispute",
+      "problem": "Issue: Two PRC legal-person companies agreed to submit disputes with no foreign element to a foreign arbitral institution (Korean Commercial Arbitration Board). Should a PRC court recognize the resulting foreign award under the New York Convention?",
+      "prompt_tips": {
+        "laws": [
+          "New York Convention (1958) Art. II, Art. V(1)(a), Art. V(2)(b)",
+          "PRC Civil Procedure Law (2012 Amendment)",
+          "PRC Arbitration Law (2009 Amendment)",
+          "SPC Opinions on the Application of the CPL (Art. 304)",
+          "PRC Law on Foreign-Invested Enterprises (2000 Amendment) Arts. 2, 8"
+        ],
+        "judgment_guidance": "Where both parties are PRC legal persons and the legal relationship and subject matter are entirely domestic, an agreement to submit to foreign arbitration violates mandatory PRC law and is invalid; a foreign award rendered on that basis shall not be recognized under Art. V(1)(a) and/or V(2)(b) of the New York Convention."
+      },
+      "expected_verdict": "Application to recognize the KCAB award dismissed by the Beijing No. 2 Intermediate People’s Court.",
+      "difficulty": "medium",
+      "category": "civil / non-litigation procedure",
+      "subcategory": "recognition & enforcement of foreign arbitral awards"
+    },
+    {
+      "id": "legal_027",
+      "title": "Minority Shareholder–Initiated Compulsory Liquidation Due to Conflict of Interest",
+      "problem": "Issue: May a minority shareholder seek court-ordered (compulsory) liquidation where majority shareholders, who owe large damages to the company and refuse to pay, would control a self-liquidation and thus face a direct conflict of interest?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Company Law (2018 Amendment) Arts. 183, 20",
+          "SPC Interpretation (II) on the Application of the Company Law (2014) Art. 7(2)(ii), Art. 7(2)(iii), Art. 7(3)"
+        ],
+        "judgment_guidance": "If majority shareholders bear substantial liabilities to the company and cannot propose effective measures or provide security to ensure a lawful and timely self-liquidation, the court should accept a minority shareholder’s application for compulsory liquidation by reference to Company Law Interpretation (II) Art. 7(2)(ii)(iii) and (3)."
+      },
+      "expected_verdict": "On appeal, the Shanghai High People’s Court revoked the non-acceptance and ordered the lower court to accept the compulsory liquidation application.",
+      "difficulty": "medium",
+      "category": "corporate / insolvency",
+      "subcategory": "compulsory liquidation (acceptance standards)"
+    },
+    {
+      "id": "legal_028",
+      "title": "Jurisdiction to Recognize Foreign Arbitral Award Based on Principal Place of Business",
+      "problem": "Issue: For an offshore company registered in the Marshall Islands but carrying on business in Shanghai, may a PRC maritime court assume jurisdiction to recognize and enforce a London maritime arbitration award under the New York Convention?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Special Maritime Procedure Law Art. 11",
+          "SPC Interpretation on the Application of the CPL (2020) Art. 3",
+          "New York Convention (1958)"
+        ],
+        "judgment_guidance": "If evidence shows the respondent conducts business or maintains an office at the court locale, the site may be deemed the respondent’s principal place of business (domicile) in China; the maritime court at that locale has jurisdiction to accept an application to recognize and enforce the foreign award."
+      },
+      "expected_verdict": "Jurisdiction objection rejected; on appeal, Shanghai High People’s Court affirmed the maritime court’s jurisdiction.",
+      "difficulty": "medium",
+      "category": "maritime / arbitration enforcement",
+      "subcategory": "recognition & enforcement of foreign arbitral awards (jurisdiction)"
+    },
+    {
+      "id": "legal_029",
+      "title": "Appointment of Estate Administrator: Standing of Non-heir Caregivers",
+      "problem": "Issue: May persons who had no legal duty to support the decedents but in fact provided substantial care be deemed 'interested parties' entitled to apply to court to designate an estate administrator when the heirship is unclear or contested?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Civil Code Art. 1127",
+          "PRC Civil Code Art. 1131",
+          "PRC Civil Code Art. 1145",
+          "PRC Civil Code Art. 1146",
+          "PRC Civil Code Art. 1147",
+          "PRC Civil Code Art. 230"
+        ],
+        "judgment_guidance": "Individuals other than heirs who provided substantial support to the decedent may be allocated appropriate estate and thus have a legal interest in the estate; they qualify as 'interested parties' and may petition the court to designate an estate administrator when disputes exist over the administrator."
+      },
+      "expected_verdict": "Court designated the local Civil Affairs Bureau as estate administrator upon application by the non-heir caregivers.",
+      "difficulty": "medium",
+      "category": "civil / non-litigation procedure",
+      "subcategory": "estate administrator designation"
+    },
+    {
+      "id": "legal_030",
+      "title": "1+5 Substantive Consolidation Reorganization of Parent and Five Subsidiaries",
+      "problem": "Issue: When may courts order substantive consolidation of multiple affiliated companies for reorganization, and how should a consolidated plan address asset advantages, creditor recoveries, and equity adjustments?",
+      "prompt_tips": {
+        "laws": [
+          "Enterprise Bankruptcy Law (PRC) Arts. 1, 2, 86(2)"
+        ],
+        "judgment_guidance": "Where affiliated entities display highly commingled corporate personality (management overlap, shared finance/personnel, intertwined operations, large intercompany debts/guarantees) and segregation costs are excessive, courts may order substantive consolidation; intra-group claims are eliminated and a unified estate is distributed under a single plan, which may flexibly use cash plus debt-to-equity swaps and pre-vote mechanisms."
+      },
+      "expected_verdict": "Intermediate court ordered substantive consolidation of six affiliated companies and later approved the consolidated reorganization plan.",
+      "difficulty": "hard",
+      "category": "bankruptcy / reorganization",
+      "subcategory": "substantive consolidation"
+    },
+    {
+      "id": "legal_031",
+      "title": "Liquidation-to-Composition for an SME Using Pre-Vote Rules",
+      "problem": "Issue: For an SME with salvage value, can the court guide a shift from liquidation to composition and adopt pre-vote rules so that pre-balloted creditor consent carries over after conversion?",
+      "prompt_tips": {
+        "laws": [
+          "Enterprise Bankruptcy Law (PRC) Arts. 95, 96(1), 97, 98"
+        ],
+        "judgment_guidance": "Where the debtor has going-concern value and creditors broadly support composition, courts may solicit pre-votes (including rules that carry forward to the formal composition meeting if no substantive changes occur) and, after hearing, convert to composition, recognize the agreement, and terminate the composition procedure."
+      },
+      "expected_verdict": "Court approved conversion to composition, recognized the composition agreement per pre-vote rules, and terminated the composition procedure.",
+      "difficulty": "medium",
+      "category": "bankruptcy / composition",
+      "subcategory": "conversion from liquidation; pre-vote mechanism"
+    },
+    {
+      "id": "legal_032",
+      "title": "Listed Company Reorganization Concurrent with Major Asset Restructuring",
+      "problem": "Issue: How to coordinate internal corporate governance and external regulatory approval when a listed company’s reorganization proceeds in parallel with a CSRC-regulated major asset restructuring?",
+      "prompt_tips": {
+        "laws": [
+          "Enterprise Bankruptcy Law (PRC) Art. 86(2)",
+          "Company Law (PRC, 2013 rev.)",
+          "Securities Law (PRC, 2014 rev.)",
+          "Administrative Measures for Major Asset Restructuring of Listed Companies (2016)"
+        ],
+        "judgment_guidance": "Under administrator-managed reorganization, retain the board/shareholders’ meeting to pass M&A/major asset resolutions while the administrator prepares the plan; activate the SPC-CSRC consultation mechanism and reference expert advisory opinions; upon creditor and equity group approval, the court may approve the plan that embeds the restructuring."
+      },
+      "expected_verdict": "Court approved the reorganization plan of the listed company and terminated the reorganization after consulting CSRC via the SPC-CSRC mechanism.",
+      "difficulty": "hard",
+      "category": "bankruptcy / listed companies",
+      "subcategory": "reorganization with concurrent major asset restructuring"
+    },
+    {
+      "id": "legal_033",
+      "title": "Substantive Consolidation with Court-Approved Investor Trial Production",
+      "problem": "Issue: During reorganization of substantively consolidated affiliates, may the court permit an investor to fund and commence trial production before plan approval to preserve core licenses and value?",
+      "prompt_tips": {
+        "laws": [
+          "Enterprise Bankruptcy Law (PRC) Arts. 1, 2, 26, 86"
+        ],
+        "judgment_guidance": "If core licenses risk lapse, equipment risks depreciation, and funding is insufficient, the administrator may seek court leave for investor-funded trial production before plan approval; this preserves going-concern value, benefits creditors, and should proceed under court/administrator/creditor supervision."
+      },
+      "expected_verdict": "Court allowed investor trial production; later, creditor groups approved and the court sanctioned the reorganization plan and terminated the procedure.",
+      "difficulty": "medium",
+      "category": "bankruptcy / reorganization",
+      "subcategory": "operational preservation measures during reorg"
+    },
+    {
+       "id": "legal_034",
+       "title": "Change of Guardian with Third-Party Supervision of Minor's Property",
+       "problem": "When changing guardianship for a minor orphan, may the court—upon parties' consensus and after hearing the minor—appoint trusted third-party oversight of the minor's funds where the guardian's capacity or potential conflicts make direct management risky?",
+       "prompt_tips": {
+       "laws": [
+       "PRC General Principles of Civil Law Art. 18, Art. 22 (older regime; cited in case)",
+       "PRC General Provisions of Civil Law Art. 35",
+       "(Context) PRC Civil Code guardianship chapter (successor framework)"
+     ],
+       "judgment_guidance": "If guardians are elderly/limited or conflicts exist regarding the ward's property, the court may, with party agreement and minor's views, recognize a trusted third person as property supervisor to safeguard the ward's assets; such supervisor holds no ownership and bears liability for infringements."
+       },
+       "expected_verdict": "Court changed the guardian to the grandparents and approved third-party (relative) custodial supervision over RMB 300,000 until age 18.",
+       "difficulty": "easy",
+       "category": "civil / special procedure",
+       "subcategory": "guardianship change; property supervision"
+       },
+       {
+       "id": "legal_011",
+       "title": "Refusal to Enforce SIAC Award: Party Agreement on Three Arbitrators Overrides Fast-Track Sole Arbitrator",
+       "problem": "Under the New York Convention, should a Chinese court refuse to enforce a foreign award where the arbitration proceeded under SIAC fast-track with a sole arbitrator despite a clause expressly requiring a three-member tribunal?",
+       "prompt_tips": {
+       "laws": [
+       "CPL (PRC) Art. 283",
+       "New York Convention Art. V(1)(d)"
+      ],
+       "judgment_guidance": "Party autonomy governs basic procedure like tribunal composition; unless contrary to mandatory lex arbitri, a clause requiring three arbitrators must prevail over institutional fast-track default to a sole arbitrator. Failure to honor it triggers Art. V(1)(d) and justifies non-recognition."
+      },
+       "expected_verdict": "Court refused recognition and enforcement of the SIAC award due to tribunal composition not conforming to the parties' agreement (three arbitrators).",
+       "difficulty": "medium",
+       "category": "civil / recognition & enforcement",
+       "subcategory": "foreign arbitral award; tribunal composition"
+      },
+      {
+       "id": "legal_012",
+       "title": "Revocation of Guardian for Failure to Ensure Compulsory Education; Designation of Non-Relative Guardians",
+       "problem": "Can a court revoke a biological parent's guardianship for long-term neglect resulting in the child's lack of household registration and inability to access compulsory education, and appoint third parties (non-grandparents/siblings) as guardians?",
+       "prompt_tips": {
+       "laws": [
+       "PRC Civil Code Art. 27(2)",
+       "PRC Civil Code Art. 36(1)(1)-(3)",
+       "CPL (2017) Art. 134(1), Art. 178"
+       ],
+       "judgment_guidance": "Severe neglect impairing education constitutes serious infringement of the minor's lawful rights and meets grounds to revoke guardianship. Under the best-interests principle, courts may appoint willing third persons with stable capacity and close emotional ties as guardians, with village committee support."
+       },
+       "expected_verdict": "Court revoked the mother's guardianship and designated the long-term caretaking couple as the child's guardians.",
+       "difficulty": "easy",
+       "category": "civil / special procedure",
+       "subcategory": "guardianship revocation & designation"
+       },
+       {
+       "id": "legal_013",
+       "title": "LLMC Fund for Coastal Domestic Voyage While in Ballast",
+       "problem": "For a collision during an empty (in ballast) leg en route to load at a domestic port, may the shipowner invoke the lower Chinese limitation for vessels engaged in PRC port-to-port transport (50% of MSA Art. 210 baseline)?",
+       "prompt_tips": {
+       "laws": [
+       "PRC Maritime Code Arts. 204, 210, 213, 277",
+       "SPC Provisions on Limitation Fund (2020) Arts. 20-21",
+       "Ministry of Transport Rule on Limitation for <300 GT and Coastal Vessels (Art. 4)",
+       "SPC Guiding Case No. 16 (interpretive context)"
+        ],
+       "judgment_guidance": "Determine voyage nature by the accident voyage: if evidence shows the next leg is domestic port-to-port and the casualty location aligns with that route, an in-ballast leg is part of the domestic transport; the 50% coastal limitation applies."
+        },
+       "expected_verdict": "Court granted the application and fixed the fund at 229,959 SDR-equivalent (50% of Art. 210 calculation) plus interest.",
+       "difficulty": "medium",
+       "category": "maritime / special procedure",
+       "subcategory": "limitation of liability fund"
+     },
+     
   ],
   "count": 24,
   "metadata": {
     "source": "data/legal_dataset.json",
     "format": "json",
-    "created_by": "DatasetLoader",
     "dataset_type": "legal",
     "schema_note": "Each item includes an issue, tips (laws and judgment guidance), and an expected verdict. Output requirements should align with the expected verdict."
   }
