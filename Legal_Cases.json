@@ -542,80 +542,95 @@
       "subcategory": "operational preservation measures during reorg"
     },
     {
-       "id": "legal_034",
-       "title": "Change of Guardian with Third-Party Supervision of Minor's Property",
-       "problem": "When changing guardianship for a minor orphan, may the court—upon parties' consensus and after hearing the minor—appoint trusted third-party oversight of the minor's funds where the guardian's capacity or potential conflicts make direct management risky?",
-       "prompt_tips": {
-       "laws": [
-       "PRC General Principles of Civil Law Art. 18, Art. 22 (older regime; cited in case)",
-       "PRC General Provisions of Civil Law Art. 35",
-       "(Context) PRC Civil Code guardianship chapter (successor framework)"
-     ],
-       "judgment_guidance": "If guardians are elderly/limited or conflicts exist regarding the ward's property, the court may, with party agreement and minor's views, recognize a trusted third person as property supervisor to safeguard the ward's assets; such supervisor holds no ownership and bears liability for infringements."
-       },
-       "expected_verdict": "Court changed the guardian to the grandparents and approved third-party (relative) custodial supervision over RMB 300,000 until age 18.",
-       "difficulty": "easy",
-       "category": "civil / special procedure",
-       "subcategory": "guardianship change; property supervision"
-       },
-       {
-       "id": "legal_011",
-       "title": "Refusal to Enforce SIAC Award: Party Agreement on Three Arbitrators Overrides Fast-Track Sole Arbitrator",
-       "problem": "Under the New York Convention, should a Chinese court refuse to enforce a foreign award where the arbitration proceeded under SIAC fast-track with a sole arbitrator despite a clause expressly requiring a three-member tribunal?",
-       "prompt_tips": {
-       "laws": [
-       "CPL (PRC) Art. 283",
-       "New York Convention Art. V(1)(d)"
-      ],
-       "judgment_guidance": "Party autonomy governs basic procedure like tribunal composition; unless contrary to mandatory lex arbitri, a clause requiring three arbitrators must prevail over institutional fast-track default to a sole arbitrator. Failure to honor it triggers Art. V(1)(d) and justifies non-recognition."
-      },
-       "expected_verdict": "Court refused recognition and enforcement of the SIAC award due to tribunal composition not conforming to the parties' agreement (three arbitrators).",
-       "difficulty": "medium",
-       "category": "civil / recognition & enforcement",
-       "subcategory": "foreign arbitral award; tribunal composition"
-      },
-      {
-       "id": "legal_012",
-       "title": "Revocation of Guardian for Failure to Ensure Compulsory Education; Designation of Non-Relative Guardians",
-       "problem": "Can a court revoke a biological parent's guardianship for long-term neglect resulting in the child's lack of household registration and inability to access compulsory education, and appoint third parties (non-grandparents/siblings) as guardians?",
-       "prompt_tips": {
-       "laws": [
-       "PRC Civil Code Art. 27(2)",
-       "PRC Civil Code Art. 36(1)(1)-(3)",
-       "CPL (2017) Art. 134(1), Art. 178"
-       ],
-       "judgment_guidance": "Severe neglect impairing education constitutes serious infringement of the minor's lawful rights and meets grounds to revoke guardianship. Under the best-interests principle, courts may appoint willing third persons with stable capacity and close emotional ties as guardians, with village committee support."
-       },
-       "expected_verdict": "Court revoked the mother's guardianship and designated the long-term caretaking couple as the child's guardians.",
-       "difficulty": "easy",
-       "category": "civil / special procedure",
-       "subcategory": "guardianship revocation & designation"
-       },
-       {
-       "id": "legal_013",
-       "title": "LLMC Fund for Coastal Domestic Voyage While in Ballast",
-       "problem": "For a collision during an empty (in ballast) leg en route to load at a domestic port, may the shipowner invoke the lower Chinese limitation for vessels engaged in PRC port-to-port transport (50% of MSA Art. 210 baseline)?",
-       "prompt_tips": {
-       "laws": [
-       "PRC Maritime Code Arts. 204, 210, 213, 277",
-       "SPC Provisions on Limitation Fund (2020) Arts. 20-21",
-       "Ministry of Transport Rule on Limitation for <300 GT and Coastal Vessels (Art. 4)",
-       "SPC Guiding Case No. 16 (interpretive context)"
+      "id": "legal_034",
+      "title": "Change of Guardian with Third-Party Supervision of Minor's Property",
+      "problem": "When changing guardianship for a minor orphan, may the court—upon parties' consensus and after hearing the minor—appoint trusted third-party oversight of the minor's funds where the guardian's capacity or potential conflicts make direct management risky?",
+      "prompt_tips": {
+        "laws": [
+          "PRC General Principles of Civil Law Art. 18, Art. 22 (older regime; cited in case)",
+          "PRC General Provisions of Civil Law Art. 35",
+          "(Context) PRC Civil Code guardianship chapter (successor framework)"
         ],
-       "judgment_guidance": "Determine voyage nature by the accident voyage: if evidence shows the next leg is domestic port-to-port and the casualty location aligns with that route, an in-ballast leg is part of the domestic transport; the 50% coastal limitation applies."
-        },
-       "expected_verdict": "Court granted the application and fixed the fund at 229,959 SDR-equivalent (50% of Art. 210 calculation) plus interest.",
-       "difficulty": "medium",
-       "category": "maritime / special procedure",
-       "subcategory": "limitation of liability fund"
-     },
-     
+        "judgment_guidance": "If guardians are elderly/limited or conflicts exist regarding the ward's property, the court may, with party agreement and minor's views, recognize a trusted third person as property supervisor to safeguard the ward's assets; such supervisor holds no ownership and bears liability for infringements."
+      },
+      "expected_verdict": "Court changed the guardian to the grandparents and approved third-party (relative) custodial supervision over RMB 300,000 until age 18.",
+      "difficulty": "easy",
+      "category": "civil / special procedure",
+      "subcategory": "guardianship change; property supervision"
+    },
+    {
+      "id": "legal_035",
+      "title": "Refusal to Enforce SIAC Award: Party Agreement on Three Arbitrators Overrides Fast-Track Sole Arbitrator",
+      "problem": "Under the New York Convention, should a Chinese court refuse to enforce a foreign award where the arbitration proceeded under SIAC fast-track with a sole arbitrator despite a clause expressly requiring a three-member tribunal?",
+      "prompt_tips": {
+        "laws": [
+          "CPL (PRC) Art. 283",
+          "New York Convention Art. V(1)(d)"
+        ],
+        "judgment_guidance": "Party autonomy governs basic procedure like tribunal composition; unless contrary to mandatory lex arbitri, a clause requiring three arbitrators must prevail over institutional fast-track default to a sole arbitrator. Failure to honor it triggers Art. V(1)(d) and justifies non-recognition."
+      },
+      "expected_verdict": "Court refused recognition and enforcement of the SIAC award due to tribunal composition not conforming to the parties' agreement (three arbitrators).",
+      "difficulty": "medium",
+      "category": "civil / recognition & enforcement",
+      "subcategory": "foreign arbitral award; tribunal composition"
+    },
+    {
+      "id": "legal_036",
+      "title": "Revocation of Guardian for Failure to Ensure Compulsory Education; Designation of Non-Relative Guardians",
+      "problem": "Can a court revoke a biological parent's guardianship for long-term neglect resulting in the child's lack of household registration and inability to access compulsory education, and appoint third parties (non-grandparents/siblings) as guardians?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Civil Code Art. 27(2)",
+          "PRC Civil Code Art. 36(1)(1)-(3)",
+          "CPL (2017) Art. 134(1), Art. 178"
+        ],
+        "judgment_guidance": "Severe neglect impairing education constitutes serious infringement of the minor's lawful rights and meets grounds to revoke guardianship. Under the best-interests principle, courts may appoint willing third persons with stable capacity and close emotional ties as guardians, with village committee support."
+      },
+      "expected_verdict": "Court revoked the mother's guardianship and designated the long-term caretaking couple as the child's guardians.",
+      "difficulty": "easy",
+      "category": "civil / special procedure",
+      "subcategory": "guardianship revocation & designation"
+    },
+    {
+      "id": "legal_037",
+      "title": "LLMC Fund for Coastal Domestic Voyage While in Ballast",
+      "problem": "For a collision during an empty (in ballast) leg en route to load at a domestic port, may the shipowner invoke the lower Chinese limitation for vessels engaged in PRC port-to-port transport (50% of MSA Art. 210 baseline)?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Maritime Code Arts. 204, 210, 213, 277",
+          "SPC Provisions on Limitation Fund (2020) Arts. 20-21",
+          "Ministry of Transport Rule on Limitation for <300 GT and Coastal Vessels (Art. 4)",
+          "SPC Guiding Case No. 16 (interpretive context)"
+        ],
+        "judgment_guidance": "Determine voyage nature by the accident voyage: if evidence shows the next leg is domestic port-to-port and the casualty location aligns with that route, an in-ballast leg is part of the domestic transport; the 50% coastal limitation applies."
+      },
+      "expected_verdict": "Court granted the application and fixed the fund at 229,959 SDR-equivalent (50% of Art. 210 calculation) plus interest.",
+      "difficulty": "medium",
+      "category": "maritime / special procedure",
+      "subcategory": "limitation of liability fund"
+    },
+    {
+      "id": "legal_038",
+      "title": "Shanghai Jiamian (Mask) Info Tech v. Yunrui, Youxing, Wolf Kill (Hainan), NetEase Leihuo — Pre-litigation Behavior Preservation for Unfair Competition",
+      "problem": "Issue: During pending trademark-license disputes, direct competitors widely file platform complaints/warnings to force takedowns of the rival app ('Werewolves/狼人杀'). Does such conduct violate fair competition and justify a pre-litigation behavior preservation (injunction) to stop the complaints?",
+      "prompt_tips": {
+        "laws": [
+          "PRC Civil Procedure Law (2017) Articles 100, 101, 108",
+          "SPC Provisions on Behavior Preservation in IP Disputes Articles 5, 6, 7, 10, 11"
+        ],
+        "judgment_guidance": "Fair competition rights persist despite pending contract disputes. Large-scale complaints against a direct competitor on disputed facts during litigation, causing delisting/market exclusion, breach good faith and business ethics and constitute unfair competition; urgent behavior preservation may be granted to prevent irreparable harm."
+      },
+      "expected_verdict": "Pre-litigation injunction granted ordering the respondents to cease platform complaints (including warnings/takedown requests) until final judgment; reconsideration rejected and original injunction maintained.",
+      "difficulty": "medium",
+      "category": "civil / non-litigation procedure",
+      "subcategory": "pre-litigation behavior preservation / unfair competition"
+    }
   ],
-  "count": 24,
+  "count": 38,
   "metadata": {
     "source": "data/legal_dataset.json",
     "format": "json",
     "dataset_type": "legal",
     "schema_note": "Each item includes an issue, tips (laws and judgment guidance), and an expected verdict. Output requirements should align with the expected verdict."
   }
-} 
+}
