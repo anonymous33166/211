@@ -677,13 +677,158 @@
         ],
         "judgment_guidance": "If both parents and other close relatives lack guardianship capacity due to disability or poverty, and the designated guardian is unwilling or unable to fulfill duties, the court should revoke the designation and, in the ward’s best interest, appoint the local civil affairs authority as guardian through its welfare institution."
       },
-      "expected_verdict": "First-instance (Zhenjiang Economic Development Zone People’s Court): The court revoked the village committee’s designation of the applicant as guardian of the infant (Minor B) and appointed the Zhenjiang Civil Affairs Bureau as the new guardian, to be implemented by the Zhenjiang Children’s Welfare Institute. Judgment rendered on 2014-08-22.",
+      "expected_verdict": "First-instance (Zhenjiang Economic Development Zone People's Court): The court revoked the village committee's designation of the applicant as guardian of the infant (Minor B) and appointed the Zhenjiang Civil Affairs Bureau as the new guardian, to be implemented by the Zhenjiang Children's Welfare Institute. Judgment rendered on 2014-08-22.",
       "difficulty": "medium",
       "category": "legal",
       "subcategory": "revocation of guardian qualification (special procedure)"
+    },
+    {
+      "id": "legal_042",
+      "title": "Hengmei Yarn Co. v. Shenzhen Bain & Company Soho International Freight Forwarding Co. — Maritime Cargo Transport Contract (Delivery without Original B/L & Foreign Law Ascertainment)",
+      "problem": "Issue: When a carrier delivers cargo at a foreign port without the original bill of lading, may the carrier invoke an exemption under the law of the port of discharge where such law mandates delivery to local customs or port authorities? How should Chinese courts determine and apply 'law of the port of discharge' under the judicial interpretation on delivery without original B/L? Guidance: Distinguish between foreign substantive law applicable as the governing law of the contract (ascertained by the court under the PRC Law on Application of Law for Foreign-Related Civil Relations) and foreign law referenced as a defense ground after the governing law has been determined to be PRC law; when a carrier claims exemption under Art. 7 of the SPC Interpretation on Delivery without Original B/L Cases, the carrier bears the burden of proving both (1) that the law of the port of discharge mandates delivery to local customs/port authorities, and (2) that the cargo was actually delivered to such authorities.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Law on Application of Law for Foreign-Related Civil Relations Article 8",
+          "PRC Law on Application of Law for Foreign-Related Civil Relations Article 10(1)",
+          "PRC Maritime Code Article 269",
+          "SPC Interpretation on Delivery without Original B/L Cases Article 3",
+          "SPC Interpretation on Delivery without Original B/L Cases Article 7"
+        ],
+        "judgment_guidance": "After determining PRC law as the governing law, 'law of the port of discharge' under SPC Interpretation Art. 7 is a defense invoked by the carrier and does not constitute 'foreign law' under the Law on Application of Law Art. 10(1) that must be ascertained by the court; the burden of proving the existence and content of such foreign law lies with the party invoking it. The carrier must prove both the existence of mandatory delivery laws at the discharge port and actual delivery to local authorities to qualify for exemption."
+      },
+      "expected_verdict": "First-instance (Tianjin Maritime Court): Carrier liable for cargo-price loss USD 148,658.16 plus interest; Second-instance (Tianjin High People's Court): Appeal dismissed, original judgment affirmed.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "maritime transport / delivery without original B/L / foreign law burden of proof"
+    },
+    {
+      "id": "legal_043",
+      "title": "Jiangsu Jinma Shipping Group v. PICC Jingjiang Branch — Marine Insurance Contract (Vessel Overloading & Reference Cargo Capacity)",
+      "problem": "Issue: In a marine cargo insurance contract that lists vessel overloading as an exclusion but does not define 'overloading,' may the insurer deny coverage solely on the ground that actual cargo weight exceeded the 'reference cargo capacity' recorded in the vessel's inspection certificate? What is the proper standard for determining vessel overloading? Guidance: The 'reference cargo capacity' in a vessel inspection certificate is an approximate design value for cargo with a certain stowage factor and serves only as a reference; it cannot be the sole basis for finding overloading. Overloading under maritime safety terminology means the vessel's actual total load (cargo, fuel, water, stores) exceeds the applicable loadline such that freeboard is insufficient and the vessel is unseaworthy. In the absence of a contractual definition, courts should apply the industry-standard loadline criterion; an insurer's claim for exemption based solely on cargo weight exceeding reference capacity should be rejected.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Insurance Law Article 14",
+          "PRC Insurance Law Article 64",
+          "Water Safety Supervision Terminology 3.1.27 (vessel overloading definition)"
+        ],
+        "judgment_guidance": "Reference cargo capacity is not a determinative overloading standard. Assess overloading by whether the vessel exceeded the applicable loadline (freeboard standard). Where the insurance contract does not define overloading, apply the recognized maritime safety standard. If evidence (including on-site loading tests) shows the vessel did not exceed loadlines, the insurer bears the burden of proving overloading and cannot rely solely on reference-capacity figures. Courts should also note an insurer's failure to investigate promptly after receiving notice of loss."
+      },
+      "expected_verdict": "First-instance (Nanjing Maritime Court): Insurer liable to pay RMB 117,540.80 to the vessel operator after applying value-proportionate sharing of salvage costs, under-insurance deduction, and franchise; judgment became final as neither party appealed.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "marine insurance / overloading criteria / insurer exemption"
+    },
+    {
+      "id": "legal_044",
+      "title": "Jiangsu Weilun Shipping v. Miranda Rose Ltd. — Vessel Collision Damages (Agreed Violation of COLREGs)",
+      "problem": "Issue: When two vessels agree by radio to navigate in a manner contrary to the International Regulations for Preventing Collisions at Sea, 1972 (COLREGs) and subsequently collide, how should courts allocate fault? May either party rely solely on the other's breach of the agreement or solely on COLREGs duties to shift liability? Guidance: Neither vessel may invoke the violated agreement alone or COLREGs alone to aggravate the other's fault or reduce its own. Courts should apply COLREGs as the fundamental standard, consider the content of the parties' agreement, comprehensively analyze how the close-quarters situation arose and whether maneuvers were appropriate, and then assess fault. Where vessels consensually agree to 'green-to-green' passing (violating give-way obligations), both assume equal responsibility to navigate with special caution; subsequent failure by both to keep proper lookout and take timely collision-avoidance action results in equal fault.",
+      "prompt_tips": {
+        "laws": [
+          "International Regulations for Preventing Collisions at Sea, 1972 (COLREGs)",
+          "SPC Provisions on Adjudicating Vessel Collision Disputes"
+        ],
+        "judgment_guidance": "Agreed deviations from COLREGs do not create new legal 'give-way' and 'stand-on' duties; both vessels bear equal collision-avoidance responsibility. Courts must evaluate compliance with lookout, safe speed, and collision-avoidance rules under COLREGs and allocate liability based on each vessel's contribution to the casualty. In consensual violations, equal fault (50/50) is often appropriate when both fail in caution and timely action."
+      },
+      "expected_verdict": "First-instance (Shanghai Maritime Court): Both vessels equally at fault (50% each); Miranda Rose Ltd. liable for 50% of plaintiff's damages; judgment became final as neither party appealed.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "vessel collision / agreed deviation from navigation rules"
+    },
+    {
+      "id": "legal_045",
+      "title": "Junrong Underwear Co. v. CEVA Freight (Shenzhen) Co. — Marine Freight Forwarding Contract (FCR vs. Transport Contract & Forwarder Liability)",
+      "problem": "Issue: Does a freight forwarder's cargo receipt (FCR) that contains shipping information but expressly states the forwarder acts 'as agent, not as carrier' constitute proof of a contract of carriage? What is the scope of a freight forwarder's duty and liability when the shipper requests the forwarder to stop delivery or return goods in transit? Guidance: A transport document other than a B/L can evidence a contract of carriage only if it embodies mutual intent to contract for carriage. An FCR bearing an express disclaimer of carrier status and issued in the context of a FOB sale (where the buyer arranges transport) is merely a cargo receipt, not proof of a carriage contract. A freight forwarder's obligations are defined by the freight forwarding contract; the forwarder is liable for breach only under a fault-presumption standard and may exonerate itself by proving it fulfilled agency duties without fault. Where the forwarder has no control over the goods and properly relays the shipper's instructions to the principal, it is not liable for the principal's ultimate delivery decision.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Maritime Code Article 80(1)",
+          "SPC Provisions on Marine Freight Forwarding Disputes Article 10"
+        ],
+        "judgment_guidance": "An FCR stating 'as freight forwarder, not as carrier' and issued in a FOB transaction does not create a contract of carriage with the shipper. The forwarder's duty is to exercise reasonable care in selecting third parties and relaying instructions; it is not liable for acts/omissions of the actual carrier or principal. Apply fault-presumption: if the forwarder proves it completed agreed services (e.g. port charges, document handling) and promptly communicated the shipper's stop-delivery request without fault, it bears no liability for cargo loss arising from the principal's delivery to the consignee."
+      },
+      "expected_verdict": "First-instance (Guangzhou Maritime Court): Forwarder liable for cargo loss; Second-instance (Guangdong High People's Court): Reversed; forwarder not liable as it acted without fault and had no duty or ability to control cargo under the freight forwarding contract.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "marine freight forwarding / FCR nature / forwarder fault-based liability"
+    },
+    {
+      "id": "legal_046",
+      "title": "Person A v. Person B, Zhejiang Haisheng Shipping Co. & Person C — Marine Aquaculture Damage Tort (Unlicensed Aquaculture & Conflicting Expert Opinions)",
+      "problem": "Issue: When an unlicensed aquaculture operator's facilities are damaged by a vessel, may the operator recover for lost aquaculture income and damaged facilities? When multiple expert reports on the extent and quantity of damage diverge significantly, how should courts evaluate conflicting opinions? Guidance: An unlicensed aquaculture operator may not recover lost aquaculture profits (as the unlicensed activity itself is not legally protected), but may recover reasonable costs to repair or replace damaged facilities (as owner of the facilities). When expert reports conflict materially, courts may employ expert witness assistants and apply common-sense evaluation to assess the objectivity and reasonableness of each report, giving priority to court-appointed on-site assessments made promptly after the incident over later desktop analyses.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Tort Liability Law (former) Article 6(1)",
+          "PRC Maritime Code Article 21",
+          "PRC Maritime Code Article 22(1)(v)",
+          "PRC Maritime Code Article 28",
+          "PRC Maritime Code Article 29(1)(i)"
+        ],
+        "judgment_guidance": "Distinguish between unlawful aquaculture activity (income not recoverable) and ownership of damaged facilities (repair costs recoverable). Allocate fault between the vessel operator (primary fault for entering aquaculture area without proper navigation) and the aquaculture operator (secondary fault for lack of proper marking/lighting and unlicensed operation). When expert reports diverge—one based on immediate on-site measurement, another on later theoretical calculation—prefer the on-site assessment unless clear evidence shows it is unreliable. Apply comparative-fault reduction. Recognize maritime lien for aquaculture damage claims; if the vessel is arrested and then released on security, the lien converts to a claim against the security within the guaranteed amount."
+      },
+      "expected_verdict": "First-instance (Dalian Maritime Court): Vessel operator liable to pay RMB 384,602.40 plus interest (195 damaged rafts at 80% loss rate, applying 80/20 fault split); vessel owner liable within RMB 810,000 security amount; other claims dismissed. Second-instance (Liaoning High People's Court): Appeal dismissed, original judgment affirmed.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "marine aquaculture damage tort / unlicensed activity / conflicting expert reports"
+    },
+    {
+      "id": "legal_047",
+      "title": "Person A v. Person B & Person C — Marine Personal Injury Tort (Employer Liability & 'Forum Court Location' for Disability Compensation)",
+      "problem": "Issue: When an employee is injured during commercial fishing operations under an employment relationship between individuals, must the employer prove fault to be liable, or does strict liability apply? When calculating disability compensation under the SPC Interpretation on Personal Injury Compensation, does 'location of the forum court' refer to the location of a branch tribunal or to the institutional seat of the court itself? Guidance: Individual employment relationships arising from commercial and profit-making activities (as opposed to household services) are governed by strict employer liability under the SPC Personal Injury Interpretation Art. 11; the employer is liable regardless of fault. 'Forum court location' in Art. 25 refers to the institutional seat of the court that accepted the case, not to any branch tribunal that may hear it; for specialized courts with multi-provincial jurisdiction, use the statistical data of the municipality where the court's headquarters is located (e.g., a separately planned municipality).",
+      "prompt_tips": {
+        "laws": [
+          "PRC Tort Liability Law (former) Article 35",
+          "SPC Interpretation on Personal Injury Compensation Cases Article 11",
+          "SPC Interpretation on Personal Injury Compensation Cases Article 25",
+          "SPC Interpretation on Personal Injury Compensation Cases Article 35"
+        ],
+        "judgment_guidance": "Distinguish personal-service employment (housekeeping, nannies—fault-based under Tort Liability Law Art. 35) from commercial employment (fishing, business operations—strict liability under SPC Interpretation Art. 11). The employer in a commercial fishing employment relationship bears no-fault liability for crew injuries during employment activities unless the employee has intent or gross negligence. For disability compensation, identify the 'forum court' as the court institution (not its branch tribunal); if the court sits in a separately planned municipality, apply that municipality's per-capita disposable income statistics. Calculate compensation according to disability grade, local income standard, and duration as prescribed."
+      },
+      "expected_verdict": "First-instance (Dalian Maritime Court): Employer liable for RMB 126,525.81 in total damages (disability, lost wages, medical expenses, minus RMB 34,600 advance payment). Second-instance (Liaoning High People's Court): Partially modified; disability compensation increased to RMB 344,719.20 (based on Dalian municipal standard as the court's institutional seat), nursing care, nutrition, moral damages, and subsistence allowances adjusted; other claims dismissed.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "marine personal injury / employer strict liability / forum-court location standard"
+    },
+    {
+      "id": "legal_048",
+      "title": "Person A v. Person B & Shengsi Jiangshan Shipping Co. — Vessel Collision Damages (Loss of Right to Limit Maritime Liability for Serious Repeated Violations)",
+      "problem": "Issue: When a vessel has engaged in long-term, repeated serious violations of navigation laws (including sailing beyond permitted zones, sailing without port clearances, unlicensed crew, and insufficient manning) and then flees the collision scene, has the shipowner forfeited the right to limit maritime liability under the Maritime Code? What standard should courts apply to determine whether a responsible party acted with intent or 'recklessly with knowledge that damage would probably result'? Guidance: The right to limit maritime liability is lost when the responsible party (owner/operator) personally acted with intent or recklessly with knowledge that loss would probably result. Long-term, repeated serious violations (ultra vires navigation, no clearances, unlicensed operation, undermanning) combined with fleeing after collision demonstrate that the responsible party knew such conduct would likely cause loss yet continued to act or omit action recklessly. Such conduct constitutes grounds for forfeiture of limitation rights under Maritime Code Art. 209 and SPC Maritime Limitation Provisions Art. 19.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Maritime Code Article 166",
+          "PRC Maritime Code Article 209",
+          "PRC Maritime Traffic Safety Law Articles 4, 5, 6, 34, 37",
+          "International Regulations for Preventing Collisions at Sea (COLREGs) Rules 5, 6, 19, 35",
+          "SPC Provisions on Maritime Limitation Disputes Article 19"
+        ],
+        "judgment_guidance": "Assess whether the shipowner/operator personally (not merely crew) knew or should have known that serious violations (ultra vires sailing, no port clearances, unlicensed/insufficient crew) create substantial risk of collision and loss. Evidence of long-term, systematic violations (not isolated incidents) and corporate acquiescence (operator's safety notices admitting widespread violations) supports a finding of reckless conduct. Post-collision flight without rescue or reporting, when the owner was informed and failed to order proper response, further demonstrates reckless disregard. Apply comparative fault principles to allocate collision liability between vessels; the violating vessel bears primary (e.g., 70%) liability. Both owner and registered operator are jointly liable without limitation when forfeiture is established."
+      },
+      "expected_verdict": "First-instance (Shanghai Maritime Court): Person B (vessel owner) liable to pay Person A RMB 3,332,948.80 plus interest without limitation of liability; Jiangshan Shipping Co. (registered operator) jointly liable; counterclaim dismissed. Second-instance (Shanghai High People's Court): Appeal dismissed, original judgment affirmed.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "vessel collision / forfeiture of maritime limitation / serious repeated violations"
+    },
+    {
+      "id": "legal_049",
+      "title": "Minsheng Financial Leasing Co. v. Zhejiang Honglin Marine Engineering Co., Person A & Person B — Vessel Finance Lease Contract (Post-Termination Use Fees & Setoff Order)",
+      "problem": "Issue: When a finance lease contract is terminated due to lessee's default and the vessel's market value has drastically depreciated, may the lessor claim use fees for the period the lessee continues to occupy the vessel after termination without resorting to appraisal and auction? How should courts calculate such use fees? What is the proper order of setoff when the lessee has paid deposits, advance rent, and partial rent? Guidance: Under Contract Law Arts. 97 and 248, upon termination for lessee's material breach, the lessor may reclaim the leased vessel and claim damages for continued unlawful occupation. To avoid forced appraisal/auction in a depressed market with severe vessel depreciation, courts may allow the lessor to claim use fees at the contractual rental rate from termination until actual return. Apply the contractual setoff sequence (fees → penalties → damages → rent → purchase price) and the fairness principle to determine which payments offset which obligations.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Contract Law Article 8",
+          "PRC Contract Law Article 93",
+          "PRC Contract Law Article 97",
+          "PRC Contract Law Article 107",
+          "PRC Contract Law Article 248",
+          "PRC Security Law Article 18(1)",
+          "PRC Security Law Article 31"
+        ],
+        "judgment_guidance": "When the lessee fails to pay rent for multiple consecutive periods (constituting material breach), the lessor may terminate the lease and reclaim the vessel. Post-termination use fees for continued occupation should be calculated at the pre-termination rental rate to promote prompt return and fairness, but without additional penalty interest (as the lease relationship has ended). Apply contractual setoff order: (1) fees, (2) penalties, (3) damages, (4) rent, (5) purchase price. Deposits converted to advance rent and partial payments should offset arrears in reverse chronological order (most recent periods first) unless contract specifies otherwise. Asset management fees agreed in supplemental contracts are enforceable if within the scope of the finance lease transaction. Penalty clauses at 0.05% per day are reasonable in the finance lease context when benchmarked against financial-sector penalty interest norms. Guarantors remain jointly liable for all obligations including post-termination use fees."
+      },
+      "expected_verdict": "First-instance (Tianjin Maritime Court): Finance lease contract terminated as of 2013-11-21; lessee to return vessel and pay RMB 17,011,342.69 in arrears rent, corresponding penalties (0.05% per day on each period's principal from due date), RMB 938,312.94 in asset management fees and penalties, and post-termination use fees at RMB 3,809,130.93 per period until return; Person A and Person B jointly liable as guarantors; judgment became final as no party appealed.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "vessel finance lease / post-termination use fees / setoff order / penalty adjustment"
     }
   ],
-  "count": 41,
+  "count": 49,
   "metadata": {
     "source": "data/legal_dataset.json",
     "format": "json",
