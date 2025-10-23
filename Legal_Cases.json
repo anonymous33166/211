@@ -12849,6 +12849,3286 @@
       "category": "legal",
       "subcategory": "environmental crime"
     }，
+    {
+      "id": "legal_801",
+      "title": "Person ZZN False Declaration of Company Registered Capital Case",
+      "problem": "Issue: The defendant inflated registered capital on company filings to secure government contracts. Should this be punished as falsifying financial documents? Guidance: Confirm false reporting and resulting benefit.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 160",
+          "Company Law (2023 Revision) Article 27"
+        ],
+        "judgment_guidance": "Falsely declaring registered capital to gain contracts constitutes falsifying financial documents crime."
+      },
+      "expected_verdict": "Convicted of falsifying financial documents; sentenced to seven years imprisonment and fine imposed.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "financial crime"
+    },
+    {
+      "id": "legal_802",
+      "title": "Person ZZO Unauthorized Collection of Students’ Facial Data Case",
+      "problem": "Issue: The defendant school collected students’ facial images for attendance without parental consent. Should this be punished as infringement of personal information? Guidance: Confirm consent and data handling.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 253-1",
+          "Personal Information Protection Law (2021) Article 44"
+        ],
+        "judgment_guidance": "Collecting minors’ biometric data without parental consent constitutes infringement of citizens’ personal information crime."
+      },
+      "expected_verdict": "Convicted of infringement of personal information; sentenced to five years imprisonment and fine imposed.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "cybercrime"
+    },
+    {
+      "id": "legal_803",
+      "title": "Person ZZP Illegal Occupation of Urban Riverbank Case",
+      "problem": "Issue: The defendant built illegal structures on a city riverbank for restaurant use. Should this be punished as illegal occupation of farmland? Guidance: Confirm land category and permit absence.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 342",
+          "Urban Planning Law (2020 Revision) Article 47"
+        ],
+        "judgment_guidance": "Constructing private buildings on public riverbanks without permit constitutes illegal occupation of farmland crime."
+      },
+      "expected_verdict": "Convicted of illegal occupation of farmland; sentenced to six years imprisonment and demolition ordered.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "land crime"
+    },
+    {
+      "id": "legal_804",
+      "title": "Person ZZQ Unauthorized Export of Marine Algae Genetic Material Case",
+      "problem": "Issue: The defendant sent marine algae DNA samples to a foreign institution. Should this be punished as illegal acquisition of genetic resources? Guidance: Confirm genetic origin and export permit.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 334",
+          "Biosecurity Law (2020) Article 99"
+        ],
+        "judgment_guidance": "Sending marine biological genetic materials abroad without authorization constitutes illegal acquisition of genetic resources crime."
+      },
+      "expected_verdict": "Convicted of illegal acquisition of genetic resources; sentenced to eight years imprisonment and confiscation of samples.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "biosecurity crime"
+    },
+    {
+      "id": "legal_805",
+      "title": "Person ZZR Forgery of Enterprise Business License Case",
+      "problem": "Issue: The defendant fabricated a company license to bid for government projects. Should this be punished as forgery of official documents? Guidance: Confirm forgery and business intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280",
+          "Administrative Licensing Law (2021 Revision) Article 62"
+        ],
+        "judgment_guidance": "Forging official business licenses for tendering constitutes forgery of official documents crime."
+      },
+      "expected_verdict": "Convicted of forgery of official documents; sentenced to eight years imprisonment and fine imposed.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "forgery"
+    },
+    {
+      "id": "legal_806",
+      "title": "Person ZZS Negligent Fire at Gas Pipeline Construction Site Case",
+      "problem": "Issue: The defendant’s team failed to follow safety protocols during pipeline welding. Should this be punished as major liability accident? Guidance: Confirm negligence and damage severity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 134",
+          "Work Safety Law (2021 Revision) Article 90"
+        ],
+        "judgment_guidance": "Negligent operation at hazardous sites causing fire and casualties constitutes major liability accident crime."
+      },
+      "expected_verdict": "Convicted of major liability accident; sentenced to eight years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "public safety crime"
+    },
+    {
+      "id": "legal_807",
+      "title": "Person ZZT Illegal Production of Counterfeit Alcohol Case",
+      "problem": "Issue: The defendant manufactured fake liquor under well-known brand names. Should this be punished as producing or selling fake products? Guidance: Confirm harm to health and counterfeit volume.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 140",
+          "Food Safety Law (2021 Revision) Article 148"
+        ],
+        "judgment_guidance": "Producing counterfeit alcoholic beverages with false labeling constitutes producing and selling fake products crime."
+      },
+      "expected_verdict": "Convicted of producing and selling fake products; sentenced to ten years imprisonment and fine imposed.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "public health crime"
+    },
+    {
+      "id": "legal_808",
+      "title": "Person ZZU Online Investment Scam via Cryptocurrency Platform Case",
+      "problem": "Issue: The defendant used a fake crypto exchange to deceive investors. Should this be punished as fraud? Guidance: Confirm digital asset manipulation and loss extent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266",
+          "Cybersecurity Law (2017) Article 27"
+        ],
+        "judgment_guidance": "Operating false cryptocurrency exchanges for personal gain constitutes fraud crime."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to ten years imprisonment and restitution ordered.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cybercrime"
+    },
+    {
+      "id": "legal_809",
+      "title": "Person ZZV Illegal Dumping of Steel Manufacturing Waste Case",
+      "problem": "Issue: The defendant dumped slag and iron residues into farmland. Should this be punished as environmental pollution? Guidance: Confirm pollution level and agricultural impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338",
+          "Solid Waste Pollution Prevention Law (2020 Revision) Article 80"
+        ],
+        "judgment_guidance": "Dumping steel industry waste into farmland constitutes environmental pollution crime."
+      },
+      "expected_verdict": "Convicted of environmental pollution; sentenced to eight years imprisonment and cleanup ordered.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "environmental crime"
+    },
+    {
+      "id": "legal_810",
+      "title": "Person ZZW False Audit Report for IPO Application Case",
+      "problem": "Issue: The defendant CPA issued a false audit report to help a company go public. Should this be punished as falsifying financial documents? Guidance: Confirm false audit opinion and investor losses.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 160",
+          "Securities Law (2020 Revision) Article 197"
+        ],
+        "judgment_guidance": "Issuing false audit reports for IPO applications constitutes falsifying financial documents crime."
+      },
+      "expected_verdict": "Convicted of falsifying financial documents; sentenced to nine years imprisonment and fine imposed.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "financial crime"
+    },
+    {
+      "id": "legal_811",
+      "title": "Person ZZX Unauthorized Leasing of Forest Reserve Land Case",
+      "problem": "Issue: The defendant leased protected forest reserve land to private logging companies. Should this be punished as illegal transfer of land use rights? Guidance: Confirm ownership and deforestation impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 228",
+          "Forest Law (2019 Revision) Article 52"
+        ],
+        "judgment_guidance": "Leasing forest reserve land for commercial logging without authorization constitutes illegal transfer of land use rights crime."
+      },
+      "expected_verdict": "Convicted of illegal transfer of land use rights; sentenced to eight years imprisonment and confiscation of proceeds.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "land crime"
+    },
+    {
+      "id": "legal_812",
+      "title": "Person ZZY Unauthorized Export of Medical Bacterial Strains Case",
+      "problem": "Issue: The defendant exported hospital bacterial isolates to a foreign lab without approval. Should this be punished as illegal acquisition of genetic resources? Guidance: Confirm medical source and export permit.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 334",
+          "Biosecurity Law (2020) Article 99"
+        ],
+        "judgment_guidance": "Exporting medical microorganism strains abroad without permit constitutes illegal acquisition of genetic resources crime."
+      },
+      "expected_verdict": "Convicted of illegal acquisition of genetic resources; sentenced to eight years imprisonment and confiscation of samples.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "biosecurity crime"
+    },
+    {
+      "id": "legal_813",
+      "title": "Person ZZZ Forgery of School Diploma Certificates Case",
+      "problem": "Issue: The defendant forged diplomas to gain employment in educational institutions. Should this be punished as forgery of official documents? Guidance: Confirm forgery scope and benefit gained.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280",
+          "Education Law (2021 Revision) Article 59"
+        ],
+        "judgment_guidance": "Producing or using forged academic certificates constitutes forgery of official documents crime."
+      },
+      "expected_verdict": "Convicted of forgery of official documents; sentenced to six years imprisonment and fine imposed.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "forgery"
+    },
+    {
+      "id": "legal_814",
+      "title": "Person ZZAa Negligent Gas Explosion in Residential Area Case",
+      "problem": "Issue: The defendant, as property manager, ignored reports of gas leaks. Should this be punished as major liability accident? Guidance: Confirm negligence and casualties.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 134",
+          "Work Safety Law (2021 Revision) Article 90"
+        ],
+        "judgment_guidance": "Negligent management of gas facilities resulting in explosion constitutes major liability accident crime."
+      },
+      "expected_verdict": "Convicted of major liability accident; sentenced to eight years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "public safety crime"
+    },
+    {
+      "id": "legal_815",
+      "title": "Person ZZAb Illegal Discharge of Waste Paintwater from Factory Case",
+      "problem": "Issue: The defendant discharged untreated paint-contaminated water into city drainage systems. Should this be punished as environmental pollution? Guidance: Confirm chemical levels and damage scope.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338",
+          "Water Pollution Prevention and Control Law (2018 Revision) Article 82"
+        ],
+        "judgment_guidance": "Discharging untreated paint wastewater into urban drainage constitutes environmental pollution crime."
+      },
+      "expected_verdict": "Convicted of environmental pollution; sentenced to seven years imprisonment and cleanup ordered.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "environmental crime"
+    }，
+    {
+      "id": "legal_816",
+      "title": "Person C Contract Fraud Case",
+      "problem": "Issue: The defendant fabricated a construction project contract to obtain an advance payment from the victim company. Whether such act constitutes contract fraud under PRC law? Guidance: Determine whether the intent to defraud existed from the beginning of contract formation.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 224",
+          "Supreme People's Court Interpretation on Economic Crimes Article 9"
+        ],
+        "judgment_guidance": "If there was no genuine intent to perform the contract at inception, it constitutes contract fraud rather than civil breach."
+      },
+      "expected_verdict": "Convicted of contract fraud; sentenced to 5 years imprisonment and fined RMB 50,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "contract fraud"
+    },
+    {
+      "id": "legal_817",
+      "title": "Person D Embezzlement of Public Funds Case",
+      "problem": "Issue: The defendant, a public employee, temporarily used company funds for personal investment and later repaid them. Whether this constitutes embezzlement? Guidance: Assess whether the act of misappropriation was for illegal use and caused potential loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 384",
+          "Interpretation on Handling Corruption and Bribery Cases Article 15"
+        ],
+        "judgment_guidance": "Using public funds for personal gain, even if repaid, still constitutes embezzlement if the purpose was illegal."
+      },
+      "expected_verdict": "Convicted of embezzlement; sentenced to 3 years imprisonment, suspended for 4 years.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "embezzlement"
+    },
+    {
+      "id": "legal_818",
+      "title": "Person E Intentional Injury Case",
+      "problem": "Issue: The defendant injured another during a quarrel using a beer bottle. Whether it constitutes intentional injury or ordinary assault? Guidance: Assess the means used, injury degree, and subjective intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 234"
+        ],
+        "judgment_guidance": "Using a dangerous object and causing moderate injury qualifies as intentional injury."
+      },
+      "expected_verdict": "Convicted of intentional injury; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "intentional injury"
+    },
+    {
+      "id": "legal_819",
+      "title": "Person F Illegal Detention Case",
+      "problem": "Issue: The defendant confined a debtor in a room to force repayment. Whether this constitutes illegal detention? Guidance: Evaluate whether personal liberty was unlawfully restricted.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 238"
+        ],
+        "judgment_guidance": "Detaining or restricting another's movement without authority constitutes illegal detention regardless of purpose."
+      },
+      "expected_verdict": "Convicted of illegal detention; sentenced to 1 year imprisonment and fined RMB 10,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "illegal detention"
+    },
+    {
+      "id": "legal_820",
+      "title": "Person G Environmental Pollution Case",
+      "problem": "Issue: The defendant company discharged untreated chemical waste into a river. Whether criminal liability arises for pollution? Guidance: Determine if the pollution exceeded national standards and caused serious consequences.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338",
+          "Environmental Protection Law of the PRC Article 63"
+        ],
+        "judgment_guidance": "Intentional or negligent discharge of hazardous waste exceeding limits constitutes environmental pollution crime."
+      },
+      "expected_verdict": "Company fined RMB 500,000; responsible person sentenced to 3 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "environmental pollution"
+    },
+    {
+      "id": "legal_821",
+      "title": "Person H Extortion Case",
+      "problem": "Issue: The defendant threatened to release compromising photos unless the victim paid money. Whether this constitutes extortion or blackmail? Guidance: Evaluate the use of threats to obtain unlawful benefits.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 274"
+        ],
+        "judgment_guidance": "Threatening to expose information to coerce property transfer constitutes extortion."
+      },
+      "expected_verdict": "Convicted of extortion; sentenced to 2 years imprisonment and fined RMB 20,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "extortion"
+    },
+    {
+      "id": "legal_822",
+      "title": "Person I Drug Trafficking Case",
+      "problem": "Issue: The defendant mailed methamphetamine hidden in parcels. Whether mailing constitutes 'trafficking'? Guidance: Assess whether transport or sale intent existed.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 347"
+        ],
+        "judgment_guidance": "Mailing narcotics for delivery constitutes trafficking regardless of direct sale."
+      },
+      "expected_verdict": "Convicted of drug trafficking; sentenced to 10 years imprisonment and confiscation of property.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "drug trafficking"
+    },
+    {
+      "id": "legal_823",
+      "title": "Person J Cyber Fraud Case",
+      "problem": "Issue: The defendant created a fake online shopping platform to defraud users. Whether this constitutes online fraud? Guidance: Determine if false representation and intent to gain existed.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266",
+          "Interpretation on Internet Crimes Article 7"
+        ],
+        "judgment_guidance": "Using online methods to deceive others for property constitutes fraud by means of information networks."
+      },
+      "expected_verdict": "Convicted of online fraud; sentenced to 6 years imprisonment and fined RMB 60,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cyber fraud"
+    },
+    {
+      "id": "legal_824",
+      "title": "Person K Intellectual Property Infringement Case",
+      "problem": "Issue: The defendant sold counterfeit branded electronics through e-commerce. Whether this constitutes trademark infringement? Guidance: Determine if the goods were identical or similar to registered trademarks.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 213",
+          "Trademark Law of the PRC Article 57"
+        ],
+        "judgment_guidance": "Unauthorized use of identical trademarks on goods sold for profit constitutes criminal infringement."
+      },
+      "expected_verdict": "Convicted of trademark infringement; sentenced to 2 years imprisonment and fined RMB 80,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "intellectual property"
+    },
+    {
+      "id": "legal_825",
+      "title": "Person L Bribery Case",
+      "problem": "Issue: The defendant offered money to a government official to expedite project approval. Whether it constitutes active bribery? Guidance: Examine the purpose and amount of the benefit.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 390"
+        ],
+        "judgment_guidance": "Providing money or property to officials for illegitimate benefits constitutes bribery even without success."
+      },
+      "expected_verdict": "Convicted of active bribery; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "bribery"
+    },
+    {
+      "id": "legal_826",
+      "title": "Person M Tax Evasion Case",
+      "problem": "Issue: The defendant falsified invoices to evade enterprise income tax. Whether this constitutes tax evasion? Guidance: Determine the deliberate intention and amount involved.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 201",
+          "Tax Collection and Administration Law Article 63"
+        ],
+        "judgment_guidance": "Fabricating invoices to reduce payable tax constitutes tax evasion once the threshold is met."
+      },
+      "expected_verdict": "Convicted of tax evasion; sentenced to 3 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "tax evasion"
+    },
+    {
+      "id": "legal_827",
+      "title": "Person N Illegal Business Operation Case",
+      "problem": "Issue: The defendant operated a securities trading platform without license. Whether this constitutes illegal business operation? Guidance: Determine if activities violated national regulations.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 225"
+        ],
+        "judgment_guidance": "Engaging in financial activities requiring license without approval constitutes illegal business operation."
+      },
+      "expected_verdict": "Convicted of illegal business operation; sentenced to 5 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "illegal business operation"
+    },
+    {
+      "id": "legal_828",
+      "title": "Person O Dangerous Driving Case",
+      "problem": "Issue: The defendant drove a car while intoxicated and caused a traffic accident. Whether this constitutes dangerous driving or traffic accident crime? Guidance: Focus on alcohol level and consequences.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 133(1)"
+        ],
+        "judgment_guidance": "Driving under influence of alcohol on public roads constitutes dangerous driving regardless of accidents."
+      },
+      "expected_verdict": "Convicted of dangerous driving; sentenced to 6 months detention and fined RMB 5,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "dangerous driving"
+    },
+    {
+      "id": "legal_829",
+      "title": "Person P Illegal Firearms Possession Case",
+      "problem": "Issue: The defendant purchased a pistol replica capable of firing metal pellets. Whether it constitutes illegal possession of firearms? Guidance: Assess weapon lethality and classification.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 128"
+        ],
+        "judgment_guidance": "Possession of imitation guns meeting firing energy threshold constitutes illegal firearms possession."
+      },
+      "expected_verdict": "Convicted of illegal possession of firearms; sentenced to 1 year imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "firearms possession"
+    },
+    {
+      "id": "legal_830",
+      "title": "Person Q Theft of Cultural Relics Case",
+      "problem": "Issue: The defendant stole ancient bronze ware from a museum warehouse. Whether it constitutes theft of cultural relics? Guidance: Verify relic classification and public ownership.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 328"
+        ],
+        "judgment_guidance": "Stealing cultural relics under state protection constitutes a more serious form of theft."
+      },
+      "expected_verdict": "Convicted of theft of cultural relics; sentenced to 7 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cultural relic theft"
+    },
+    {
+      "id": "legal_831",
+      "title": "Person R Obstruction of Official Duties Case",
+      "problem": "Issue: The defendant resisted police enforcement using violence. Whether this constitutes obstruction of official duties? Guidance: Examine the nature of the act and enforcement legitimacy.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 277"
+        ],
+        "judgment_guidance": "Using force or threat against on-duty officers constitutes obstruction of official duties."
+      },
+      "expected_verdict": "Convicted of obstruction of official duties; sentenced to 1 year imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "obstruction"
+    },
+    {
+      "id": "legal_832",
+      "title": "Person S Money Laundering Case",
+      "problem": "Issue: The defendant transferred and concealed proceeds from online fraud. Whether this constitutes money laundering? Guidance: Identify prior predicate crime and intent to conceal origin.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 191"
+        ],
+        "judgment_guidance": "Assisting in concealing or disguising illegal gains constitutes money laundering if knowing the source."
+      },
+      "expected_verdict": "Convicted of money laundering; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "money laundering"
+    },
+    {
+      "id": "legal_833",
+      "title": "Person T Negligent Homicide Case",
+      "problem": "Issue: The defendant failed to follow safety protocols leading to worker death. Whether this constitutes negligent homicide? Guidance: Assess foreseeability and violation of duty of care.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 233"
+        ],
+        "judgment_guidance": "Failure to perform duty resulting in death due to negligence constitutes negligent homicide."
+      },
+      "expected_verdict": "Convicted of negligent homicide; sentenced to 3 years imprisonment, suspended for 4 years.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "negligent homicide"
+    },
+    {
+      "id": "legal_834",
+      "title": "Person U Obscene Material Distribution Case",
+      "problem": "Issue: The defendant operated an online platform hosting obscene videos for profit. Whether it constitutes dissemination of obscene materials? Guidance: Evaluate the nature and public impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 363"
+        ],
+        "judgment_guidance": "Publishing or distributing obscene content online for profit constitutes dissemination of obscene materials."
+      },
+      "expected_verdict": "Convicted of dissemination of obscene materials; sentenced to 5 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "obscene materials"
+    },
+    {
+      "id": "legal_835",
+      "title": "Person V Illegal Logging Case",
+      "problem": "Issue: The defendant felled large quantities of state-owned forest trees without approval. Whether this constitutes illegal logging? Guidance: Check if the logging amount meets criminal threshold.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 345",
+          "Forest Law of the PRC Article 39"
+        ],
+        "judgment_guidance": "Unauthorized cutting of state forest resources exceeding limit constitutes illegal logging."
+      },
+      "expected_verdict": "Convicted of illegal logging; sentenced to 2 years imprisonment and fined RMB 30,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "illegal logging"
+    }，
+    {
+      "id": "legal_836",
+      "title": "Person W Counterfeiting Currency Case",
+      "problem": "Issue: The defendant used printing equipment to produce imitation banknotes. Whether this constitutes counterfeiting of currency? Guidance: Determine if the imitation is sufficient to circulate as genuine.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 170"
+        ],
+        "judgment_guidance": "Manufacturing or possessing counterfeit banknotes with intent to circulate constitutes counterfeiting of currency."
+      },
+      "expected_verdict": "Convicted of counterfeiting currency; sentenced to 8 years imprisonment and confiscation of equipment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "counterfeiting currency"
+    },
+    {
+      "id": "legal_837",
+      "title": "Person X Trademark Counterfeiting Case",
+      "problem": "Issue: The defendant printed fake packaging with registered brand logos and sold them to small factories. Whether it constitutes trademark counterfeiting? Guidance: Assess whether identical marks were reproduced.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 213"
+        ],
+        "judgment_guidance": "Producing identical marks without authorization constitutes counterfeiting trademarks regardless of scale."
+      },
+      "expected_verdict": "Convicted of counterfeiting trademarks; sentenced to 2 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "trademark counterfeiting"
+    },
+    {
+      "id": "legal_838",
+      "title": "Person Y Illegal Mining Case",
+      "problem": "Issue: The defendant mined sand and stone in a restricted riverbed area without a permit. Whether this constitutes illegal mining? Guidance: Evaluate environmental impact and violation of licensing.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 343"
+        ],
+        "judgment_guidance": "Mining mineral resources without a license or exceeding approved scope constitutes illegal mining."
+      },
+      "expected_verdict": "Convicted of illegal mining; sentenced to 3 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "illegal mining"
+    },
+    {
+      "id": "legal_839",
+      "title": "Person Z Forgery of State Documents Case",
+      "problem": "Issue: The defendant forged a government seal to issue a fake employment certificate. Whether it constitutes forgery of state documents? Guidance: Assess whether the forged seal was of an official organ.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280"
+        ],
+        "judgment_guidance": "Forging or altering official seals or documents of state organs constitutes forgery of state documents."
+      },
+      "expected_verdict": "Convicted of forgery of state documents; sentenced to 2 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "forgery"
+    },
+    {
+      "id": "legal_840",
+      "title": "Person AA Theft by Employee Case",
+      "problem": "Issue: The defendant, a warehouse keeper, secretly transferred company goods for resale. Whether this constitutes theft or embezzlement? Guidance: Identify whether property was entrusted or accessed secretly.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 264",
+          "PRC Criminal Law (2017 Amendment) Article 271"
+        ],
+        "judgment_guidance": "If property was secretly taken without entrustment, it is theft; if lawfully possessed then misappropriated, it is embezzlement."
+      },
+      "expected_verdict": "Convicted of theft; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "employee theft"
+    },
+    {
+      "id": "legal_841",
+      "title": "Person AB Insurance Fraud Case",
+      "problem": "Issue: The defendant faked a traffic accident to claim vehicle insurance compensation. Whether this constitutes insurance fraud? Guidance: Determine if deception caused illegal gain from insurer.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 198"
+        ],
+        "judgment_guidance": "Fabricating insurance incidents or evidence for claims constitutes insurance fraud."
+      },
+      "expected_verdict": "Convicted of insurance fraud; sentenced to 4 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "insurance fraud"
+    },
+    {
+      "id": "legal_842",
+      "title": "Person AC Smuggling Case",
+      "problem": "Issue: The defendant transported electronic cigarettes from overseas without declaration. Whether this constitutes smuggling? Guidance: Assess customs declaration obligations and tax evasion intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 153"
+        ],
+        "judgment_guidance": "Evading customs supervision to import restricted goods constitutes smuggling."
+      },
+      "expected_verdict": "Convicted of smuggling; sentenced to 3 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "smuggling"
+    },
+    {
+      "id": "legal_843",
+      "title": "Person AD False Testimony Case",
+      "problem": "Issue: The defendant, as a witness, intentionally made false statements in court. Whether this constitutes perjury? Guidance: Examine willfulness and effect on judicial outcome.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 305"
+        ],
+        "judgment_guidance": "Knowingly making false testimony in judicial proceedings constitutes perjury."
+      },
+      "expected_verdict": "Convicted of perjury; sentenced to 1 year imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "perjury"
+    },
+    {
+      "id": "legal_844",
+      "title": "Person AE Copyright Infringement Case",
+      "problem": "Issue: The defendant uploaded pirated movies for public download. Whether this constitutes copyright infringement? Guidance: Evaluate profit purpose and distribution scale.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 217",
+          "Copyright Law of the PRC Article 48"
+        ],
+        "judgment_guidance": "Unauthorized online distribution of copyrighted works for profit constitutes copyright infringement."
+      },
+      "expected_verdict": "Convicted of copyright infringement; sentenced to 2 years imprisonment and fined RMB 80,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "copyright infringement"
+    },
+    {
+      "id": "legal_845",
+      "title": "Person AF Harboring Criminals Case",
+      "problem": "Issue: The defendant provided shelter to a fugitive relative. Whether this constitutes harboring a criminal? Guidance: Determine whether the defendant knew about the fugitive’s crime.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 310"
+        ],
+        "judgment_guidance": "Providing shelter or assistance knowing one is a criminal constitutes harboring."
+      },
+      "expected_verdict": "Convicted of harboring a criminal; sentenced to 6 months detention.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "harboring"
+    },
+    {
+      "id": "legal_846",
+      "title": "Person AG Obstruction of Environmental Supervision Case",
+      "problem": "Issue: The defendant assaulted inspectors who were checking illegal waste discharge. Whether this constitutes obstruction of environmental supervision? Guidance: Examine violence against administrative officials.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 277",
+          "Environmental Protection Law of the PRC Article 64"
+        ],
+        "judgment_guidance": "Violence or threats against supervisory personnel performing duties constitutes obstruction of supervision."
+      },
+      "expected_verdict": "Convicted of obstruction; sentenced to 1 year imprisonment and fined RMB 10,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "obstruction of supervision"
+    },
+    {
+      "id": "legal_847",
+      "title": "Person AH False Advertising Case",
+      "problem": "Issue: The defendant exaggerated product efficacy in online advertisements. Whether it constitutes false advertising? Guidance: Determine intent to mislead and consumer loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 222",
+          "Advertising Law of the PRC Article 28"
+        ],
+        "judgment_guidance": "Knowingly publishing false information causing losses to consumers constitutes false advertising."
+      },
+      "expected_verdict": "Convicted of false advertising; sentenced to 1 year imprisonment and fined RMB 100,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "false advertising"
+    },
+    {
+      "id": "legal_848",
+      "title": "Person AI Concealment of Crime Proceeds Case",
+      "problem": "Issue: The defendant stored money obtained from a friend’s online scam. Whether this constitutes concealment of crime proceeds? Guidance: Assess knowledge of illegal source.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 312"
+        ],
+        "judgment_guidance": "Knowingly concealing or assisting in transfer of crime proceeds constitutes concealment offense."
+      },
+      "expected_verdict": "Convicted of concealing crime proceeds; sentenced to 2 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "concealment of crime proceeds"
+    },
+    {
+      "id": "legal_849",
+      "title": "Person AJ Negligent Fire Case",
+      "problem": "Issue: The defendant left a welding torch unattended, causing a fire. Whether this constitutes negligent fire? Guidance: Evaluate violation of safety duty and damage severity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 115"
+        ],
+        "judgment_guidance": "Negligence leading to serious fire accidents constitutes crime of negligent fire."
+      },
+      "expected_verdict": "Convicted of negligent fire; sentenced to 1 year imprisonment, suspended for 2 years.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "negligent fire"
+    },
+    {
+      "id": "legal_850",
+      "title": "Person AK Abuse of Power Case",
+      "problem": "Issue: The defendant, a public official, exceeded authority to approve construction without permit. Whether this constitutes abuse of power? Guidance: Examine if duty violation caused loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 397"
+        ],
+        "judgment_guidance": "Intentional violation of duties causing loss to public interest constitutes abuse of power."
+      },
+      "expected_verdict": "Convicted of abuse of power; sentenced to 3 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "abuse of power"
+    },
+    {
+      "id": "legal_851",
+      "title": "Person AL Illegal Assembly Case",
+      "problem": "Issue: The defendant organized an unauthorized street protest blocking traffic. Whether this constitutes illegal assembly? Guidance: Check for public order disruption and lack of approval.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 296"
+        ],
+        "judgment_guidance": "Gathering a crowd without approval disrupting public order constitutes illegal assembly."
+      },
+      "expected_verdict": "Convicted of illegal assembly; sentenced to 1 year imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "illegal assembly"
+    },
+    {
+      "id": "legal_852",
+      "title": "Person AM Reckless Endangerment Case",
+      "problem": "Issue: The defendant placed heavy objects from a high building window, injuring a passerby. Whether this constitutes endangering public safety? Guidance: Assess foreseeability and danger degree.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 114"
+        ],
+        "judgment_guidance": "Throwing objects from height causing injury constitutes crime of endangering public safety."
+      },
+      "expected_verdict": "Convicted of endangering public safety; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "public safety"
+    },
+    {
+      "id": "legal_853",
+      "title": "Person AN Fraudulent Loan Case",
+      "problem": "Issue: The defendant used falsified collateral documents to obtain a bank loan. Whether this constitutes fraudulent loan acquisition? Guidance: Determine intent to deceive financial institution.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 193"
+        ],
+        "judgment_guidance": "Obtaining bank loans by fraudulent means constitutes crime of fraudulent loan."
+      },
+      "expected_verdict": "Convicted of fraudulent loan; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "fraudulent loan"
+    },
+    {
+      "id": "legal_854",
+      "title": "Person AO Kidnapping for Ransom Case",
+      "problem": "Issue: The defendant abducted a child and demanded payment from parents. Whether this constitutes kidnapping? Guidance: Examine purpose of abduction and use of coercion.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 239"
+        ],
+        "judgment_guidance": "Abducting others for ransom constitutes kidnapping regardless of ransom payment success."
+      },
+      "expected_verdict": "Convicted of kidnapping; sentenced to 12 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "kidnapping"
+    },
+    {
+      "id": "legal_855",
+      "title": "Person AP Fabrication of Evidence Case",
+      "problem": "Issue: The defendant tampered with CCTV footage to conceal an accident. Whether this constitutes fabrication of evidence? Guidance: Determine intent to mislead judicial process.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 307"
+        ],
+        "judgment_guidance": "Destroying or fabricating evidence to obstruct investigation constitutes fabrication of evidence."
+      },
+      "expected_verdict": "Convicted of fabrication of evidence; sentenced to 1 year imprisonment and fined RMB 20,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "fabrication of evidence"
+    }，
+    {
+      "id": "legal_856",
+      "title": "Person AQ Illegal Fishing Case",
+      "problem": "Issue: The defendant used electric shock devices to capture fish in a protected lake. Whether this constitutes illegal fishing? Guidance: Examine fishing methods and ecological impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 340"
+        ],
+        "judgment_guidance": "Using prohibited tools or methods in restricted waters constitutes illegal fishing."
+      },
+      "expected_verdict": "Convicted of illegal fishing; sentenced to 1 year imprisonment and fined RMB 10,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "illegal fishing"
+    },
+    {
+      "id": "legal_857",
+      "title": "Person AR Illegal Fundraising Case",
+      "problem": "Issue: The defendant promised high returns and collected money from the public without approval. Whether it constitutes illegal fundraising? Guidance: Determine public nature and purpose of fund collection.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 192"
+        ],
+        "judgment_guidance": "Absorbing public funds without authorization or repayment ability constitutes illegal fundraising."
+      },
+      "expected_verdict": "Convicted of illegal fundraising; sentenced to 8 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "illegal fundraising"
+    },
+    {
+      "id": "legal_858",
+      "title": "Person AS Obstruction of Voting Case",
+      "problem": "Issue: The defendant tampered with ballots during a village election. Whether this constitutes obstruction of voting rights? Guidance: Evaluate interference with lawful elections.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 256"
+        ],
+        "judgment_guidance": "Falsifying or coercing in elections constitutes obstruction of voting rights."
+      },
+      "expected_verdict": "Convicted of obstruction of voting; sentenced to 1 year imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "voting obstruction"
+    },
+    {
+      "id": "legal_859",
+      "title": "Person AT Dangerous Waste Disposal Case",
+      "problem": "Issue: The defendant dumped toxic chemical residue near farmland. Whether this constitutes illegal disposal of hazardous waste? Guidance: Assess waste type and harm severity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Unauthorized dumping of hazardous waste causing environmental harm constitutes a pollution crime."
+      },
+      "expected_verdict": "Convicted of pollution crime; sentenced to 4 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "hazardous waste"
+    },
+    {
+      "id": "legal_860",
+      "title": "Person AU Fraudulent Marriage Case",
+      "problem": "Issue: The defendant married the victim to obtain immigration benefits. Whether this constitutes marriage fraud? Guidance: Determine intent at the time of marriage registration.",
+      "prompt_tips": {
+        "laws": [
+          "Marriage Law of the PRC Article 10",
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Entering into marriage purely for fraudulent benefit constitutes fraud under criminal law."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to 3 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "marriage fraud"
+    },
+    {
+      "id": "legal_861",
+      "title": "Person AV Reckless Medical Practice Case",
+      "problem": "Issue: The defendant, an unlicensed person, provided cosmetic surgery causing injury. Whether it constitutes illegal medical practice? Guidance: Determine qualification and harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 336"
+        ],
+        "judgment_guidance": "Providing medical services without license causing harm constitutes illegal medical practice."
+      },
+      "expected_verdict": "Convicted of illegal medical practice; sentenced to 2 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "illegal medical practice"
+    },
+    {
+      "id": "legal_862",
+      "title": "Person AW Counterfeit Invoicing Case",
+      "problem": "Issue: The defendant produced and sold fake VAT invoices. Whether this constitutes counterfeit invoicing? Guidance: Verify intent and number of invoices involved.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 205"
+        ],
+        "judgment_guidance": "Making or selling fake invoices constitutes counterfeit invoicing once the quantity threshold is met."
+      },
+      "expected_verdict": "Convicted of counterfeit invoicing; sentenced to 6 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "counterfeit invoices"
+    },
+    {
+      "id": "legal_863",
+      "title": "Person AX Data Privacy Infringement Case",
+      "problem": "Issue: The defendant sold user data obtained from online platforms. Whether this constitutes infringement of personal information? Guidance: Assess data source and consent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 253A"
+        ],
+        "judgment_guidance": "Selling or providing citizens' personal information without consent constitutes information infringement."
+      },
+      "expected_verdict": "Convicted of information infringement; sentenced to 3 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "data privacy"
+    },
+    {
+      "id": "legal_864",
+      "title": "Person AY Organized Crime Participation Case",
+      "problem": "Issue: The defendant joined a group that collected protection fees in a district. Whether this constitutes participation in organized crime? Guidance: Evaluate structure and hierarchy.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 294"
+        ],
+        "judgment_guidance": "Participating in a criminal syndicate engaged in violence or coercion constitutes organized crime participation."
+      },
+      "expected_verdict": "Convicted of organized crime participation; sentenced to 7 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "organized crime"
+    },
+    {
+      "id": "legal_865",
+      "title": "Person AZ Food Safety Violation Case",
+      "problem": "Issue: The defendant used banned additives in processed meat. Whether this constitutes endangering food safety? Guidance: Examine additive legality and health impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 144"
+        ],
+        "judgment_guidance": "Producing or selling food containing toxic substances constitutes endangering food safety."
+      },
+      "expected_verdict": "Convicted of endangering food safety; sentenced to 5 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "food safety"
+    },
+    {
+      "id": "legal_866",
+      "title": "Person BA Trespassing Case",
+      "problem": "Issue: The defendant entered another’s home at night without consent. Whether this constitutes illegal trespass? Guidance: Determine intent and disturbance level.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 245"
+        ],
+        "judgment_guidance": "Illegally entering another’s residence constitutes trespass even without theft intent."
+      },
+      "expected_verdict": "Convicted of illegal trespass; sentenced to 6 months detention.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "trespass"
+    },
+    {
+      "id": "legal_867",
+      "title": "Person BB Election Bribery Case",
+      "problem": "Issue: The defendant gave cash to voters during a local election. Whether this constitutes election bribery? Guidance: Identify intent to influence voting outcomes.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 256"
+        ],
+        "judgment_guidance": "Offering property to voters to influence results constitutes election bribery."
+      },
+      "expected_verdict": "Convicted of election bribery; sentenced to 1 year imprisonment and fined RMB 20,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "election bribery"
+    },
+    {
+      "id": "legal_868",
+      "title": "Person BC Illegal Gambling Operation Case",
+      "problem": "Issue: The defendant organized online poker with cash stakes. Whether it constitutes illegal gambling operation? Guidance: Examine profit motive and participant scale.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 303"
+        ],
+        "judgment_guidance": "Operating gambling for profit via networks constitutes illegal gambling operation."
+      },
+      "expected_verdict": "Convicted of illegal gambling; sentenced to 3 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "gambling"
+    },
+    {
+      "id": "legal_869",
+      "title": "Person BD Securities Manipulation Case",
+      "problem": "Issue: The defendant spread false information to affect stock prices. Whether it constitutes market manipulation? Guidance: Check impact on trading order and investor loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 182"
+        ],
+        "judgment_guidance": "Disseminating false information to influence securities markets constitutes market manipulation."
+      },
+      "expected_verdict": "Convicted of market manipulation; sentenced to 4 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "market manipulation"
+    },
+    {
+      "id": "legal_870",
+      "title": "Person BE Domestic Violence Case",
+      "problem": "Issue: The defendant repeatedly beat his spouse causing minor injuries. Whether this constitutes domestic violence crime? Guidance: Assess continuity and harm degree.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 234",
+          "Anti-Domestic Violence Law Article 2"
+        ],
+        "judgment_guidance": "Repeated physical harm within family causing injury constitutes intentional injury in domestic context."
+      },
+      "expected_verdict": "Convicted of intentional injury; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "domestic violence"
+    },
+    {
+      "id": "legal_871",
+      "title": "Person BF Fraudulent Academic Credential Case",
+      "problem": "Issue: The defendant forged a master’s degree to gain employment. Whether it constitutes fraud or forgery? Guidance: Examine whether property or benefit was obtained.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280",
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Forging documents to gain employment and salary constitutes fraud accompanied by document forgery."
+      },
+      "expected_verdict": "Convicted of fraud and forgery; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "credential fraud"
+    },
+    {
+      "id": "legal_872",
+      "title": "Person BG Wildlife Trafficking Case",
+      "problem": "Issue: The defendant sold protected pangolins to collectors. Whether this constitutes wildlife trafficking? Guidance: Identify species protection level.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 341"
+        ],
+        "judgment_guidance": "Trading endangered wildlife without approval constitutes wildlife trafficking crime."
+      },
+      "expected_verdict": "Convicted of wildlife trafficking; sentenced to 6 years imprisonment and fined RMB 100,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "wildlife trafficking"
+    },
+    {
+      "id": "legal_873",
+      "title": "Person BH Railway Ticket Resale Case",
+      "problem": "Issue: The defendant bought large amounts of train tickets to resell online. Whether this constitutes illegal resale of transport tickets? Guidance: Assess profit motive and scale.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 227"
+        ],
+        "judgment_guidance": "Reselling transport tickets for profit without authorization constitutes illegal business operation."
+      },
+      "expected_verdict": "Convicted of illegal resale; sentenced to 1 year imprisonment and fined RMB 20,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "ticket resale"
+    },
+    {
+      "id": "legal_874",
+      "title": "Person BI Illegal Loan Collection Case",
+      "problem": "Issue: The defendant used threats and violence to collect debts from borrowers. Whether this constitutes coercive debt collection? Guidance: Determine if actions violated law and order.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 293"
+        ],
+        "judgment_guidance": "Violence or intimidation in collecting debts constitutes picking quarrels or coercive behavior crime."
+      },
+      "expected_verdict": "Convicted of coercive debt collection; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "debt collection"
+    },
+    {
+      "id": "legal_875",
+      "title": "Person BJ Obstruction of Epidemic Prevention Case",
+      "problem": "Issue: The defendant refused quarantine and concealed infection history during COVID-19. Whether this constitutes obstructing epidemic prevention? Guidance: Evaluate intent and social danger.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 330"
+        ],
+        "judgment_guidance": "Refusal to comply with epidemic control measures causing spread constitutes obstruction of epidemic prevention."
+      },
+      "expected_verdict": "Convicted of obstruction of epidemic prevention; sentenced to 4 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "epidemic prevention"
+    }，
+    {
+      "id": "legal_876",
+      "title": "Person BK Illegal Foreign Exchange Trading Case",
+      "problem": "Issue: The defendant conducted large-scale online exchange of RMB and USD without authorization. Whether this constitutes illegal foreign exchange trading? Guidance: Determine violation of national financial control regulations.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 225",
+          "Regulations on Foreign Exchange Control Article 6"
+        ],
+        "judgment_guidance": "Unauthorized currency exchange activities for profit constitute illegal business operations."
+      },
+      "expected_verdict": "Convicted of illegal business operation; sentenced to 5 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "foreign exchange"
+    },
+    {
+      "id": "legal_877",
+      "title": "Person BL Theft of Electric Power Case",
+      "problem": "Issue: The defendant secretly connected electric lines to bypass the meter. Whether this constitutes theft of electric power? Guidance: Assess intent to avoid payment.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 264",
+          "Electric Power Law of the PRC Article 60"
+        ],
+        "judgment_guidance": "Unauthorized diversion of electricity for personal use constitutes theft of electric power."
+      },
+      "expected_verdict": "Convicted of theft; sentenced to 1 year imprisonment and fined RMB 10,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "electric theft"
+    },
+    {
+      "id": "legal_878",
+      "title": "Person BM Bribery by Non-State Employee Case",
+      "problem": "Issue: The defendant, a company purchasing manager, accepted kickbacks from suppliers. Whether this constitutes commercial bribery? Guidance: Assess if the bribe affected fair competition.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 163"
+        ],
+        "judgment_guidance": "Accepting property to seek business advantage for others constitutes commercial bribery."
+      },
+      "expected_verdict": "Convicted of commercial bribery; sentenced to 2 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "commercial bribery"
+    },
+    {
+      "id": "legal_879",
+      "title": "Person BN False Loan Guarantee Case",
+      "problem": "Issue: The defendant acted as a guarantor using falsified property certificates to secure a bank loan. Whether this constitutes financial fraud? Guidance: Evaluate fraudulent intent and consequence.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 193"
+        ],
+        "judgment_guidance": "Providing false guarantees for bank loans constitutes fraudulent loan behavior."
+      },
+      "expected_verdict": "Convicted of fraudulent loan; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "loan fraud"
+    },
+    {
+      "id": "legal_880",
+      "title": "Person BO Counterfeit Medicine Case",
+      "problem": "Issue: The defendant manufactured capsules with no active ingredients and sold them as medicine. Whether this constitutes producing counterfeit drugs? Guidance: Assess ingredient authenticity and harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 141"
+        ],
+        "judgment_guidance": "Producing or selling fake drugs without therapeutic effect constitutes counterfeit medicine crime."
+      },
+      "expected_verdict": "Convicted of producing counterfeit medicine; sentenced to 8 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "counterfeit medicine"
+    },
+    {
+      "id": "legal_881",
+      "title": "Person BP Insider Trading Case",
+      "problem": "Issue: The defendant, a listed company executive, used undisclosed information to trade stocks. Whether this constitutes insider trading? Guidance: Identify possession of material nonpublic information.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 180"
+        ],
+        "judgment_guidance": "Trading securities based on inside information constitutes insider trading crime."
+      },
+      "expected_verdict": "Convicted of insider trading; sentenced to 5 years imprisonment and fined RMB 1 million.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "insider trading"
+    },
+    {
+      "id": "legal_882",
+      "title": "Person BQ Intentional Property Damage Case",
+      "problem": "Issue: The defendant smashed a neighbor’s car during a dispute. Whether this constitutes intentional property damage? Guidance: Evaluate intent and property loss value.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 275"
+        ],
+        "judgment_guidance": "Deliberate destruction of another’s property causing serious loss constitutes intentional damage crime."
+      },
+      "expected_verdict": "Convicted of intentional property damage; sentenced to 1 year imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "property damage"
+    },
+    {
+      "id": "legal_883",
+      "title": "Person BR Obstruction of Justice Case",
+      "problem": "Issue: The defendant threatened a witness to withdraw testimony. Whether this constitutes obstruction of justice? Guidance: Examine intent to interfere with judicial proceedings.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 307"
+        ],
+        "judgment_guidance": "Intimidating or bribing witnesses to alter testimony constitutes obstruction of justice."
+      },
+      "expected_verdict": "Convicted of obstruction of justice; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "obstruction of justice"
+    },
+    {
+      "id": "legal_884",
+      "title": "Person BS Theft of State Secrets Case",
+      "problem": "Issue: The defendant copied confidential government documents and transferred them abroad. Whether this constitutes theft of state secrets? Guidance: Assess document classification and motive.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 111"
+        ],
+        "judgment_guidance": "Stealing or leaking classified materials to foreign entities constitutes theft of state secrets."
+      },
+      "expected_verdict": "Convicted of theft of state secrets; sentenced to 10 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "state secrets"
+    },
+    {
+      "id": "legal_885",
+      "title": "Person BT Sale of Toxic Food Case",
+      "problem": "Issue: The defendant sold adulterated liquor containing excessive methanol. Whether this constitutes producing or selling toxic food? Guidance: Evaluate chemical composition and injury.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 144"
+        ],
+        "judgment_guidance": "Selling food containing toxic or harmful substances constitutes food safety crime."
+      },
+      "expected_verdict": "Convicted of food safety crime; sentenced to 7 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "toxic food"
+    },
+    {
+      "id": "legal_886",
+      "title": "Person BU False Accounting Case",
+      "problem": "Issue: The defendant falsified company accounts to hide losses. Whether this constitutes false accounting crime? Guidance: Determine intent to mislead regulators or investors.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 162"
+        ],
+        "judgment_guidance": "Fabricating or altering financial records constitutes false accounting if serious consequences occur."
+      },
+      "expected_verdict": "Convicted of false accounting; sentenced to 3 years imprisonment and fined RMB 150,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "false accounting"
+    },
+    {
+      "id": "legal_887",
+      "title": "Person BV Extortion by Threat of Exposure Case",
+      "problem": "Issue: The defendant threatened to release private photos unless paid. Whether this constitutes extortion or privacy violation? Guidance: Determine coercive demand and illegitimate gain.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 274"
+        ],
+        "judgment_guidance": "Using threats to obtain property through exposure of private information constitutes extortion."
+      },
+      "expected_verdict": "Convicted of extortion; sentenced to 2 years imprisonment and fined RMB 20,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "extortion"
+    },
+    {
+      "id": "legal_888",
+      "title": "Person BW Illegal Cross-Border Data Transfer Case",
+      "problem": "Issue: The defendant transferred user data servers overseas without approval. Whether this constitutes illegal data export? Guidance: Assess data sensitivity and regulatory breach.",
+      "prompt_tips": {
+        "laws": [
+          "Cybersecurity Law of the PRC Article 37",
+          "PRC Criminal Law (2017 Amendment) Article 253A"
+        ],
+        "judgment_guidance": "Exporting personal or critical data without assessment approval constitutes illegal data transfer."
+      },
+      "expected_verdict": "Convicted of illegal data transfer; sentenced to 4 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "data security"
+    },
+    {
+      "id": "legal_889",
+      "title": "Person BX Public Disorder Case",
+      "problem": "Issue: The defendant started a fight in a bar causing mass panic. Whether this constitutes picking quarrels and provoking trouble? Guidance: Evaluate the scale and social impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 293"
+        ],
+        "judgment_guidance": "Creating disturbance and public chaos constitutes picking quarrels and provoking trouble."
+      },
+      "expected_verdict": "Convicted of public disorder; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "public disorder"
+    },
+    {
+      "id": "legal_890",
+      "title": "Person BY Abuse of Minors Case",
+      "problem": "Issue: The defendant physically punished children at a private school. Whether this constitutes abuse of minors? Guidance: Assess continuity and physical/mental harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 260"
+        ],
+        "judgment_guidance": "Abusing or maltreating minors under guardianship constitutes crime of abuse."
+      },
+      "expected_verdict": "Convicted of abuse of minors; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "child abuse"
+    },
+    {
+      "id": "legal_891",
+      "title": "Person BZ Illegal Use of Drone Case",
+      "problem": "Issue: The defendant flew a drone into restricted airspace near an airport. Whether this constitutes endangering public safety? Guidance: Determine risk and airspace restriction.",
+      "prompt_tips": {
+        "laws": [
+          "Civil Aviation Law of the PRC Article 127",
+          "PRC Criminal Law (2017 Amendment) Article 115"
+        ],
+        "judgment_guidance": "Operating unmanned aircraft in restricted zones causing potential danger constitutes endangering public safety."
+      },
+      "expected_verdict": "Convicted of endangering public safety; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "public safety"
+    },
+    {
+      "id": "legal_892",
+      "title": "Person CA Negligent Pollution Accident Case",
+      "problem": "Issue: The defendant failed to maintain a chemical storage facility leading to leakage. Whether this constitutes negligent pollution? Guidance: Evaluate duty of care and environmental damage.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Negligent management causing environmental pollution constitutes negligent pollution crime."
+      },
+      "expected_verdict": "Convicted of negligent pollution; sentenced to 2 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "environmental negligence"
+    },
+    {
+      "id": "legal_893",
+      "title": "Person CB Forgery of Currency Exchange Documents Case",
+      "problem": "Issue: The defendant forged customs and bank documents to transfer foreign funds. Whether this constitutes forgery or financial fraud? Guidance: Identify forged document type and intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280",
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Forging financial documents for fund transfer constitutes fraud and forgery."
+      },
+      "expected_verdict": "Convicted of fraud and forgery; sentenced to 6 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "financial forgery"
+    },
+    {
+      "id": "legal_894",
+      "title": "Person CC Credit Card Fraud Case",
+      "problem": "Issue: The defendant used another’s bank card information for online purchases. Whether this constitutes credit card fraud? Guidance: Determine whether cardholder authorization was absent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2015 Amendment) Article 196(3)"
+        ],
+        "judgment_guidance": "Using another's credit card without consent constitutes credit card fraud."
+      },
+      "expected_verdict": "Convicted of credit card fraud; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "credit card fraud"
+    },
+    {
+      "id": "legal_895",
+      "title": "Person CD Illegal Timber Transport Case",
+      "problem": "Issue: The defendant transported logs from protected forest areas without permit. Whether this constitutes illegal transport of timber? Guidance: Check documentation and source legality.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 345",
+          "Forest Law of the PRC Article 40"
+        ],
+        "judgment_guidance": "Transporting timber from state-protected forests without approval constitutes illegal transport of timber."
+      },
+      "expected_verdict": "Convicted of illegal transport of timber; sentenced to 2 years imprisonment and fined RMB 30,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "illegal timber transport"
+    }，
+    {
+      "id": "legal_896",
+      "title": "Person CE Fraudulent Online Investment Case",
+      "problem": "Issue: The defendant established an online platform promising high investment returns and absconded with funds. Whether this constitutes online investment fraud? Guidance: Determine false representation and intent to defraud.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Establishing fake investment platforms to collect funds constitutes online investment fraud."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to 10 years imprisonment and fined RMB 800,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "online investment fraud"
+    },
+    {
+      "id": "legal_897",
+      "title": "Person CF Illegal Sale of Personal Information Case",
+      "problem": "Issue: The defendant, a courier, sold customers’ delivery details to marketing firms. Whether this constitutes illegal sale of personal information? Guidance: Examine data sensitivity and consent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 253A"
+        ],
+        "judgment_guidance": "Selling citizens’ personal data without authorization constitutes infringement of personal information."
+      },
+      "expected_verdict": "Convicted of personal information infringement; sentenced to 2 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "personal information"
+    },
+    {
+      "id": "legal_898",
+      "title": "Person CG Illegal Religious Gathering Case",
+      "problem": "Issue: The defendant organized unregistered religious meetings with hundreds of participants. Whether this constitutes illegal assembly? Guidance: Assess impact on public order and legality of group.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 296",
+          "Regulations on Religious Affairs Article 41"
+        ],
+        "judgment_guidance": "Organizing unapproved religious gatherings disrupting social order constitutes illegal assembly."
+      },
+      "expected_verdict": "Convicted of illegal assembly; sentenced to 1 year imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "religious assembly"
+    },
+    {
+      "id": "legal_899",
+      "title": "Person CH Negligent Epidemic Spread Case",
+      "problem": "Issue: The defendant violated quarantine rules leading to multiple infections. Whether this constitutes negligent epidemic spread? Guidance: Determine foreseeability and carelessness.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 330"
+        ],
+        "judgment_guidance": "Negligent failure to comply with disease control causing spread constitutes negligent epidemic offense."
+      },
+      "expected_verdict": "Convicted of negligent epidemic spread; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "epidemic negligence"
+    },
+    {
+      "id": "legal_900",
+      "title": "Person CI Illegal Fireworks Production Case",
+      "problem": "Issue: The defendant produced fireworks without safety license. Whether this constitutes illegal manufacture of explosives? Guidance: Determine danger to public safety.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 125"
+        ],
+        "judgment_guidance": "Manufacturing fireworks or explosives without license constitutes illegal manufacture of explosives."
+      },
+      "expected_verdict": "Convicted of illegal manufacture of explosives; sentenced to 6 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "illegal manufacture"
+    },
+    {
+      "id": "legal_901",
+      "title": "Person CJ Occupational Negligence Case",
+      "problem": "Issue: The defendant, a safety officer, ignored reports of equipment failure leading to a fatal accident. Whether this constitutes dereliction of duty? Guidance: Evaluate duty breach and consequences.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 408"
+        ],
+        "judgment_guidance": "Negligence by duty personnel causing serious accidents constitutes dereliction of duty."
+      },
+      "expected_verdict": "Convicted of dereliction of duty; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "dereliction of duty"
+    },
+    {
+      "id": "legal_902",
+      "title": "Person CK Bank Card Forgery Case",
+      "problem": "Issue: The defendant manufactured and used cloned bank cards to withdraw cash. Whether this constitutes credit card forgery? Guidance: Assess technological means and intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2015 Amendment) Article 177",
+          "Interpretation on Credit Card Crimes Article 3"
+        ],
+        "judgment_guidance": "Cloning or manufacturing fake bank cards constitutes credit card forgery."
+      },
+      "expected_verdict": "Convicted of credit card forgery; sentenced to 7 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "credit card forgery"
+    },
+    {
+      "id": "legal_903",
+      "title": "Person CL False Advertising by Influencer Case",
+      "problem": "Issue: The defendant promoted unverified health products as medical cures. Whether this constitutes false advertising? Guidance: Examine intent and consumer harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 222",
+          "Advertising Law Article 28"
+        ],
+        "judgment_guidance": "Deliberate false claims on product efficacy constitute criminal false advertising."
+      },
+      "expected_verdict": "Convicted of false advertising; sentenced to 2 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "false advertising"
+    },
+    {
+      "id": "legal_904",
+      "title": "Person CM Illegal Immigration Assistance Case",
+      "problem": "Issue: The defendant arranged transportation for foreigners without valid visas. Whether this constitutes organizing illegal immigration? Guidance: Evaluate intent and scope.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 318"
+        ],
+        "judgment_guidance": "Organizing or assisting others to illegally enter or exit the country constitutes immigration assistance crime."
+      },
+      "expected_verdict": "Convicted of assisting illegal immigration; sentenced to 4 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "immigration"
+    },
+    {
+      "id": "legal_905",
+      "title": "Person CN Defamation Case",
+      "problem": "Issue: The defendant posted fabricated claims online damaging a celebrity’s reputation. Whether this constitutes defamation? Guidance: Determine dissemination and falsity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 246"
+        ],
+        "judgment_guidance": "Publishing false information online causing serious reputation damage constitutes defamation."
+      },
+      "expected_verdict": "Convicted of defamation; sentenced to 1 year imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "defamation"
+    },
+    {
+      "id": "legal_906",
+      "title": "Person CO Illegal Disposal of Radioactive Materials Case",
+      "problem": "Issue: The defendant discarded radioactive waste from medical equipment improperly. Whether this constitutes environmental crime? Guidance: Assess radiation level and consequences.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Illegal disposal of radioactive waste causing pollution constitutes environmental crime."
+      },
+      "expected_verdict": "Convicted of environmental crime; sentenced to 5 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "radioactive pollution"
+    },
+    {
+      "id": "legal_907",
+      "title": "Person CP Workplace Sexual Harassment Case",
+      "problem": "Issue: The defendant, a supervisor, repeatedly made unwanted advances toward subordinates. Whether this constitutes workplace harassment? Guidance: Determine coercion and power abuse.",
+      "prompt_tips": {
+        "laws": [
+          "Civil Code of the PRC Article 1010",
+          "PRC Criminal Law (2017 Amendment) Article 237"
+        ],
+        "judgment_guidance": "Forcing sexual acts or harassment under authority constitutes coercive indecency."
+      },
+      "expected_verdict": "Convicted of indecency; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "sexual harassment"
+    },
+    {
+      "id": "legal_908",
+      "title": "Person CQ Illegal Lottery Operation Case",
+      "problem": "Issue: The defendant created an online lottery platform without government authorization. Whether this constitutes illegal business operation? Guidance: Examine licensing and profit motive.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 225"
+        ],
+        "judgment_guidance": "Operating lottery or betting without approval constitutes illegal business operation."
+      },
+      "expected_verdict": "Convicted of illegal business operation; sentenced to 3 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "illegal lottery"
+    },
+    {
+      "id": "legal_909",
+      "title": "Person CR Medical Negligence Case",
+      "problem": "Issue: The defendant surgeon left a medical instrument in the patient’s abdomen. Whether this constitutes medical negligence? Guidance: Assess deviation from standard of care.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 335"
+        ],
+        "judgment_guidance": "Serious negligence in medical care causing injury or death constitutes medical negligence crime."
+      },
+      "expected_verdict": "Convicted of medical negligence; sentenced to 2 years imprisonment and license revoked.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "medical negligence"
+    },
+    {
+      "id": "legal_910",
+      "title": "Person CS Theft of Internet Accounts Case",
+      "problem": "Issue: The defendant hacked into others’ online payment accounts and transferred funds. Whether this constitutes theft or fraud? Guidance: Assess secrecy and deception.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 264",
+          "Cybersecurity Law Article 28"
+        ],
+        "judgment_guidance": "Secretly stealing account access and transferring funds constitutes theft by information means."
+      },
+      "expected_verdict": "Convicted of theft; sentenced to 5 years imprisonment and fined RMB 80,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cyber theft"
+    },
+    {
+      "id": "legal_911",
+      "title": "Person CT Illegal Storage of Firearms Case",
+      "problem": "Issue: The defendant kept military ammunition at home without permission. Whether this constitutes illegal possession of firearms? Guidance: Examine item classification.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 128"
+        ],
+        "judgment_guidance": "Possession of ammunition or firearms without authorization constitutes illegal firearms possession."
+      },
+      "expected_verdict": "Convicted of illegal firearms possession; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "firearms possession"
+    },
+    {
+      "id": "legal_912",
+      "title": "Person CU Academic Plagiarism and Fraud Case",
+      "problem": "Issue: The defendant falsified data in a published scientific paper. Whether this constitutes academic fraud under criminal law? Guidance: Assess financial gain and social harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280",
+          "Higher Education Law Article 62"
+        ],
+        "judgment_guidance": "Fabricating research data causing major losses constitutes fraud and forgery in academic context."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to 3 years imprisonment and revoked research funding.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "academic fraud"
+    },
+    {
+      "id": "legal_913",
+      "title": "Person CV Obstruction of Construction Safety Case",
+      "problem": "Issue: The defendant dismantled safety barriers on a construction site to speed work, causing injury. Whether this constitutes obstruction of safety operations? Guidance: Assess negligence and consequences.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 136"
+        ],
+        "judgment_guidance": "Destroying or neglecting safety facilities causing accidents constitutes obstruction of safety operations."
+      },
+      "expected_verdict": "Convicted of obstruction of safety operations; sentenced to 1 year imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "construction safety"
+    },
+    {
+      "id": "legal_914",
+      "title": "Person CW Smuggling Cultural Relics Case",
+      "problem": "Issue: The defendant attempted to export ancient pottery without declaration. Whether this constitutes smuggling cultural relics? Guidance: Verify relic authenticity and declaration obligation.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 151"
+        ],
+        "judgment_guidance": "Exporting cultural relics without declaration or approval constitutes smuggling of cultural relics."
+      },
+      "expected_verdict": "Convicted of smuggling cultural relics; sentenced to 5 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cultural relics"
+    },
+    {
+      "id": "legal_915",
+      "title": "Person CX Fraudulent Donation Case",
+      "problem": "Issue: The defendant created a fake charity website to collect donations. Whether this constitutes public donation fraud? Guidance: Determine deceptive intent and misappropriation.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266",
+          "Charity Law of the PRC Article 83"
+        ],
+        "judgment_guidance": "Using false charity identity to collect money constitutes public donation fraud."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to 7 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "charity fraud"
+    }，
+    {
+      "id": "legal_916",
+      "title": "Person CY Loan Sharking and Violence Case",
+      "problem": "Issue: The defendant lent money at extremely high interest rates and used violence for collection. Whether this constitutes illegal lending or extortion? Guidance: Examine the interest rate, method of collection, and violence used.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 225",
+          "PRC Criminal Law (2017 Amendment) Article 274"
+        ],
+        "judgment_guidance": "Operating high-interest loans with violent collection constitutes illegal business operation combined with extortion."
+      },
+      "expected_verdict": "Convicted of illegal business operation and extortion; sentenced to 8 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "loan sharking"
+    },
+    {
+      "id": "legal_917",
+      "title": "Person CZ Illegal Wildlife Product Sale Case",
+      "problem": "Issue: The defendant sold ivory carvings online without certification. Whether this constitutes illegal wildlife trade? Guidance: Determine if the product involves protected species.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 341"
+        ],
+        "judgment_guidance": "Selling products made from protected wildlife constitutes illegal wildlife product trade."
+      },
+      "expected_verdict": "Convicted of illegal wildlife trade; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "wildlife trade"
+    },
+    {
+      "id": "legal_918",
+      "title": "Person DA Illegal Sand Mining Case",
+      "problem": "Issue: The defendant extracted river sand from a protected zone without license. Whether this constitutes illegal mining? Guidance: Evaluate ecological damage and regulatory violation.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 343"
+        ],
+        "judgment_guidance": "Mining sand or stone resources without authorization constitutes illegal mining activity."
+      },
+      "expected_verdict": "Convicted of illegal mining; sentenced to 3 years imprisonment and fined RMB 150,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "illegal mining"
+    },
+    {
+      "id": "legal_919",
+      "title": "Person DB Forgery of Corporate Seal Case",
+      "problem": "Issue: The defendant made a duplicate company seal to sign fake contracts. Whether this constitutes forgery of official seals? Guidance: Determine if the forged seal caused actual loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280"
+        ],
+        "judgment_guidance": "Forging or altering company seals for illegal use constitutes forgery of official seals."
+      },
+      "expected_verdict": "Convicted of forgery of official seals; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "corporate forgery"
+    },
+    {
+      "id": "legal_920",
+      "title": "Person DC Child Trafficking Case",
+      "problem": "Issue: The defendant sold an infant to another family for profit. Whether this constitutes child trafficking? Guidance: Determine transfer purpose and consent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 240"
+        ],
+        "judgment_guidance": "Selling or transferring children for profit constitutes child trafficking crime."
+      },
+      "expected_verdict": "Convicted of child trafficking; sentenced to 12 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "child trafficking"
+    },
+    {
+      "id": "legal_921",
+      "title": "Person DD Fraudulent Disability Claim Case",
+      "problem": "Issue: The defendant faked medical certificates to obtain disability benefits. Whether this constitutes fraud? Guidance: Determine intent and public fund loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Using false medical evidence to receive benefits constitutes social insurance fraud."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to 3 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "insurance fraud"
+    },
+    {
+      "id": "legal_922",
+      "title": "Person DE Illegal Construction on Farmland Case",
+      "problem": "Issue: The defendant built a private villa on cultivated land without approval. Whether this constitutes illegal occupation of farmland? Guidance: Examine land use change and loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 342"
+        ],
+        "judgment_guidance": "Building structures on farmland without authorization constitutes illegal occupation of agricultural land."
+      },
+      "expected_verdict": "Convicted of illegal occupation; sentenced to 2 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "land occupation"
+    },
+    {
+      "id": "legal_923",
+      "title": "Person DF Illegal Data Mining Case",
+      "problem": "Issue: The defendant scraped massive user data from an app for resale. Whether this constitutes illegal data collection? Guidance: Assess consent and data sensitivity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 253A"
+        ],
+        "judgment_guidance": "Extracting or collecting data from platforms without authorization constitutes illegal data collection."
+      },
+      "expected_verdict": "Convicted of data infringement; sentenced to 3 years imprisonment and fined RMB 150,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "data mining"
+    },
+    {
+      "id": "legal_924",
+      "title": "Person DG Tax Refund Fraud Case",
+      "problem": "Issue: The defendant falsified export documents to claim tax rebates. Whether this constitutes tax refund fraud? Guidance: Examine false documentation and refund value.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 204"
+        ],
+        "judgment_guidance": "Obtaining export tax refunds by false means constitutes tax refund fraud."
+      },
+      "expected_verdict": "Convicted of tax fraud; sentenced to 6 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "tax fraud"
+    },
+    {
+      "id": "legal_925",
+      "title": "Person DH Illegal Disposal of Solid Waste Case",
+      "problem": "Issue: The defendant dumped factory solid waste into a public river. Whether this constitutes environmental pollution? Guidance: Evaluate damage and regulatory breach.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Dumping untreated industrial waste into the environment constitutes pollution crime."
+      },
+      "expected_verdict": "Convicted of pollution crime; sentenced to 5 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "solid waste"
+    },
+    {
+      "id": "legal_926",
+      "title": "Person DI Illegal Drug Manufacturing Equipment Sale Case",
+      "problem": "Issue: The defendant sold equipment used for meth production knowing its purpose. Whether this constitutes assisting drug manufacturing? Guidance: Determine knowledge and intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 350"
+        ],
+        "judgment_guidance": "Selling equipment knowing it will be used for drug production constitutes aiding drug crime."
+      },
+      "expected_verdict": "Convicted of aiding drug production; sentenced to 7 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "drug equipment"
+    },
+    {
+      "id": "legal_927",
+      "title": "Person DJ Smuggling Luxury Goods Case",
+      "problem": "Issue: The defendant imported high-end watches without customs declaration. Whether this constitutes smuggling? Guidance: Examine intent to evade taxes.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 153"
+        ],
+        "judgment_guidance": "Importing goods without declaration for tax evasion constitutes smuggling crime."
+      },
+      "expected_verdict": "Convicted of smuggling; sentenced to 4 years imprisonment and fined RMB 400,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "smuggling"
+    },
+    {
+      "id": "legal_928",
+      "title": "Person DK Online Defamation and Rumor Case",
+      "problem": "Issue: The defendant spread fabricated stories online that caused public panic. Whether this constitutes defamation or spreading false information? Guidance: Evaluate social harm and falsity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 291A"
+        ],
+        "judgment_guidance": "Fabricating or spreading false information disrupting order constitutes rumor spreading offense."
+      },
+      "expected_verdict": "Convicted of spreading false information; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "rumor spreading"
+    },
+    {
+      "id": "legal_929",
+      "title": "Person DL Illegal Use of Public Funds Case",
+      "problem": "Issue: The defendant transferred company funds to personal accounts for investment. Whether this constitutes misappropriation of funds? Guidance: Examine control and repayment.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 272"
+        ],
+        "judgment_guidance": "Using public or company funds for personal investment constitutes misappropriation of funds."
+      },
+      "expected_verdict": "Convicted of misappropriation; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "misappropriation"
+    },
+    {
+      "id": "legal_930",
+      "title": "Person DM Illegal Firearms Manufacturing Case",
+      "problem": "Issue: The defendant 3D-printed gun components and assembled functional weapons. Whether this constitutes illegal firearm manufacturing? Guidance: Determine lethality and intention.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 125"
+        ],
+        "judgment_guidance": "Producing functional firearms by any method constitutes illegal firearm manufacturing."
+      },
+      "expected_verdict": "Convicted of illegal firearm manufacturing; sentenced to 8 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "firearm manufacturing"
+    },
+    {
+      "id": "legal_931",
+      "title": "Person DN Price Manipulation Case",
+      "problem": "Issue: The defendant intentionally raised prices of essential medical supplies during pandemic. Whether this constitutes price gouging? Guidance: Assess public necessity and intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 225",
+          "Price Law Article 14"
+        ],
+        "judgment_guidance": "Manipulating prices of essential goods to exploit emergencies constitutes illegal business operation."
+      },
+      "expected_verdict": "Convicted of illegal business operation; sentenced to 3 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "price manipulation"
+    },
+    {
+      "id": "legal_932",
+      "title": "Person DO Desertion from Military Service Case",
+      "problem": "Issue: The defendant left his military unit without authorization for over 60 days. Whether this constitutes desertion? Guidance: Verify service status and duration.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 432"
+        ],
+        "judgment_guidance": "Leaving service duties without approval for extended time constitutes desertion."
+      },
+      "expected_verdict": "Convicted of desertion; sentenced to 2 years imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "military"
+    },
+    {
+      "id": "legal_933",
+      "title": "Person DP Illegal Use of Pesticides Case",
+      "problem": "Issue: The defendant applied banned pesticides to increase crop yield. Whether this constitutes environmental crime? Guidance: Examine prohibited substance list and harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Using banned pesticides causing soil or water contamination constitutes environmental pollution."
+      },
+      "expected_verdict": "Convicted of environmental pollution; sentenced to 2 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "pesticide use"
+    },
+    {
+      "id": "legal_934",
+      "title": "Person DQ Falsification of Academic Degree Case",
+      "problem": "Issue: The defendant used a fake overseas PhD certificate to apply for a teaching post. Whether this constitutes fraud or forgery? Guidance: Assess economic benefit obtained.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280",
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Using forged academic credentials to gain employment constitutes fraud combined with document forgery."
+      },
+      "expected_verdict": "Convicted of fraud and forgery; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "academic forgery"
+    },
+    {
+      "id": "legal_935",
+      "title": "Person DR Illegal Export of Medical Equipment Case",
+      "problem": "Issue: The defendant exported ventilators abroad without license during the pandemic. Whether this constitutes smuggling or illegal export? Guidance: Examine export restrictions.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 153",
+          "Foreign Trade Law Article 31"
+        ],
+        "judgment_guidance": "Exporting restricted medical devices without approval constitutes smuggling under criminal law."
+      },
+      "expected_verdict": "Convicted of smuggling; sentenced to 5 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "medical export"
+    }，
+    {
+      "id": "legal_936",
+      "title": "Person DS Illegal Fund Transfer via Cryptocurrency Case",
+      "problem": "Issue: The defendant used cryptocurrency wallets to conceal proceeds from online fraud. Whether this constitutes money laundering? Guidance: Assess traceability and knowledge of criminal origin.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 191"
+        ],
+        "judgment_guidance": "Transferring or concealing criminal proceeds via cryptocurrency constitutes money laundering if knowingly assisting concealment."
+      },
+      "expected_verdict": "Convicted of money laundering; sentenced to 5 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cryptocurrency"
+    },
+    {
+      "id": "legal_937",
+      "title": "Person DT Unauthorized Disclosure of Trade Secrets Case",
+      "problem": "Issue: The defendant shared a company's client database with a competitor. Whether this constitutes trade secret infringement? Guidance: Determine confidentiality measures and intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 219"
+        ],
+        "judgment_guidance": "Illegally disclosing or acquiring trade secrets causing significant loss constitutes trade secret infringement."
+      },
+      "expected_verdict": "Convicted of trade secret infringement; sentenced to 3 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "trade secrets"
+    },
+    {
+      "id": "legal_938",
+      "title": "Person DU Illegal Foreign NGO Operation Case",
+      "problem": "Issue: The defendant organized NGO activities without registration or approval. Whether this constitutes illegal foreign NGO operation? Guidance: Evaluate activity scope and compliance.",
+      "prompt_tips": {
+        "laws": [
+          "Law on Administration of Foreign NGOs Article 32",
+          "PRC Criminal Law (2017 Amendment) Article 225"
+        ],
+        "judgment_guidance": "Operating foreign NGO activities without registration constitutes illegal operation under Article 225."
+      },
+      "expected_verdict": "Convicted of illegal operation; sentenced to 2 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "foreign NGO"
+    },
+    {
+      "id": "legal_939",
+      "title": "Person DV Counterfeit Fertilizer Case",
+      "problem": "Issue: The defendant sold substandard fertilizer under well-known brand labels. Whether this constitutes production and sale of counterfeit goods? Guidance: Assess product quality and label authenticity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 140"
+        ],
+        "judgment_guidance": "Selling substandard agricultural materials with fake brand markings constitutes counterfeit goods offense."
+      },
+      "expected_verdict": "Convicted of selling counterfeit goods; sentenced to 4 years imprisonment and fined RMB 150,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "counterfeit goods"
+    },
+    {
+      "id": "legal_940",
+      "title": "Person DW Cyberattack on Public Network Case",
+      "problem": "Issue: The defendant hacked into a government database causing system outage. Whether this constitutes illegal intrusion into computer systems? Guidance: Assess target type and damage severity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 285"
+        ],
+        "judgment_guidance": "Intruding into computer systems of state organs or critical infrastructure constitutes serious cybercrime."
+      },
+      "expected_verdict": "Convicted of cyber intrusion; sentenced to 8 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cybercrime"
+    },
+    {
+      "id": "legal_941",
+      "title": "Person DX Illegal Possession of State Secrets Documents Case",
+      "problem": "Issue: The defendant kept classified research files at home after resignation. Whether this constitutes illegal possession of state secrets? Guidance: Determine classification and awareness.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 282"
+        ],
+        "judgment_guidance": "Retaining classified documents without authorization constitutes illegal possession of state secrets."
+      },
+      "expected_verdict": "Convicted of illegal possession of state secrets; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "state secrets"
+    },
+    {
+      "id": "legal_942",
+      "title": "Person DY Illegal Land Reclamation Case",
+      "problem": "Issue: The defendant filled coastal wetlands for construction without approval. Whether this constitutes ecological damage? Guidance: Assess environmental consequence and legal prohibition.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Unauthorized reclamation of wetlands causing ecological damage constitutes pollution or ecological destruction."
+      },
+      "expected_verdict": "Convicted of ecological damage; sentenced to 4 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "ecological destruction"
+    },
+    {
+      "id": "legal_943",
+      "title": "Person DZ Coercive Prostitution Case",
+      "problem": "Issue: The defendant forced women to provide sexual services under threats. Whether this constitutes coercion into prostitution? Guidance: Evaluate means used and victim consent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 358"
+        ],
+        "judgment_guidance": "Using threats or violence to compel others into prostitution constitutes coercive prostitution crime."
+      },
+      "expected_verdict": "Convicted of coercive prostitution; sentenced to 10 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "prostitution"
+    },
+    {
+      "id": "legal_944",
+      "title": "Person EA Unauthorized Publication Case",
+      "problem": "Issue: The defendant printed and distributed books without publishing license. Whether this constitutes illegal business operation? Guidance: Determine scale and profit motive.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 225"
+        ],
+        "judgment_guidance": "Publishing printed materials without authorization for profit constitutes illegal business operation."
+      },
+      "expected_verdict": "Convicted of illegal business operation; sentenced to 2 years imprisonment and fined RMB 80,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "publishing"
+    },
+    {
+      "id": "legal_945",
+      "title": "Person EB Illegal Waste Import Case",
+      "problem": "Issue: The defendant imported electronic waste disguised as recyclable goods. Whether this constitutes smuggling of solid waste? Guidance: Verify nature of imported material.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 339"
+        ],
+        "judgment_guidance": "Importing hazardous or solid waste into China constitutes smuggling of solid waste."
+      },
+      "expected_verdict": "Convicted of smuggling waste; sentenced to 6 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "solid waste"
+    },
+    {
+      "id": "legal_946",
+      "title": "Person EC Disruption of School Order Case",
+      "problem": "Issue: The defendant gathered parents to storm a classroom during dispute. Whether this constitutes disturbance of public order? Guidance: Assess collective disruption and school impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 293"
+        ],
+        "judgment_guidance": "Gathering crowds to disrupt teaching activities constitutes disturbing public order."
+      },
+      "expected_verdict": "Convicted of public disorder; sentenced to 1 year imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "public disorder"
+    },
+    {
+      "id": "legal_947",
+      "title": "Person ED Illegal Disposal of Medical Waste Case",
+      "problem": "Issue: The defendant disposed of hospital waste in open landfills. Whether this constitutes environmental pollution? Guidance: Evaluate infection risk and management violation.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Improper disposal of infectious medical waste constitutes environmental pollution crime."
+      },
+      "expected_verdict": "Convicted of environmental pollution; sentenced to 4 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "medical waste"
+    },
+    {
+      "id": "legal_948",
+      "title": "Person EE Workplace Theft Case",
+      "problem": "Issue: The defendant, an office employee, secretly took computers from the company. Whether this constitutes theft or embezzlement? Guidance: Examine possession and intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 264"
+        ],
+        "judgment_guidance": "Secretly taking company property without authorization constitutes theft even by employees."
+      },
+      "expected_verdict": "Convicted of theft; sentenced to 2 years imprisonment and fined RMB 30,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "theft"
+    },
+    {
+      "id": "legal_949",
+      "title": "Person EF Illegal Use of Drone for Surveillance Case",
+      "problem": "Issue: The defendant flew drones over military zones to take photographs. Whether this constitutes espionage or illegal surveillance? Guidance: Assess restricted area status.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 110",
+          "Civil Aviation Law Article 127"
+        ],
+        "judgment_guidance": "Flying drones over restricted or military areas for photography constitutes illegal surveillance and endangering state security."
+      },
+      "expected_verdict": "Convicted of illegal surveillance; sentenced to 5 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "drone surveillance"
+    },
+    {
+      "id": "legal_950",
+      "title": "Person EG Counterfeit COVID-19 Test Kit Case",
+      "problem": "Issue: The defendant produced fake COVID-19 test kits and sold them online. Whether this constitutes counterfeit medical device production? Guidance: Evaluate product function and market deception.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 141",
+          "Regulations on Medical Devices Article 63"
+        ],
+        "judgment_guidance": "Manufacturing fake medical devices constitutes production and sale of counterfeit medical products."
+      },
+      "expected_verdict": "Convicted of counterfeit medical product crime; sentenced to 9 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "medical fraud"
+    },
+    {
+      "id": "legal_951",
+      "title": "Person EH Theft of Digital Currency Case",
+      "problem": "Issue: The defendant hacked cryptocurrency wallets and transferred coins. Whether this constitutes property theft under criminal law? Guidance: Determine asset value and control.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 264"
+        ],
+        "judgment_guidance": "Illegally transferring virtual assets without authorization constitutes property theft."
+      },
+      "expected_verdict": "Convicted of theft; sentenced to 6 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "digital theft"
+    },
+    {
+      "id": "legal_952",
+      "title": "Person EI Bribery in Bidding Process Case",
+      "problem": "Issue: The defendant offered cash to secure a construction tender. Whether this constitutes commercial bribery? Guidance: Examine competition fairness and purpose.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 163"
+        ],
+        "judgment_guidance": "Providing property to influence bidding constitutes commercial bribery regardless of success."
+      },
+      "expected_verdict": "Convicted of commercial bribery; sentenced to 4 years imprisonment and fined RMB 300,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "bidding bribery"
+    },
+    {
+      "id": "legal_953",
+      "title": "Person EJ Illegal Fishing of Endangered Species Case",
+      "problem": "Issue: The defendant captured protected river dolphins using nets. Whether this constitutes illegal fishing of endangered species? Guidance: Verify protection level and habitat.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 340"
+        ],
+        "judgment_guidance": "Catching endangered aquatic species constitutes illegal fishing of protected wildlife."
+      },
+      "expected_verdict": "Convicted of illegal fishing; sentenced to 5 years imprisonment and fined RMB 100,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "wildlife fishing"
+    },
+    {
+      "id": "legal_954",
+      "title": "Person EK Negligent Explosion Case",
+      "problem": "Issue: The defendant improperly stored flammable gas leading to an explosion. Whether this constitutes negligent public safety crime? Guidance: Evaluate foreseeability and precaution.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 115"
+        ],
+        "judgment_guidance": "Negligent management of hazardous materials causing explosion constitutes endangering public safety."
+      },
+      "expected_verdict": "Convicted of negligent endangerment; sentenced to 3 years imprisonment and fined RMB 80,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "explosion"
+    },
+    {
+      "id": "legal_955",
+      "title": "Person EL Fraudulent Donation Collection Case",
+      "problem": "Issue: The defendant used a fake NGO identity to solicit disaster relief funds. Whether this constitutes charity fraud? Guidance: Determine deception and public loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266",
+          "Charity Law of the PRC Article 83"
+        ],
+        "judgment_guidance": "Using fake charity credentials to raise funds constitutes public donation fraud."
+      },
+      "expected_verdict": "Convicted of charity fraud; sentenced to 8 years imprisonment and fined RMB 400,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "charity fraud"
+    }，
+    {
+      "id": "legal_956",
+      "title": "Person EM Contract Fraud in Real Estate Case",
+      "problem": "Issue: The defendant sold the same apartment unit to multiple buyers. Whether this constitutes contract fraud? Guidance: Determine initial intent and contractual deception.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 224"
+        ],
+        "judgment_guidance": "Signing multiple contracts for the same property with intent to defraud constitutes contract fraud."
+      },
+      "expected_verdict": "Convicted of contract fraud; sentenced to 7 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "real estate fraud"
+    },
+    {
+      "id": "legal_957",
+      "title": "Person EN Illegal Disposal of Construction Waste Case",
+      "problem": "Issue: The defendant dumped construction debris into a river. Whether this constitutes environmental pollution? Guidance: Assess pollution extent and violation of regulations.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Dumping construction waste into natural waters constitutes environmental pollution crime."
+      },
+      "expected_verdict": "Convicted of pollution crime; sentenced to 3 years imprisonment and fined RMB 150,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "construction waste"
+    },
+    {
+      "id": "legal_958",
+      "title": "Person EO Illegal Firearms Modification Case",
+      "problem": "Issue: The defendant modified air guns to fire metal bullets. Whether this constitutes illegal firearm modification? Guidance: Evaluate lethality and purpose.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 125"
+        ],
+        "judgment_guidance": "Altering non-lethal weapons into lethal form constitutes illegal firearm modification."
+      },
+      "expected_verdict": "Convicted of illegal firearm modification; sentenced to 6 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "firearm modification"
+    },
+    {
+      "id": "legal_959",
+      "title": "Person EP False Investment Guarantee Case",
+      "problem": "Issue: The defendant issued fake guarantee letters to attract investors. Whether this constitutes financial fraud? Guidance: Check falsity of documents and investor loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 193"
+        ],
+        "judgment_guidance": "Issuing false guarantees to obtain funds constitutes financial fraud."
+      },
+      "expected_verdict": "Convicted of financial fraud; sentenced to 8 years imprisonment and fined RMB 600,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "financial fraud"
+    },
+    {
+      "id": "legal_960",
+      "title": "Person EQ Illegal Storage of Explosives Case",
+      "problem": "Issue: The defendant stored fireworks and explosives at home without approval. Whether this constitutes illegal possession of explosives? Guidance: Assess safety risk and legality.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 125"
+        ],
+        "judgment_guidance": "Storing explosives without permit constitutes illegal possession of explosives."
+      },
+      "expected_verdict": "Convicted of illegal possession of explosives; sentenced to 5 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "explosives possession"
+    },
+    {
+      "id": "legal_961",
+      "title": "Person ER Bribery in Education Admission Case",
+      "problem": "Issue: The defendant paid money to a university officer to secure admission. Whether this constitutes bribery? Guidance: Determine purpose and amount of advantage.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 390"
+        ],
+        "judgment_guidance": "Offering property to obtain unfair educational advantage constitutes active bribery."
+      },
+      "expected_verdict": "Convicted of bribery; sentenced to 3 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "education bribery"
+    },
+    {
+      "id": "legal_962",
+      "title": "Person ES Data Tampering in Finance Case",
+      "problem": "Issue: The defendant altered financial software data to cover company losses. Whether this constitutes data sabotage? Guidance: Assess intent and financial consequence.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 285"
+        ],
+        "judgment_guidance": "Unauthorized modification of financial data causing losses constitutes data sabotage crime."
+      },
+      "expected_verdict": "Convicted of data sabotage; sentenced to 4 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "data tampering"
+    },
+    {
+      "id": "legal_963",
+      "title": "Person ET Illegal Mining of Rare Earth Minerals Case",
+      "problem": "Issue: The defendant extracted rare earth minerals without environmental approval. Whether this constitutes illegal mining? Guidance: Examine resource ownership and environmental impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 343"
+        ],
+        "judgment_guidance": "Mining rare earth resources without license constitutes illegal mining crime."
+      },
+      "expected_verdict": "Convicted of illegal mining; sentenced to 6 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "rare earth mining"
+    },
+    {
+      "id": "legal_964",
+      "title": "Person EU False Accounting Report Case",
+      "problem": "Issue: The defendant prepared false annual reports to mislead shareholders. Whether this constitutes false information disclosure? Guidance: Examine the degree of falsification and losses caused.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 161"
+        ],
+        "judgment_guidance": "Providing false financial statements in reports constitutes false information disclosure crime."
+      },
+      "expected_verdict": "Convicted of false disclosure; sentenced to 3 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "false disclosure"
+    },
+    {
+      "id": "legal_965",
+      "title": "Person EV Illegal Dumping of Sewage Case",
+      "problem": "Issue: The defendant discharged untreated sewage into farmland irrigation channels. Whether this constitutes environmental pollution? Guidance: Assess contamination severity and harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Discharging untreated wastewater exceeding standards constitutes environmental pollution."
+      },
+      "expected_verdict": "Convicted of environmental pollution; sentenced to 3 years imprisonment and fined RMB 150,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "water pollution"
+    },
+    {
+      "id": "legal_966",
+      "title": "Person EW Smuggling Endangered Animal Products Case",
+      "problem": "Issue: The defendant attempted to export tiger skins abroad. Whether this constitutes smuggling of endangered species products? Guidance: Verify species protection and export control.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 151",
+          "Wildlife Protection Law Article 32"
+        ],
+        "judgment_guidance": "Exporting protected animal products without approval constitutes smuggling of endangered species."
+      },
+      "expected_verdict": "Convicted of smuggling endangered species; sentenced to 8 years imprisonment and fined RMB 400,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "endangered species"
+    },
+    {
+      "id": "legal_967",
+      "title": "Person EX Negligent Construction Collapse Case",
+      "problem": "Issue: The defendant ignored safety inspections leading to a building collapse. Whether this constitutes negligent accident? Guidance: Evaluate negligence and loss of life.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 135"
+        ],
+        "judgment_guidance": "Failure to follow construction safety regulations resulting in collapse constitutes negligent accident crime."
+      },
+      "expected_verdict": "Convicted of negligent accident; sentenced to 5 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "construction accident"
+    },
+    {
+      "id": "legal_968",
+      "title": "Person EY Illegal Fundraising via Livestreaming Case",
+      "problem": "Issue: The defendant raised public funds through live video promises of high returns. Whether this constitutes illegal fundraising? Guidance: Assess authorization and intent to repay.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 192"
+        ],
+        "judgment_guidance": "Raising funds publicly through online platforms without approval constitutes illegal fundraising."
+      },
+      "expected_verdict": "Convicted of illegal fundraising; sentenced to 7 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "online fundraising"
+    },
+    {
+      "id": "legal_969",
+      "title": "Person EZ Assault on Taxi Driver Case",
+      "problem": "Issue: The defendant beat a taxi driver after fare dispute. Whether this constitutes intentional injury or minor assault? Guidance: Evaluate injury degree and motive.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 234"
+        ],
+        "judgment_guidance": "Causing bodily harm with intent constitutes intentional injury regardless of provocation."
+      },
+      "expected_verdict": "Convicted of intentional injury; sentenced to 1 year imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "assault"
+    },
+    {
+      "id": "legal_970",
+      "title": "Person FA Bribery in Public Procurement Case",
+      "problem": "Issue: The defendant accepted gifts to favor certain suppliers in government procurement. Whether this constitutes passive bribery? Guidance: Examine the relationship and influence.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 385"
+        ],
+        "judgment_guidance": "Accepting money to influence procurement decisions constitutes passive bribery."
+      },
+      "expected_verdict": "Convicted of passive bribery; sentenced to 6 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "public bribery"
+    },
+    {
+      "id": "legal_971",
+      "title": "Person FB Illegal Logging in Nature Reserve Case",
+      "problem": "Issue: The defendant cut down trees in a national park. Whether this constitutes illegal logging? Guidance: Determine reserve status and amount of damage.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 345"
+        ],
+        "judgment_guidance": "Logging in protected forest zones without approval constitutes illegal logging."
+      },
+      "expected_verdict": "Convicted of illegal logging; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "logging"
+    },
+    {
+      "id": "legal_972",
+      "title": "Person FC Sale of Fake Academic Certificates Case",
+      "problem": "Issue: The defendant produced and sold fake diplomas to students. Whether this constitutes document forgery? Guidance: Assess profit and document nature.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280"
+        ],
+        "judgment_guidance": "Manufacturing or selling forged educational certificates constitutes document forgery crime."
+      },
+      "expected_verdict": "Convicted of document forgery; sentenced to 5 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "document forgery"
+    },
+    {
+      "id": "legal_973",
+      "title": "Person FD Illegal Dumping of Oil Waste Case",
+      "problem": "Issue: The defendant released waste oil into public drainage. Whether this constitutes environmental pollution? Guidance: Assess pollutants and affected area.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Dumping waste oil that harms the environment constitutes pollution crime."
+      },
+      "expected_verdict": "Convicted of pollution crime; sentenced to 3 years imprisonment and fined RMB 120,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "oil pollution"
+    },
+    {
+      "id": "legal_974",
+      "title": "Person FE Theft of Cultural Heritage Artifact Case",
+      "problem": "Issue: The defendant stole artifacts from a temple listed as cultural heritage. Whether this constitutes theft of cultural relics? Guidance: Verify heritage status and ownership.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 328"
+        ],
+        "judgment_guidance": "Stealing registered cultural relics constitutes aggravated theft under cultural protection law."
+      },
+      "expected_verdict": "Convicted of theft of cultural relics; sentenced to 8 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cultural relic theft"
+    },
+    {
+      "id": "legal_975",
+      "title": "Person FF Negligent Spread of Forest Fire Case",
+      "problem": "Issue: The defendant burned weeds near a forest causing fire spread. Whether this constitutes negligent destruction by fire? Guidance: Determine negligence and damage scale.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 115"
+        ],
+        "judgment_guidance": "Negligent burning causing forest fire constitutes negligent endangerment of public safety."
+      },
+      "expected_verdict": "Convicted of negligent endangerment; sentenced to 2 years imprisonment and fined RMB 50,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "forest fire"
+    }，
+    {
+      "id": "legal_976",
+      "title": "Person FG Online Pyramid Scheme Case",
+      "problem": "Issue: The defendant organized an online membership system where profits relied on new member recruitment. Whether this constitutes organizing a pyramid scheme? Guidance: Examine income source and hierarchical structure.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 224-1"
+        ],
+        "judgment_guidance": "Organizing or leading pyramid schemes for profit constitutes criminal pyramid selling activity."
+      },
+      "expected_verdict": "Convicted of organizing pyramid scheme; sentenced to 6 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "pyramid scheme"
+    },
+    {
+      "id": "legal_977",
+      "title": "Person FH Negligent Chemical Spill Case",
+      "problem": "Issue: The defendant failed to maintain a chemical tank, causing leakage into a river. Whether this constitutes negligent pollution? Guidance: Determine negligence and damage severity.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Failure to manage hazardous chemicals leading to spill constitutes negligent pollution crime."
+      },
+      "expected_verdict": "Convicted of negligent pollution; sentenced to 3 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "chemical pollution"
+    },
+    {
+      "id": "legal_978",
+      "title": "Person FI Illegal Online Gambling Platform Case",
+      "problem": "Issue: The defendant operated an online betting website using overseas servers. Whether this constitutes organizing gambling? Guidance: Assess profit mode and participant scale.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 303"
+        ],
+        "judgment_guidance": "Organizing or providing conditions for online gambling constitutes gambling crime."
+      },
+      "expected_verdict": "Convicted of organizing gambling; sentenced to 5 years imprisonment and fined RMB 500,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "online gambling"
+    },
+    {
+      "id": "legal_979",
+      "title": "Person FJ Forgery of Vehicle License Case",
+      "problem": "Issue: The defendant forged a car license plate and registration to evade tolls. Whether this constitutes document forgery? Guidance: Identify document type and use purpose.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280"
+        ],
+        "judgment_guidance": "Forging vehicle registration or license plates constitutes official document forgery."
+      },
+      "expected_verdict": "Convicted of document forgery; sentenced to 2 years imprisonment and fined RMB 30,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "document forgery"
+    },
+    {
+      "id": "legal_980",
+      "title": "Person FK Tax Evasion by False Invoicing Case",
+      "problem": "Issue: The defendant issued fake VAT invoices to reduce taxes. Whether this constitutes tax evasion? Guidance: Assess intent and amount of evaded tax.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 205"
+        ],
+        "judgment_guidance": "Issuing or using false invoices to evade tax constitutes tax evasion crime."
+      },
+      "expected_verdict": "Convicted of tax evasion; sentenced to 6 years imprisonment and fined RMB 800,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "tax evasion"
+    },
+    {
+      "id": "legal_981",
+      "title": "Person FL Illegal Possession of Cultural Relics Case",
+      "problem": "Issue: The defendant privately kept unearthed bronze artifacts without reporting to authorities. Whether this constitutes illegal possession of cultural relics? Guidance: Determine relic authenticity and reporting obligation.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 328"
+        ],
+        "judgment_guidance": "Privately retaining unearthed cultural relics without registration constitutes illegal possession of cultural relics."
+      },
+      "expected_verdict": "Convicted of illegal possession of cultural relics; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "cultural relics"
+    },
+    {
+      "id": "legal_982",
+      "title": "Person FM Illegal Fishing with Electric Shock Device Case",
+      "problem": "Issue: The defendant used electric shock devices to fish in a protected river. Whether this constitutes illegal fishing? Guidance: Determine method and protection status.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 340"
+        ],
+        "judgment_guidance": "Using electric current for fishing constitutes illegal fishing regardless of catch quantity."
+      },
+      "expected_verdict": "Convicted of illegal fishing; sentenced to 2 years imprisonment and fined RMB 50,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "illegal fishing"
+    },
+    {
+      "id": "legal_983",
+      "title": "Person FN Fabrication of Evidence Case",
+      "problem": "Issue: The defendant created fake chat records to mislead a civil lawsuit. Whether this constitutes fabrication of evidence? Guidance: Evaluate intent and case influence.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 307"
+        ],
+        "judgment_guidance": "Forging or altering evidence submitted to court constitutes fabrication of evidence crime."
+      },
+      "expected_verdict": "Convicted of fabrication of evidence; sentenced to 1 year imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "evidence fabrication"
+    },
+    {
+      "id": "legal_984",
+      "title": "Person FO Illegal Possession of Drugs Case",
+      "problem": "Issue: The defendant stored a small quantity of methamphetamine for personal use. Whether this constitutes drug possession? Guidance: Assess amount and intent to sell.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 348"
+        ],
+        "judgment_guidance": "Possession of controlled substances without authorization constitutes drug possession crime."
+      },
+      "expected_verdict": "Convicted of drug possession; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "drug possession"
+    },
+    {
+      "id": "legal_985",
+      "title": "Person FP Illegal Logging of Bamboo Forest Case",
+      "problem": "Issue: The defendant cut bamboo in a community forest without permit. Whether this constitutes illegal logging? Guidance: Evaluate ownership and amount harvested.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 345"
+        ],
+        "judgment_guidance": "Unauthorized felling of bamboo in protected forest constitutes illegal logging activity."
+      },
+      "expected_verdict": "Convicted of illegal logging; sentenced to 2 years imprisonment and fined RMB 30,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "logging"
+    },
+    {
+      "id": "legal_986",
+      "title": "Person FQ Negligent Fire at Industrial Warehouse Case",
+      "problem": "Issue: The defendant ignored safety warnings leading to a warehouse fire. Whether this constitutes negligent endangerment? Guidance: Assess failure of duty and loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 115"
+        ],
+        "judgment_guidance": "Negligent management of flammable materials causing fire constitutes negligent endangerment."
+      },
+      "expected_verdict": "Convicted of negligent endangerment; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "industrial fire"
+    },
+    {
+      "id": "legal_987",
+      "title": "Person FR False Claim for Social Subsidy Case",
+      "problem": "Issue: The defendant falsified income documents to claim poverty assistance. Whether this constitutes fraud? Guidance: Evaluate deception and financial loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Using false declarations to obtain state subsidies constitutes fraud against public funds."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to 2 years imprisonment and fined RMB 20,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "social subsidy fraud"
+    },
+    {
+      "id": "legal_988",
+      "title": "Person FS Illegal Disposal of Hazardous Waste Case",
+      "problem": "Issue: The defendant secretly buried chemical waste barrels. Whether this constitutes environmental pollution? Guidance: Assess type and environmental harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Improper disposal of hazardous substances causing contamination constitutes environmental crime."
+      },
+      "expected_verdict": "Convicted of environmental crime; sentenced to 5 years imprisonment and fined RMB 250,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "hazardous waste"
+    },
+    {
+      "id": "legal_989",
+      "title": "Person FT Illegal Collection of DNA Data Case",
+      "problem": "Issue: The defendant collected citizens’ biological samples without consent for sale. Whether this constitutes infringement of personal information? Guidance: Determine consent and use.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 253A"
+        ],
+        "judgment_guidance": "Collecting and trading citizens’ DNA or biometrics without authorization constitutes personal data infringement."
+      },
+      "expected_verdict": "Convicted of personal data infringement; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "biometric data"
+    },
+    {
+      "id": "legal_990",
+      "title": "Person FU Negligent Ship Collision Case",
+      "problem": "Issue: The defendant, a ship captain, ignored navigation signals causing collision. Whether this constitutes negligent accident? Guidance: Evaluate violation of duty and casualties.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 135"
+        ],
+        "judgment_guidance": "Negligent violation of safety rules leading to collision constitutes negligent accident crime."
+      },
+      "expected_verdict": "Convicted of negligent accident; sentenced to 3 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "ship accident"
+    },
+    {
+      "id": "legal_991",
+      "title": "Person FV Smuggling of Precious Metals Case",
+      "problem": "Issue: The defendant concealed gold bars during customs inspection. Whether this constitutes smuggling? Guidance: Examine concealment and value.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 151"
+        ],
+        "judgment_guidance": "Concealing precious metals to avoid customs declaration constitutes smuggling of precious metals."
+      },
+      "expected_verdict": "Convicted of smuggling; sentenced to 5 years imprisonment and fined RMB 400,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "precious metals"
+    },
+    {
+      "id": "legal_992",
+      "title": "Person FW Cyber Blackmail Case",
+      "problem": "Issue: The defendant hacked a company website and demanded payment to restore access. Whether this constitutes extortion? Guidance: Determine coercion and property gain.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 274",
+          "PRC Criminal Law (2017 Amendment) Article 285"
+        ],
+        "judgment_guidance": "Using cyber intrusion to demand money constitutes extortion by electronic means."
+      },
+      "expected_verdict": "Convicted of cyber extortion; sentenced to 6 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "cyber extortion"
+    },
+    {
+      "id": "legal_993",
+      "title": "Person FX Animal Abuse and Cruelty Case",
+      "problem": "Issue: The defendant publicly tortured animals for online profit. Whether this constitutes public disturbance or cruelty? Guidance: Examine harm and motive.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 293"
+        ],
+        "judgment_guidance": "Cruelty to animals causing social outrage constitutes public order disturbance."
+      },
+      "expected_verdict": "Convicted of disturbing public order; sentenced to 1 year imprisonment.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "animal cruelty"
+    },
+    {
+      "id": "legal_994",
+      "title": "Person FY Insider Trading by Family Member Case",
+      "problem": "Issue: The defendant used stock tips from a spouse working in a listed company. Whether this constitutes insider trading? Guidance: Determine indirect access and profit.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 180"
+        ],
+        "judgment_guidance": "Trading securities based on insider family information constitutes insider trading."
+      },
+      "expected_verdict": "Convicted of insider trading; sentenced to 4 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "insider trading"
+    },
+    {
+      "id": "legal_995",
+      "title": "Person FZ Forgery of Medical Test Results Case",
+      "problem": "Issue: The defendant altered PCR test reports for travel purposes. Whether this constitutes forgery of official documents? Guidance: Evaluate falsity and public health risk.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 280"
+        ],
+        "judgment_guidance": "Falsifying official medical documents constitutes forgery of official documents."
+      },
+      "expected_verdict": "Convicted of document forgery; sentenced to 3 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "medical forgery"
+    }，
+    {
+      "id": "legal_996",
+      "title": "Person GA Illegal Collection of Public Donations Case",
+      "problem": "Issue: The defendant raised money for disaster relief under a fake charity name. Whether this constitutes public donation fraud? Guidance: Determine deceptive representation and fund use.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266",
+          "Charity Law of the PRC Article 83"
+        ],
+        "judgment_guidance": "Raising donations under false identity and misusing funds constitutes charity fraud."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to 8 years imprisonment and fined RMB 400,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "charity fraud"
+    },
+    {
+      "id": "legal_997",
+      "title": "Person GB Negligent Bridge Collapse Case",
+      "problem": "Issue: The defendant, a construction engineer, ignored design flaws leading to a bridge collapse. Whether this constitutes negligent accident? Guidance: Evaluate duty of care and casualties.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 135"
+        ],
+        "judgment_guidance": "Negligent design or construction causing major accidents constitutes negligent accident crime."
+      },
+      "expected_verdict": "Convicted of negligent accident; sentenced to 5 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "construction negligence"
+    },
+    {
+      "id": "legal_998",
+      "title": "Person GC Unauthorized Access to University Systems Case",
+      "problem": "Issue: The defendant hacked into a university network to alter exam grades. Whether this constitutes illegal intrusion? Guidance: Assess intent and data alteration.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 285"
+        ],
+        "judgment_guidance": "Accessing and altering protected information systems without permission constitutes cyber intrusion."
+      },
+      "expected_verdict": "Convicted of illegal intrusion; sentenced to 4 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "cyber intrusion"
+    },
+    {
+      "id": "legal_999",
+      "title": "Person GD Illegal Reproduction of Copyrighted Films Case",
+      "problem": "Issue: The defendant uploaded pirated films for paid online viewing. Whether this constitutes copyright infringement? Guidance: Determine economic loss and scope of distribution.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 217"
+        ],
+        "judgment_guidance": "Duplicating and selling copyrighted content for profit constitutes copyright infringement crime."
+      },
+      "expected_verdict": "Convicted of copyright infringement; sentenced to 3 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "copyright"
+    },
+    {
+      "id": "legal_1000",
+      "title": "Person GE Illegal Sale of Counterfeit Luxury Goods Case",
+      "problem": "Issue: The defendant sold fake branded handbags online. Whether this constitutes sale of counterfeit goods? Guidance: Examine brand imitation and profit scale.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 213"
+        ],
+        "judgment_guidance": "Selling goods bearing counterfeit trademarks constitutes trademark infringement crime."
+      },
+      "expected_verdict": "Convicted of trademark infringement; sentenced to 4 years imprisonment and fined RMB 300,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "counterfeit goods"
+    },
+    {
+      "id": "legal_1001",
+      "title": "Person GF Insider Collusion in Bidding Case",
+      "problem": "Issue: The defendant conspired with bidders to manipulate tender results. Whether this constitutes collusion in bidding? Guidance: Determine agreement and gain.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 223"
+        ],
+        "judgment_guidance": "Conspiring to rig bidding procedures constitutes collusion in tendering and bidding crime."
+      },
+      "expected_verdict": "Convicted of collusion in bidding; sentenced to 5 years imprisonment and fined RMB 250,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "bid collusion"
+    },
+    {
+      "id": "legal_1002",
+      "title": "Person GG Illegal Sale of Human Organs Case",
+      "problem": "Issue: The defendant arranged kidney sales between donors and recipients for profit. Whether this constitutes illegal organ trade? Guidance: Determine commercialization and consent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 334"
+        ],
+        "judgment_guidance": "Brokering or selling human organs for money constitutes illegal organ trade crime."
+      },
+      "expected_verdict": "Convicted of illegal organ trade; sentenced to 10 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "organ trade"
+    },
+    {
+      "id": "legal_1003",
+      "title": "Person GH Negligent Spread of Infectious Disease Case",
+      "problem": "Issue: The defendant failed to report infection and continued public contact. Whether this constitutes negligent epidemic spread? Guidance: Determine foreseeability and consequence.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 330"
+        ],
+        "judgment_guidance": "Neglecting quarantine requirements leading to disease transmission constitutes negligent epidemic offense."
+      },
+      "expected_verdict": "Convicted of negligent epidemic offense; sentenced to 2 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "public health"
+    },
+    {
+      "id": "legal_1004",
+      "title": "Person GI Credit Card Information Theft Case",
+      "problem": "Issue: The defendant used phishing emails to steal bank card data. Whether this constitutes credit card fraud? Guidance: Assess method and authorization absence.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2015 Amendment) Article 196(3)"
+        ],
+        "judgment_guidance": "Stealing and using others’ bank card data for profit constitutes credit card fraud."
+      },
+      "expected_verdict": "Convicted of credit card fraud; sentenced to 6 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "credit card fraud"
+    },
+    {
+      "id": "legal_1005",
+      "title": "Person GJ Abuse of Market Dominance Case",
+      "problem": "Issue: The defendant company monopolized online ticketing and restricted competitors. Whether this constitutes abuse of market dominance? Guidance: Evaluate monopoly and consumer harm.",
+      "prompt_tips": {
+        "laws": [
+          "Anti-Monopoly Law Article 17",
+          "PRC Criminal Law (2017 Amendment) Article 225"
+        ],
+        "judgment_guidance": "Abusing market position to restrict competition constitutes illegal business operation."
+      },
+      "expected_verdict": "Convicted of illegal business operation; fined RMB 5 million and ordered corrective measures.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "antitrust"
+    },
+    {
+      "id": "legal_1006",
+      "title": "Person GK Negligent Explosion of Gas Pipeline Case",
+      "problem": "Issue: The defendant failed to maintain a gas line leading to explosion and injuries. Whether this constitutes negligent accident? Guidance: Assess foreseeability and public harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 115"
+        ],
+        "judgment_guidance": "Failure to maintain public utilities causing explosion constitutes negligent endangerment."
+      },
+      "expected_verdict": "Convicted of negligent endangerment; sentenced to 4 years imprisonment.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "public safety"
+    },
+    {
+      "id": "legal_1007",
+      "title": "Person GL Fraud in Online Loan Platform Case",
+      "problem": "Issue: The defendant created a fake loan website to collect deposits. Whether this constitutes financial fraud? Guidance: Examine false representation and loss.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Operating fake loan platforms to solicit funds constitutes online financial fraud."
+      },
+      "expected_verdict": "Convicted of financial fraud; sentenced to 9 years imprisonment and fined RMB 600,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "loan fraud"
+    },
+    {
+      "id": "legal_1008",
+      "title": "Person GM Illegal Disposal of Radioactive Equipment Case",
+      "problem": "Issue: The defendant dismantled medical radiography machines without approval. Whether this constitutes environmental crime? Guidance: Assess hazard and disposal regulation.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Unauthorized disposal of radioactive devices constitutes pollution or environmental crime."
+      },
+      "expected_verdict": "Convicted of environmental crime; sentenced to 5 years imprisonment and fined RMB 300,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "radioactive pollution"
+    },
+    {
+      "id": "legal_1009",
+      "title": "Person GN Smuggling of Antique Coins Case",
+      "problem": "Issue: The defendant attempted to export ancient coins without declaration. Whether this constitutes smuggling of cultural relics? Guidance: Verify artifact status.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 151"
+        ],
+        "judgment_guidance": "Exporting cultural relics without customs declaration constitutes smuggling of cultural relics."
+      },
+      "expected_verdict": "Convicted of smuggling; sentenced to 5 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "cultural relics"
+    },
+    {
+      "id": "legal_1010",
+      "title": "Person GO Falsification of Employment Records Case",
+      "problem": "Issue: The defendant submitted fake employment history to obtain promotion. Whether this constitutes fraud? Guidance: Determine intent and gain.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 266"
+        ],
+        "judgment_guidance": "Submitting false documents for career advancement constitutes employment fraud."
+      },
+      "expected_verdict": "Convicted of fraud; sentenced to 2 years imprisonment and fined RMB 50,000.",
+      "difficulty": "easy",
+      "category": "legal",
+      "subcategory": "employment fraud"
+    },
+    {
+      "id": "legal_1011",
+      "title": "Person GP Illegal Reclamation of Desert Land Case",
+      "problem": "Issue: The defendant bulldozed protected desert areas for farming. Whether this constitutes ecological damage? Guidance: Assess land status and impact.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Destroying protected ecosystems through unauthorized reclamation constitutes ecological damage crime."
+      },
+      "expected_verdict": "Convicted of ecological damage; sentenced to 4 years imprisonment and fined RMB 200,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "ecological damage"
+    },
+    {
+      "id": "legal_1012",
+      "title": "Person GQ Workplace Embezzlement Case",
+      "problem": "Issue: The defendant transferred client funds from the company account to personal use. Whether this constitutes embezzlement? Guidance: Examine position and intent.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 271"
+        ],
+        "judgment_guidance": "Taking advantage of position to misappropriate company assets constitutes embezzlement."
+      },
+      "expected_verdict": "Convicted of embezzlement; sentenced to 6 years imprisonment and fined RMB 200,000.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "embezzlement"
+    },
+    {
+      "id": "legal_1013",
+      "title": "Person GR Illegal Use of Pesticides in Tea Fields Case",
+      "problem": "Issue: The defendant applied banned pesticides to tea crops. Whether this constitutes pollution? Guidance: Evaluate harm to food safety.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 338"
+        ],
+        "judgment_guidance": "Using banned agrochemicals contaminating food products constitutes environmental pollution."
+      },
+      "expected_verdict": "Convicted of pollution; sentenced to 3 years imprisonment and fined RMB 100,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "agricultural pollution"
+    },
+    {
+      "id": "legal_1014",
+      "title": "Person GS Unauthorized Satellite Photography Case",
+      "problem": "Issue: The defendant operated drones for satellite mapping of restricted areas. Whether this constitutes illegal surveying? Guidance: Check approval and area classification.",
+      "prompt_tips": {
+        "laws": [
+          "Surveying and Mapping Law Article 44",
+          "PRC Criminal Law (2017 Amendment) Article 111"
+        ],
+        "judgment_guidance": "Conducting mapping of restricted zones without authorization constitutes illegal surveying of state secrets."
+      },
+      "expected_verdict": "Convicted of illegal surveying; sentenced to 4 years imprisonment.",
+      "difficulty": "hard",
+      "category": "legal",
+      "subcategory": "surveying"
+    },
+    {
+      "id": "legal_1015",
+      "title": "Person GT False Advertising in Health Products Case",
+      "problem": "Issue: The defendant advertised vitamin supplements as curing chronic diseases. Whether this constitutes false advertising? Guidance: Evaluate deception and consumer harm.",
+      "prompt_tips": {
+        "laws": [
+          "PRC Criminal Law (2017 Amendment) Article 222"
+        ],
+        "judgment_guidance": "Exaggerating product efficacy causing consumer deception constitutes false advertising crime."
+      },
+      "expected_verdict": "Convicted of false advertising; sentenced to 3 years imprisonment and fined RMB 150,000.",
+      "difficulty": "medium",
+      "category": "legal",
+      "subcategory": "false advertising"
+    }
   ],
   "count": 67,
   "metadata": {
