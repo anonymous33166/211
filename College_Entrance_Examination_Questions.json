@@ -8,7 +8,6 @@
       "options": ["A. a <= 2", "B. a >= 2", "C. a <= 1 or a >= 2", "D. 1 <= a <= 2"],
       "expected_answer": "D",
       "difficulty": "medium",
-      "category": "gaokao_math",
       "topic": "set operations",
       "solution": "Solve x^2 - 3x + 2 = 0 to get A = {1,2}. From A union B equals A, we need B subset of A. Feasible cases yield 1 <= a <= 2."
     },
@@ -19,7 +18,6 @@
       "options": ["A. (-1,0)", "B. (0,+infty)", "C. (-1,+infty)", "D. (0,1)"],
       "expected_answer": "B",
       "difficulty": "medium",
-      "category": "gaokao_math",
       "topic": "monotonicity",
       "solution": "f'(x) = 1/(x+1) - 1 = -x/(x+1). For f'(x) < 0 we need x > 0 and x+1 > 0; thus decreasing on (0,+infty)."
     },
