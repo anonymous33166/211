@@ -6,7 +6,6 @@
       "title": "Two Sum (Hash)",
       "problem": "Given an integer array nums and an integer target, return the indices of the two numbers such that they add up to target. Each input has exactly one solution; you may not use the same element twice; return in any order.\nExamples: nums=[2,7,11,15], target=9 -> [0,1]; nums=[3,2,4], target=6 -> [1,2]; nums=[3,3], target=6 -> [0,1].",
       "difficulty": "easy",
-      "category": "leetcode",
       "topic": "hash"
     },
     {
@@ -14,7 +13,6 @@
       "title": "Group Anagrams",
       "problem": "Given an array of strings strs, group the anagrams together (order arbitrary).\nExamples: strs=[\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"] -> [[\"bat\"],[\"nat\",\"tan\"],[\"ate\",\"eat\",\"tea\"]]; strs=[\"\"] -> [[\"\"]]; strs=[\"a\"] -> [[\"a\"]].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "hash"
     },
     {
@@ -22,7 +20,6 @@
       "title": "Longest Consecutive Sequence (O(n))",
       "problem": "Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence in O(n).\nExamples: nums=[100,4,200,1,3,2] -> 4 (sequence [1,2,3,4]); nums=[0,3,7,2,5,8,4,6,0,1] -> 9.",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "hash"
     },
     {
@@ -30,7 +27,6 @@
       "title": "Move Zeroes (Two Pointers)",
       "problem": "Given an integer array nums, move all 0's to the end while maintaining the relative order of the non-zero elements. Do this in-place.\nExamples: nums=[0,1,0,3,12] -> [1,3,12,0,0]; nums=[0] -> [0].",
       "difficulty": "easy",
-      "category": "leetcode",
       "topic": "two-pointers"
     },
     {
@@ -38,7 +34,6 @@
       "title": "3Sum",
       "problem": "Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] with i != j != k and sum 0, without duplicates.\nExamples: nums=[-1,0,1,2,-1,-4] -> [[-1,-1,2],[-1,0,1]]; nums=[0,1,1] -> []; nums=[0,0,0] -> [[0,0,0]].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "two-pointers"
     },
     {
@@ -46,7 +41,6 @@
       "title": "Longest Substring Without Repeating Characters (Sliding Window)",
       "problem": "Given a string s, find the length of the longest substring without repeating characters.\nExamples: \"abcabcbb\" -> 3; \"bbbbb\" -> 1; \"pwwkew\" -> 3.",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "sliding-window"
     },
     {
@@ -54,7 +48,6 @@
       "title": "Find All Anagram Indices",
       "problem": "Given strings s and p, return all start indices of p's anagrams in s (any order).\nExamples: s=\"cbaebabacd\", p=\"abc\" -> [0,6]; s=\"abab\", p=\"ab\" -> [0,1,2].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "sliding-window"
     },
     {
@@ -62,7 +55,6 @@
       "title": "Subarray Sum Equals K",
       "problem": "Given an integer array nums and an integer k, return the total number of continuous subarrays whose sum equals k.\nExamples: nums=[1,1,1], k=2 -> 2; nums=[1,2,3], k=3 -> 2.",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "prefix-sum"
     },
     {
@@ -70,7 +62,6 @@
       "title": "Minimum Window Substring",
       "problem": "Given two strings s and t, return the minimum window in s which contains all the characters of t. If no such window exists, return an empty string.\nExamples: s=\"ADOBECODEBANC\", t=\"ABC\" -> \"BANC\"; s=\"a\", t=\"a\" -> \"a\".",
       "difficulty": "hard",
-      "category": "leetcode",
       "topic": "sliding-window"
     },
     {
@@ -78,7 +69,6 @@
       "title": "Maximum Subarray",
       "problem": "Given an integer array nums, find the contiguous subarray which has the largest sum.\nExample: [-2,1,-3,4,-1,2,1,-5,4] -> 6.",
       "difficulty": "easy",
-      "category": "leetcode",
       "topic": "dp"
     },
     {
@@ -86,7 +76,6 @@
       "title": "Merge Intervals",
       "problem": "Given an array of intervals, merge all overlapping intervals, and return an array of the non-overlapping intervals.\nExample: [[1,3],[2,6],[8,10],[15,18]] -> [[1,6],[8,10],[15,18]].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "intervals"
     },
     {
@@ -94,7 +83,6 @@
       "title": "Rotate Array",
       "problem": "Given an array, rotate the array to the right by k steps, in-place.\nExample: nums=[1,2,3,4,5,6,7], k=3 -> [5,6,7,1,2,3,4].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "array"
     },
     {
@@ -102,7 +90,6 @@
       "title": "Product of Array Except Self",
       "problem": "Given an integer array nums, return an array answer such that answer[i] is the product of all the elements of nums except nums[i]. No division; O(n).\nExample: nums=[1,2,3,4] -> [24,12,8,6].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "prefix-suffix"
     },
     {
@@ -110,7 +97,6 @@
       "title": "First Missing Positive",
       "problem": "Given an unsorted integer array nums, return the smallest missing positive integer. O(n) time and O(1) extra space.\nExamples: [1,2,0] -> 3; [3,4,-1,1] -> 2.",
       "difficulty": "hard",
-      "category": "leetcode",
       "topic": "array"
     },
     {
@@ -118,7 +104,6 @@
       "title": "Number of Islands",
       "problem": "Given a 2D grid of '1' and '0', count the number of islands (connected 4-directionally).",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "graph"
     },
     {
@@ -126,7 +111,6 @@
       "title": "Course Schedule",
       "problem": "Given numCourses and prerequisites pairs, determine if you can finish all courses.\nExamples: numCourses=2, prerequisites=[[1,0]] -> true; [[1,0],[0,1]] -> false.",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "graph"
     },
     {
@@ -134,7 +118,6 @@
       "title": "Implement Trie (Prefix Tree)",
       "problem": "Implement Trie with insert(word), search(word), startsWith(prefix).",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "trie"
     },
     {
@@ -142,7 +125,6 @@
       "title": "Permutations",
       "problem": "Given a collection of distinct integers nums, return all permutations.\nExample: nums=[1,2,3] -> [[1,2,3], ...].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "backtracking"
     },
     {
@@ -150,7 +132,6 @@
       "title": "Subsets (Power Set)",
       "problem": "Given an integer array nums of distinct elements, return all possible subsets (the power set) without duplicates.\nExample: nums=[1,2,3] -> [[],[1],[2],[1,2],[3],...].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "backtracking"
     },
     {
@@ -158,15 +139,13 @@
       "title": "Combination Sum",
       "problem": "Given an array of distinct integers candidates and a target, return all unique combinations where the chosen numbers sum to target. Numbers may be reused.\nExample: candidates=[2,3,6,7], target=7 -> [[2,2,3],[7]].",
       "difficulty": "medium",
-      "category": "leetcode",
       "topic": "backtracking"
-    }，
+    },
     {
     "id": "021",
     "title": "Valid Parentheses",
     "problem": "Given a string s containing only '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if open brackets are closed in the correct order.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -174,7 +153,6 @@
     "title": "Merge Two Sorted Lists",
     "problem": "Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "linked list"
   },
   {
@@ -182,7 +160,6 @@
     "title": "Generate Parentheses",
     "problem": "Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "backtracking"
   },
   {
@@ -190,7 +167,6 @@
     "title": "Valid Sudoku",
     "problem": "Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated according to the Sudoku rules.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "hash"
   },
   {
@@ -198,7 +174,6 @@
     "title": "Minimum Window Substring",
     "problem": "Given two strings s and t, return the minimum window in s which will contain all the characters in t. If there is no such window, return an empty string.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "sliding window"
   },
   {
@@ -206,7 +181,6 @@
     "title": "Longest Substring Without Repeating Characters",
     "problem": "Given a string s, find the length of the longest substring without repeating characters.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "sliding window"
   },
   {
@@ -214,7 +188,6 @@
     "title": "Container With Most Water",
     "problem": "Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). Find two lines that together with the x-axis form a container, such that the container contains the most water.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "two pointers"
   },
   {
@@ -222,7 +195,6 @@
     "title": "3Sum",
     "problem": "Given an integer array nums, return all unique triplets [nums[i], nums[j], nums[k]] such that they add up to zero.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "two pointers"
   },
   {
@@ -230,7 +202,6 @@
     "title": "Search in Rotated Sorted Array",
     "problem": "Given a sorted array that is rotated, find the index of the target value in O(log n) time using modified binary search.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -238,7 +209,6 @@
     "title": "Maximum Subarray",
     "problem": "Given an integer array nums, find the contiguous subarray with the largest sum and return its sum.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "dynamic programming"
   },
   {
@@ -246,7 +216,6 @@
     "title": "Climbing Stairs",
     "problem": "You are climbing a staircase. Each time you can climb 1 or 2 steps. How many distinct ways can you climb to the top?",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "dynamic programming"
   },
   {
@@ -254,7 +223,6 @@
     "title": "Coin Change",
     "problem": "Given coins of different denominations and a total amount, find the fewest number of coins needed to make up that amount. Return -1 if impossible.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "dynamic programming"
   },
   {
@@ -262,7 +230,6 @@
     "title": "Product of Array Except Self",
     "problem": "Given an integer array nums, return an array answer such that answer[i] equals the product of all elements except nums[i]. Do it without division and in O(n).",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "array"
   },
   {
@@ -270,7 +237,6 @@
     "title": "Maximum Product Subarray",
     "problem": "Given an integer array nums, find the contiguous subarray within an array which has the largest product.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "dynamic programming"
   },
   {
@@ -278,7 +244,6 @@
     "title": "Trapping Rain Water",
     "problem": "Given n non-negative integers representing an elevation map, compute how much water it can trap after raining.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "two pointers"
   },
   {
@@ -286,7 +251,6 @@
     "title": "Set Matrix Zeroes",
     "problem": "Given an m x n matrix, if an element is 0, set its entire row and column to 0. Do it in-place.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "matrix"
   },
   {
@@ -294,7 +258,6 @@
     "title": "Rotate Image",
     "problem": "You are given an n x n 2D matrix representing an image, rotate it 90 degrees clockwise in place.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "matrix"
   },
   {
@@ -302,7 +265,6 @@
     "title": "Spiral Matrix",
     "problem": "Given an m x n matrix, return all elements of the matrix in spiral order.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "matrix"
   },
   {
@@ -310,7 +272,6 @@
     "title": "Word Search",
     "problem": "Given an m x n grid of characters and a word, return true if the word exists in the grid. The word can be constructed from adjacent cells horizontally or vertically.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "backtracking"
   },
   {
@@ -318,7 +279,6 @@
     "title": "Combination Sum",
     "problem": "Given an array of distinct integers candidates and a target integer target, return all unique combinations where the chosen numbers sum to target.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "backtracking"
   },
   {
@@ -326,7 +286,6 @@
     "title": "Permutations",
     "problem": "Given an array nums of distinct integers, return all possible permutations.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "backtracking"
   },
   {
@@ -334,7 +293,6 @@
     "title": "Subset",
     "problem": "Given a set of distinct integers, return all possible subsets (the power set).",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "backtracking"
   },
   {
@@ -342,7 +300,6 @@
     "title": "Merge Intervals",
     "problem": "Given an array of intervals where intervals[i] = [start_i, end_i], merge all overlapping intervals.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "sorting"
   },
   {
@@ -350,7 +307,6 @@
     "title": "Insert Interval",
     "problem": "You are given an array of non-overlapping intervals sorted by start time, insert a new interval into the intervals (merge if necessary).",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "array"
   },
   {
@@ -358,7 +314,6 @@
     "title": "Non-overlapping Intervals",
     "problem": "Given a collection of intervals, find the minimum number of intervals to remove to make the rest non-overlapping.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "greedy"
   },
   {
@@ -366,7 +321,6 @@
     "title": "Jump Game",
     "problem": "Given an array of non-negative integers, determine if you can reach the last index starting at the first index.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "greedy"
   },
   {
@@ -374,7 +328,6 @@
     "title": "Jump Game II",
     "problem": "Given an array of non-negative integers, each element represents max jump length at that position. Return the minimum number of jumps to reach the last index.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "greedy"
   },
   {
@@ -382,7 +335,6 @@
     "title": "Unique Paths",
     "problem": "A robot is located at the top-left corner of an m x n grid. The robot can only move either down or right. Return the number of possible unique paths to reach the bottom-right corner.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "dynamic programming"
   },
   {
@@ -390,7 +342,6 @@
     "title": "Minimum Path Sum",
     "problem": "Given a m x n grid filled with non-negative numbers, find a path from top-left to bottom-right which minimizes the sum of all numbers along the path.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "dynamic programming"
   },
   {
@@ -398,7 +349,6 @@
     "title": "Edit Distance",
     "problem": "Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2 (insert, delete, replace).",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "dynamic programming"
   },
   {
@@ -406,7 +356,6 @@
     "title": "Maximum Depth of Binary Tree",
     "problem": "Given the root of a binary tree, return its maximum depth.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "tree"
   },
   {
@@ -414,7 +363,6 @@
     "title": "Invert Binary Tree",
     "problem": "Invert a binary tree (mirror it left to right).",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "tree"
   },
   {
@@ -422,7 +370,6 @@
     "title": "Symmetric Tree",
     "problem": "Given the root of a binary tree, check whether it is symmetric around its center.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "tree"
   },
   {
@@ -430,7 +377,6 @@
     "title": "Binary Tree Level Order Traversal",
     "problem": "Return the level order traversal of a binary tree's nodes' values (from left to right, level by level).",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "tree"
   },
   {
@@ -438,7 +384,6 @@
     "title": "Validate Binary Search Tree",
     "problem": "Given the root of a binary tree, determine if it is a valid binary search tree (BST).",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "tree"
   },
   {
@@ -446,7 +391,6 @@
     "title": "Lowest Common Ancestor of a BST",
     "problem": "Given a binary search tree, find the lowest common ancestor (LCA) of two given nodes.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "tree"
   },
   {
@@ -454,7 +398,6 @@
     "title": "Kth Smallest Element in a BST",
     "problem": "Given the root of a binary search tree and an integer k, return the k-th smallest value in the tree.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "tree"
   },
   {
@@ -462,7 +405,6 @@
     "title": "Binary Tree Maximum Path Sum",
     "problem": "Given the root of a binary tree, return the maximum path sum of any path.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "tree"
   },
   {
@@ -470,7 +412,6 @@
     "title": "Number of Islands",
     "problem": "Given an m x n 2D binary grid, return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "dfs"
   },
   {
@@ -478,7 +419,6 @@
     "title": "Clone Graph",
     "problem": "Given a reference of a node in a connected undirected graph, return a deep copy (clone) of the graph.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "graph"
   },
   {
@@ -486,7 +426,6 @@
     "title": "Course Schedule",
     "problem": "There are a total of numCourses courses to take. Some have prerequisites. Determine if you can finish all courses.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "topological sort"
   },
   {
@@ -494,7 +433,6 @@
     "title": "Pacific Atlantic Water Flow",
     "problem": "Given an m x n matrix of heights, return a list of coordinates that can flow to both the Pacific and Atlantic oceans.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "dfs"
   },
   {
@@ -502,7 +440,6 @@
     "title": "Word Ladder",
     "problem": "Given two words and a dictionary, return the length of the shortest transformation sequence from beginWord to endWord, transforming one letter at a time.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "bfs"
   },
   {
@@ -510,7 +447,6 @@
     "title": "Implement Trie (Prefix Tree)",
     "problem": "Implement a trie with insert, search, and startsWith methods.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "trie"
   },
   {
@@ -518,7 +454,6 @@
     "title": "Word Search II",
     "problem": "Given a 2D board and a list of words, find all words present in the grid using a trie and DFS.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "trie"
   },
   {
@@ -526,7 +461,6 @@
     "title": "Find Median from Data Stream",
     "problem": "The median is the middle value in an ordered integer list. Design a data structure that supports adding numbers and finding the median efficiently.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "heap"
   },
   {
@@ -534,7 +468,6 @@
     "title": "Top K Frequent Elements",
     "problem": "Given an integer array nums and an integer k, return the k most frequent elements. Must be better than O(n log n).",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "heap"
   },
   {
@@ -542,7 +475,6 @@
     "title": "Kth Largest Element in an Array",
     "problem": "Find the k-th largest element in an unsorted array. You must do it in O(n) time complexity using a heap or Quickselect.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "heap"
   },
   {
@@ -550,7 +482,6 @@
     "title": "Merge K Sorted Lists",
     "problem": "Merge k sorted linked lists and return it as one sorted list using a min heap.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "heap"
   },
   {
@@ -558,15 +489,13 @@
     "title": "LRU Cache",
     "problem": "Design a data structure that follows the constraints of a Least Recently Used (LRU) cache with O(1) get and put operations.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "design"
-  }，
+  },
   {
     "id": "071",
     "title": "Min Stack",
     "problem": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -574,7 +503,6 @@
     "title": "Evaluate Reverse Polish Notation",
     "problem": "Evaluate the value of an arithmetic expression in Reverse Polish Notation. Valid operators are +, -, *, and /. Each operand may be an integer or another expression.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -582,7 +510,6 @@
     "title": "Daily Temperatures",
     "problem": "Given a list of daily temperatures, return a list that tells how many days you would have to wait until a warmer temperature. If there is no future day, put 0 instead.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -590,7 +517,6 @@
     "title": "Next Greater Element I",
     "problem": "Given two arrays nums1 and nums2, find all the next greater numbers for nums1's elements in the corresponding places in nums2.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -598,7 +524,6 @@
     "title": "Largest Rectangle in Histogram",
     "problem": "Given an array of integers representing the heights of bars in a histogram, find the area of the largest rectangle that can be formed.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -606,7 +531,6 @@
     "title": "Basic Calculator II",
     "problem": "Implement a basic calculator to evaluate a simple expression string containing non-negative integers and the operators +, -, *, /.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -614,7 +538,6 @@
     "title": "Decode String",
     "problem": "Given an encoded string, return its decoded version. The encoding rule is k[encoded_string].",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -622,7 +545,6 @@
     "title": "Longest Valid Parentheses",
     "problem": "Given a string containing only parentheses, find the length of the longest valid (well-formed) substring.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -630,7 +552,6 @@
     "title": "Remove K Digits",
     "problem": "Given a non-negative integer num represented as a string and an integer k, remove k digits from the number so that the new number is the smallest possible.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -638,7 +559,6 @@
     "title": "Simplify Path",
     "problem": "Given an absolute path for a Unix-style file system, simplify it and return the canonical path.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "stack"
   },
   {
@@ -646,7 +566,6 @@
     "title": "Search a 2D Matrix",
     "problem": "Write an efficient algorithm that searches for a target value in an m x n integer matrix where each row and column are sorted.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -654,7 +573,6 @@
     "title": "Pow(x, n)",
     "problem": "Implement pow(x, n), which calculates x raised to the power n (x^n). Must run in O(log n) time.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -662,7 +580,6 @@
     "title": "Sqrt(x)",
     "problem": "Given a non-negative integer x, compute and return the square root of x rounded down to the nearest integer using binary search.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -670,7 +587,6 @@
     "title": "Find Peak Element",
     "problem": "A peak element is an element that is greater than its neighbors. Find any peak element and return its index using O(log n) time.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -678,7 +594,6 @@
     "title": "Median of Two Sorted Arrays",
     "problem": "Given two sorted arrays nums1 and nums2, return the median of the two sorted arrays in O(log (m+n)) time.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -686,7 +601,6 @@
     "title": "Search Insert Position",
     "problem": "Given a sorted array and a target value, return the index if found, or the position it would be inserted in order.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -694,7 +608,6 @@
     "title": "First Bad Version",
     "problem": "You are a product manager and have n versions of a product. Find the first bad version using the API isBadVersion in O(log n) time.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -702,7 +615,6 @@
     "title": "Find Minimum in Rotated Sorted Array",
     "problem": "Given a rotated sorted array, find the minimum element in O(log n) time.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -710,7 +622,6 @@
     "title": "Search Range in Sorted Array",
     "problem": "Given a sorted array of integers, find the starting and ending position of a given target value.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "binary search"
   },
   {
@@ -718,7 +629,6 @@
     "title": "Subarray Sum Equals K",
     "problem": "Given an array of integers and an integer k, find the total number of continuous subarrays whose sum equals k.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "hash"
   },
   {
@@ -726,7 +636,6 @@
     "title": "Longest Consecutive Sequence",
     "problem": "Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "hash"
   },
   {
@@ -734,7 +643,6 @@
     "title": "Insert Delete GetRandom O(1)",
     "problem": "Implement the RandomizedSet class that supports insert, remove, and getRandom in O(1) time complexity.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "hash"
   },
   {
@@ -742,7 +650,6 @@
     "title": "Valid Anagram",
     "problem": "Given two strings s and t, return true if t is an anagram of s, and false otherwise.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "hash"
   },
   {
@@ -750,7 +657,6 @@
     "title": "First Unique Character in a String",
     "problem": "Given a string s, find the first non-repeating character and return its index. If it doesn't exist, return -1.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "hash"
   },
   {
@@ -758,7 +664,6 @@
     "title": "Ransom Note",
     "problem": "Given two strings ransomNote and magazine, return true if ransomNote can be constructed from magazine.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "hash"
   },
   {
@@ -766,7 +671,6 @@
     "title": "Happy Number",
     "problem": "Write an algorithm to determine if a number n is happy. Use a set to detect cycles.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "hash"
   },
   {
@@ -774,7 +678,6 @@
     "title": "Majority Element",
     "problem": "Given an array nums of size n, return the majority element. Use the Boyer–Moore voting algorithm.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "array"
   },
   {
@@ -782,7 +685,6 @@
     "title": "Missing Number",
     "problem": "Given an array containing n distinct numbers in the range [0, n], return the missing number using bit manipulation or math formula.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "math"
   },
   {
@@ -790,7 +692,6 @@
     "title": "Reverse Bits",
     "problem": "Reverse bits of a given 32-bit unsigned integer.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "bit manipulation"
   },
   {
@@ -798,7 +699,6 @@
     "title": "Number of 1 Bits",
     "problem": "Write a function that takes an unsigned integer and returns the number of '1' bits it has (Hamming weight).",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "bit manipulation"
   },
   {
@@ -806,7 +706,6 @@
     "title": "Single Number",
     "problem": "Given a non-empty array of integers, every element appears twice except for one. Find that single one using XOR.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "bit manipulation"
   },
   {
@@ -814,7 +713,6 @@
     "title": "Counting Bits",
     "problem": "Given an integer n, return an array where each element i is the number of 1's in its binary representation.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "bit manipulation"
   },
   {
@@ -822,7 +720,6 @@
     "title": "Sum of Two Integers",
     "problem": "Given two integers a and b, return the sum of the two integers without using + or -.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "bit manipulation"
   },
   {
@@ -830,7 +727,6 @@
     "title": "Reverse Integer",
     "problem": "Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes overflow, return 0.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "math"
   },
   {
@@ -838,7 +734,6 @@
     "title": "Palindrome Number",
     "problem": "Given an integer x, return true if x is a palindrome without converting it to a string.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "math"
   },
   {
@@ -846,7 +741,6 @@
     "title": "Roman to Integer",
     "problem": "Convert a Roman numeral to an integer. Roman numerals are represented by seven symbols: I, V, X, L, C, D, and M.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -854,7 +748,6 @@
     "title": "Integer to Roman",
     "problem": "Convert an integer to a Roman numeral. The number is guaranteed to be within the range 1 to 3999.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -862,7 +755,6 @@
     "title": "Longest Common Prefix",
     "problem": "Write a function to find the longest common prefix string amongst an array of strings. If none, return an empty string.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -870,7 +762,6 @@
     "title": "Valid Palindrome",
     "problem": "Given a string s, return true if it is a palindrome, considering only alphanumeric characters and ignoring cases.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -878,7 +769,6 @@
     "title": "Implement strStr()",
     "problem": "Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -886,7 +776,6 @@
     "title": "Add Binary",
     "problem": "Given two binary strings a and b, return their sum as a binary string.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -894,7 +783,6 @@
     "title": "Multiply Strings",
     "problem": "Given two non-negative integers num1 and num2 represented as strings, return the product as a string without using big integer libraries.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -902,7 +790,6 @@
     "title": "Length of Last Word",
     "problem": "Given a string s consisting of words and spaces, return the length of the last word in the string.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -910,7 +797,6 @@
     "title": "Zigzag Conversion",
     "problem": "Convert the given string into a zigzag pattern on a given number of rows, then read line by line.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -918,7 +804,6 @@
     "title": "String to Integer (atoi)",
     "problem": "Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -926,7 +811,6 @@
     "title": "Valid Number",
     "problem": "A valid number can be split into several parts: integer, decimal, and exponent. Validate if a string is a valid number.",
     "difficulty": "hard",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -934,7 +818,6 @@
     "title": "Longest Palindromic Substring",
     "problem": "Given a string s, return the longest palindromic substring in s.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "dynamic programming"
   },
   {
@@ -942,7 +825,6 @@
     "title": "Count and Say",
     "problem": "Given an integer n, generate the n-th term of the count-and-say sequence.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -950,7 +832,6 @@
     "title": "Valid Palindrome II",
     "problem": "Given a string s, return true if it can become a palindrome after deleting at most one character.",
     "difficulty": "easy",
-    "category": "leetcode",
     "topic": "string"
   },
   {
@@ -958,9 +839,8 @@
     "title": "Minimum Remove to Make Valid Parentheses",
     "problem": "Given a string s of parentheses and lowercase letters, remove the minimum number of invalid parentheses to make the string valid.",
     "difficulty": "medium",
-    "category": "leetcode",
     "topic": "stack"
-  }，
+  },
   {
     "id": "121",
     "title": "Best Time to Buy and Sell Stock",
@@ -1310,7 +1190,7 @@
     "problem": "In a connected undirected graph with n nodes, each edge adds one connection. Return an edge that can be removed to make it a tree again.",
     "difficulty": "medium",
     "topic": "graph"
-  }，
+  },
   {
     "id": "171",
     "title": "Redundant Connection II",
@@ -1648,9 +1528,10 @@
     "topic": "dfs"
   }
   ],
-  "count": 20,
+  "count": 218,
   "metadata": {
     "source": "data/Coding_Tasks.json",
-    "format": "json"
+    "format": "json",
+    "dataset_type": "leetcode"
   }
 } 
